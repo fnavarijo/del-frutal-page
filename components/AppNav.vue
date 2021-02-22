@@ -21,7 +21,7 @@
         <NuxtLink to="/">Descubre EDT</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">¿Quienes somos?</NuxtLink>
+        <NuxtLink to="/quienes-somos">¿Quienes somos?</NuxtLink>
       </li>
       <li class="uppercase relative font-bold mx-2 group">
         <span>Export</span>

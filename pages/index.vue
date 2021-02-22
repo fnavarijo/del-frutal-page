@@ -173,17 +173,4 @@ export default Vue.extend({
 .links {
   padding-top: 15px;
 }
-
-.triangle-bullet {
-  @apply pl-4 flex items-center relative;
-}
-
-.triangle-bullet::before {
-  content: '';
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: theme('colors.california');
-
-  @apply w-0 h-0 absolute left-0 border-t-8 border-b-8 border-l-12;
-}
 </style>
