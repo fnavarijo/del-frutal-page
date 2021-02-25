@@ -26,14 +26,14 @@
       <li class="uppercase relative font-bold mx-2 group">
         <span>Export</span>
         <ul class="absolute invisible group-hover:visible">
-          <NuxtLink to="/">
+          <NuxtLink to="/export">
             <li
               class="mb-1 p-1 uppercase bg-white opacity-50 border text-black text-sm whitespace-no-wrap sub-link"
             >
               Exportacion
             </li>
           </NuxtLink>
-          <NuxtLink to="/">
+          <NuxtLink to="/private-label">
             <li
               class="mb-1 p-1 uppercase bg-white opacity-50 border text-black text-sm whitespace-no-wrap sub-link"
             >

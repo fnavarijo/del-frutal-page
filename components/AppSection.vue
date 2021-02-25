@@ -1,7 +1,7 @@
 <template>
   <section
-    class="px-8 py-4 min-h-screen w-full flex flex-col justify-center items-center"
-    :class="`bg-${bgColor}`"
+    class="px-8 py-4 min-h-screen w-full flex flex-col items-center"
+    :class="`bg-${bgColor} justify-${justify}`"
   >
     <slot />
   </section>
@@ -16,6 +16,10 @@ export default Vue.extend({
     bgColor: {
       type: String,
       default: 'normal-blue-500',
+    },
+    justify: {
+      type: String,
+      default: 'center',
     },
   },
 });

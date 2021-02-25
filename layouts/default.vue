@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppNav />
+    <AppNav :class="navBgColor" />
     <Nuxt />
     <AppFooter />
   </div>
@@ -17,6 +17,12 @@ export default Vue.extend({
   components: {
     AppNav,
     AppFooter,
+  },
+  computed: {
+    navBgColor(): string {
+      const { path } = this.$route;
+      return path === '/private-label' ? 'bg-normal-blue-500' : '';
+    },
   },
 });
 </script>

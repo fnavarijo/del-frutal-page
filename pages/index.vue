@@ -92,42 +92,42 @@ export default Vue.extend({
     ourGroupItems(): Array<any> {
       return [
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '17',
           name: 'Estados en USA',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '10',
           name: 'Países',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '+10,000',
           name: 'Colaboradores',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '75',
           name: 'Distribuidores en USA',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '+100',
           name: 'Productos',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '15',
           name: 'Marcas',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '+ 15.Mill',
           name: 'De puntos de venta',
         },
         {
-          img: 'https://vuejs.org/images/logo.png',
+          img: 'statistics.svg',
           value: '+20',
           name: 'Plantas',
         },
