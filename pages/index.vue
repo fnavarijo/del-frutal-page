@@ -1,6 +1,12 @@
 <template>
   <div class="text-white">
-    <AppSection>
+    <AppSection
+      :style="{
+        background: `url(\'${require('~/assets/img/background/home-header.jpg')}\')`,
+        backgroundPosition: 'top left',
+        backgroundSize: 'cover',
+      }"
+    >
       <h1 class="text-5xl mb-4 text-center">Generamos valor a tus Negocios</h1>
       <span class="p-4 uppercase bg-california rounded-md">
         Exporta con nosotros
