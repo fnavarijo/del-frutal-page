@@ -43,7 +43,7 @@
         </ul>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Contactenos</NuxtLink>
+        <NuxtLink to="/contact-us">Contactenos</NuxtLink>
       </li>
     </ul>
   </nav>

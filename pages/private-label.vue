@@ -77,6 +77,53 @@
         </li>
       </ol>
     </AppSection>
+    <AppSection>
+      <header class="mb-4">
+        <h2 class="text-4xl font-bold text-white">Más Información</h2>
+      </header>
+      <form class="w-full md:w-1/2">
+        <FormInput class="mb-4" name="nombre" placeholder="Nombre:" />
+        <FormInput class="mb-4" name="apellidos" placeholder="Apellidos:" />
+        <FormInput class="mb-4" name="empresa" placeholder="Empresa o marca:" />
+        <FormInput
+          class="mb-4"
+          name="correo"
+          placeholder="Correo:"
+          type="email"
+        />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+          <FormSelect name="country" class="mb-4">
+            <option value="">País</option>
+            <option value="GT">Guatemala</option>
+            <option value="SV">El Salvador</option>
+            <option value="US">Estados Unidos</option>
+          </FormSelect>
+          <FormInput class="mb-4" name="telefono" placeholder="Telefono:" />
+        </div>
+        <FormTextArea
+          name="products"
+          class="mb-4"
+          placeholder="¿Qué productos desea maquilar?"
+        />
+        <FormTextArea
+          name="volumen"
+          class="mb-4"
+          placeholder="¿Cuál es el volumen de cajas?"
+        />
+        <FormTextArea
+          name="meta"
+          class="mb-4"
+          placeholder="¿Costo meta por caja?"
+        />
+        <FormTextArea
+          name="products"
+          class="mb-4"
+          placeholder="¿En cuánto tiempo espera recibir su primer pedido?"
+        />
+        <FormTextArea name="mensaje" class="mb-4" placeholder="Mensaje" />
+        <FormButton class="mx-auto block" />
+      </form>
+    </AppSection>
   </div>
 </template>
 
@@ -84,11 +131,19 @@
 import Vue from 'vue';
 
 import AppSection from '@/components/AppSection.vue';
+import FormInput from '@/components/Form/FormInput.vue';
+import FormTextArea from '@/components/Form/FormTextArea.vue';
+import FormButton from '@/components/Form/FormButton.vue';
+import FormSelect from '@/components/Form/FormSelect.vue';
 
 export default Vue.extend({
   name: 'PrivateLabel',
   components: {
     AppSection,
+    FormInput,
+    FormTextArea,
+    FormButton,
+    FormSelect,
   },
 });
 </script>
@@ -96,7 +151,6 @@ export default Vue.extend({
 <style scoped>
 .benefits-list {
   counter-reset: benefits-item;
-  column-count: 2;
 }
 
 .benefits-list__item::before {
@@ -105,4 +159,12 @@ export default Vue.extend({
 
   @apply mr-2;
 }
+
+/* stylelint-disable */
+@screen md {
+  .benefits-list {
+    column-count: 2;
+  }
+}
+/* stylelint-enable */
 </style>
