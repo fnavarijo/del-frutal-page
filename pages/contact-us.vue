@@ -3,32 +3,7 @@
     <header class="mb-4">
       <h1 class="text-4xl font-bold">Comunícate con Nosotros</h1>
     </header>
-    <form class="w-full md:w-1/2 mb-8">
-      <FormInput class="mb-4" name="nombre" placeholder="Nombre:" />
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-        <FormSelect name="country" class="mb-4">
-          <option value="">País</option>
-          <option value="GT">Guatemala</option>
-          <option value="SV">El Salvador</option>
-          <option value="US">Estados Unidos</option>
-        </FormSelect>
-        <FormInput class="mb-4" name="telefono" placeholder="Telefono:" />
-      </div>
-      <FormInput
-        class="mb-4"
-        name="correo"
-        placeholder="Correo:"
-        type="email"
-      />
-      <FormTextArea name="mensaje" class="mb-4" placeholder="Mensaje" />
-      <div class="flex">
-        <span
-          >¿Te gustaría recibir ofertas e información sobre nuestros servicios y
-          productos?</span
-        >
-      </div>
-      <FormButton />
-    </form>
+    <ContactUsForm class="w-full md:w-1/2 mb-8" />
     <div class="grid grid-cols-4 gap-4">
       <LocationInfo
         country="Estados unidos"
@@ -58,18 +33,14 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import FormInput from '@/components/Form/FormInput.vue';
-import FormSelect from '@/components/Form/FormSelect.vue';
-import FormButton from '@/components/Form/FormButton.vue';
+import ContactUsForm from '@/components/ContactUs/ContactUsForm.vue';
 import LocationInfo from '@/components/LocationInfo.vue';
 
 export default Vue.extend({
   name: 'ContactUs',
   components: {
-    FormInput,
-    FormSelect,
-    FormButton,
     LocationInfo,
+    ContactUsForm,
   },
 });
 </script>
