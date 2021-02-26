@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -13,6 +15,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Gotham', ...defaultTheme.fontFamily.sans],
+      },
       height: {
         'screen-1/2': '50vh',
       },
@@ -40,6 +45,10 @@ module.exports = {
       },
       borderWidth: {
         12: '12px',
+      },
+      lineHeight: {
+        12: '3rem',
+        14: '3.5rem',
       },
     },
   },

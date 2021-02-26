@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/GothamPro-Medium.woff');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/GothamPro-Bold.woff');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: black;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/GothamPro-Black.woff');
+}
+
 body {
   counter-reset: list-item;
 }
