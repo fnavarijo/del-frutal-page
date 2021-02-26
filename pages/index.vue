@@ -131,6 +131,7 @@ import Vue from 'vue';
 import AppSection from '@/components/AppSection.vue';
 import OurGroupItem from '@/components/OurGroup/OurGroupItem.vue';
 
+// @ts-ignore
 import DownArrow from '@/assets/img/down-arrow.svg?inline';
 
 export default Vue.extend({
