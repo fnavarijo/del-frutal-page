@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="px-8 py-4 w-screen fixed flex items-center justify-between text-white"
+    class="px-8 py-4 w-screen fixed flex items-center justify-between text-white z-10"
   >
     <img
       src="https://vuejs.org/images/logo.png"

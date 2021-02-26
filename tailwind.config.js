@@ -24,6 +24,9 @@ module.exports = {
       minHeight: {
         'screen-1/2': '50vh',
       },
+      padding: {
+        '16-9ratio': '56.25%',
+      },
       colors: {
         california: '#fb9b03',
         'normal-blue': {
@@ -38,6 +41,9 @@ module.exports = {
       },
       inset: {
         '1/2': '50%',
+        4: '1rem',
+        6: '1.5rem',
+        8: '2rem',
         '-4': '-1rem',
         '-6': '-1.5rem',
         '-8': '-2rem',

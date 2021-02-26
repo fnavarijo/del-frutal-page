@@ -6,6 +6,7 @@
         backgroundPosition: 'top left',
         backgroundSize: 'cover',
       }"
+      class="relative"
     >
       <h1
         class="text-5xl md:text-6xl mb-4 text-center font-black leading-14 title-shadow"
@@ -16,6 +17,9 @@
       <span class="p-4 uppercase bg-california rounded-md font-bold">
         Exporta con nosotros
       </span>
+      <DownArrow
+        class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
+      />
     </AppSection>
     <AppSection class="min-h-screen-1/2">
       <header class="w-full mb-32 relative flex items-center justify-center">
@@ -105,6 +109,19 @@
         </ul>
       </div>
     </AppSection>
+    <AppSection>
+      <div class="relative pt-16-9ratio h-0 w-full">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7wtfhZwyrcc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="absolute top-0 left-0 w-full h-full"
+        ></iframe>
+      </div>
+    </AppSection>
   </div>
 </template>
 
@@ -114,11 +131,14 @@ import Vue from 'vue';
 import AppSection from '@/components/AppSection.vue';
 import OurGroupItem from '@/components/OurGroup/OurGroupItem.vue';
 
+import DownArrow from '@/assets/img/down-arrow.svg?inline';
+
 export default Vue.extend({
   name: 'Index',
   components: {
     AppSection,
     OurGroupItem,
+    DownArrow,
   },
   computed: {
     ourGroupItems(): Array<any> {
