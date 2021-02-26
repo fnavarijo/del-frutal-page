@@ -7,8 +7,13 @@
         backgroundSize: 'cover',
       }"
     >
-      <h1 class="text-5xl mb-4 text-center">Generamos valor a tus Negocios</h1>
-      <span class="p-4 uppercase bg-california rounded-md">
+      <h1
+        class="text-5xl md:text-6xl mb-4 text-center font-black leading-14 title-shadow"
+      >
+        Generamos valor<br />
+        a tus Negocios
+      </h1>
+      <span class="p-4 uppercase bg-california rounded-md font-bold">
         Exporta con nosotros
       </span>
     </AppSection>
@@ -29,7 +34,14 @@
         />
       </div>
     </AppSection>
-    <AppSection class="min-h-screen-1/2 grid grid-cols-2">
+    <AppSection
+      class="min-h-screen-1/2 grid grid-cols-2"
+      :style="{
+        background: `url(\'${require('~/assets/img/background/development-trade.jpg')}\')`,
+        backgroundPosition: 'right',
+        backgroundSize: 'cover',
+      }"
+    >
       <div>
         <header class="mb-4">
           <img
@@ -37,7 +49,7 @@
             src="https://vuejs.org/images/logo.png"
             alt=""
           />
-          <h2 class="font-bold text-lg">Export Development and Trade</h2>
+          <h2 class="font-bold text-xl">Export Development and Trade</h2>
         </header>
         <div>
           <p>
@@ -64,6 +76,20 @@
           <li class="text-2xl font-bold triangle-bullet">
             <span>Estados Unidos</span>
           </li>
+          <ul class="ml-4 text-base font-normal">
+            <li>Arizona</li>
+            <li>California</li>
+            <li>Delawere</li>
+            <li>Florida</li>
+            <li>Georgia</li>
+            <li>Illinois</li>
+            <li>Maryland</li>
+            <li>Massachusetts</li>
+            <li>New Jersey</li>
+            <li>Nuevo York</li>
+            <li>Tennessee</li>
+            <li>Texas</li>
+          </ul>
           <li class="text-2xl font-bold triangle-bullet">
             <span>México</span>
           </li>
@@ -144,39 +170,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.title-shadow {
+  text-shadow: 1px 2px 30px theme('colors.black');
 }
 </style>
