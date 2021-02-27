@@ -30,6 +30,7 @@ module.exports = {
       colors: {
         california: '#fb9b03',
         'normal-blue': {
+          100: '#ced5de',
           500: '#0f2646',
         },
         'dark-blue': {

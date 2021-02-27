@@ -38,6 +38,12 @@
         />
       </div>
     </AppSection>
+    <AppSection bg-color="white" class="text-normal-blue-500">
+      <header class="text-center">
+        <h2 class="text-5xl">Nuestras <strong>Marcas</strong></h2>
+      </header>
+      <OurProductsTabs />
+    </AppSection>
     <AppSection
       class="min-h-screen-1/2 grid grid-cols-2"
       :style="{
@@ -130,6 +136,7 @@ import Vue from 'vue';
 
 import AppSection from '@/components/AppSection.vue';
 import OurGroupItem from '@/components/OurGroup/OurGroupItem.vue';
+import OurProductsTabs from '@/components/OurProducts/OurProductsTabs.vue';
 
 // @ts-ignore
 import DownArrow from '@/assets/img/down-arrow.svg?inline';
@@ -140,6 +147,7 @@ export default Vue.extend({
     AppSection,
     OurGroupItem,
     DownArrow,
+    OurProductsTabs,
   },
   computed: {
     ourGroupItems(): Array<any> {
