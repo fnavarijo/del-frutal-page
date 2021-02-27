@@ -27,7 +27,7 @@ body {
 }
 
 .triangle-bullet {
-  @apply pl-4 flex items-center relative;
+  @apply pl-6 flex items-center relative;
 }
 
 .triangle-bullet::before {
@@ -41,4 +41,8 @@ body {
 
 .form-input::placeholder {
   @apply text-normal-blue-500;
+}
+
+.title-shadow {
+  text-shadow: 1px 2px 30px theme('colors.black');
 }

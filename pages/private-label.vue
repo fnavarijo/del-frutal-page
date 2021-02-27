@@ -2,38 +2,26 @@
   <div>
     <AppSection bg-color="white">
       <header class="mb-8">
-        <h1 class="text-4xl font-bold text-dark-blue-700">
+        <h1 class="text-3xl md:text-5xl font-bold text-dark-blue-700">
           Servicios de Maquila y Desarrollo de Productos
         </h1>
       </header>
       <div class="grid grid-cols-1 md:grid-cols-2">
         <div class="flex items-center justify-center">
-          <img
-            class="h-24 w-24"
-            src="https://vuejs.org/images/logo.png"
-            alt=""
-          />
+          <img class="w-2/3" src="~assets/img/private-label.png" alt="" />
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet
-          egestas augue. Pellentesque sed viverra quam, non dapibus mi. Maecenas
-          sollicitudin bibendum sapien in ultrices. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Mauris posuere magna vel elit auctor, nec
-          tempus libero pretium. Maecenas enim lacus, pharetra nec risus vitae,
-          malesuada sodales orci. Fusce placerat pulvinar libero eget iaculis.
-          <br />
-          Aliquam nec velit id metus sagittis dignissim. Praesent elementum
-          sagittis nisl, sit amet accumsan turpis convallis nec. Nullam in
-          tellus bibendum, varius magna vitae, interdum est. Praesent non tempor
-          tellus. Nunc arcu ipsum, vehicula vitae dictum ut, maximus ut erat.
-          Etiam interdum scelerisque leo pulvinar faucibus. Vivamus tempor
-          turpis quis ex dictum lobortis. Praesent lobortis in sapien ac
-          faucibus.
-          <br />
-          Morbi ut dui tincidunt, mollis orci sit amet, pulvinar tortor. Integer
-          dignissim imperdiet viverra. Etiam arcu eros, fringilla in iaculis sit
-          amet, eleifend eget felis. Nunc non diam tempor, tristique enim id,
-          imperdiet neque.
+        <p class="flex items-center">
+          Tenemos la capacidad para desarrollar marcas y productos para cubrir
+          cualquier tipo de necesidad de nuestros clientes en el ramo de:
+          Cerveza, Cereales, Malta, Bebidas Carbonatadas y Néctares.
+          <br /><br />
+          Contamos con una amplia experiencia, empezando desde la creación de la
+          marca, diseño de los empaques y material de apoyo, hasta finalizar con
+          la exportación del producto al país que nos soliciten.
+          <br /><br />
+          Lo más importante es que tenemos el respaldo y la infraestructura
+          necesarios para producir en serie lotes de todos los tamaños y
+          cantidades.
         </p>
       </div>
       <div>
@@ -41,11 +29,9 @@
           Servicios Integrales
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet
-          egestas augue. Pellentesque sed viverra quam, non dapibus mi. Maecenas
-          sollicitudin bibendum sapien in ultrices. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Mauris posuere magna vel elit auctor, nec
-          tempus libero pretium.
+          Nos encargamos del diseño de etiquetas, registros sanitarios, temas
+          legales en Guatemala, formulación, fabricación, envasado, etiquetado,
+          sellado y acondicionamiento del producto.
         </p>
       </div>
     </AppSection>
@@ -55,25 +41,28 @@
       </header>
       <ol class="benefits-list">
         <li class="mb-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Altos estándares de Calidad de los Productos.
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Plantas con diversas certificaciones
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Experiencia de X años realizando Maquilas (revisar desde cuando
+          producimos Monterrey, Malta Rica)
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Disponibilidad a exportar a cualquiera de las dos costas según
+          conveniencia del cliente.
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Acompañamiento en la gestión de Exportación ante Aduana y SAT
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Experiencia en coordinación de cargas con la mayoría de Navieras en el
+          país.
         </li>
         <li class="my-3 benefits-list__item">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Servicio Full Service (llave en mano)
         </li>
       </ol>
     </AppSection>

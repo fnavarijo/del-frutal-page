@@ -1,39 +1,49 @@
 <template>
   <div class="text-white">
-    <AppSection>
+    <AppSection
+      :style="{
+        background: `linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\'${require('~/assets/img/background/export.jpg')}\') no-repeat left/cover`,
+      }"
+    >
       <header class="mb-8">
-        <h1 class="text-5xl font-bold text-center">Export</h1>
-        <h2 class="text-3xl font-bold text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-center">Export</h1>
+        <h2 class="text-xl md:text-3xl font-bold text-center">
           Asesoría en Mercados Internacionales
         </h2>
       </header>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet
-        leo orci. Nulla quis placerat nulla. Phasellus mattis consequat lacinia.
-        Morbi venenatis interdum urna, at iaculis urna interdum et. Nunc euismod
-        turpis nibh, nec tempor lorem aliquam et. Donec nec accumsan orci.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        dignissim nunc eleifend aliquet auctor. Cras consectetur metus ipsum, et
-        fringilla nisl finibus in. Fusce egestas lacinia consectetur. Curabitur
-        convallis magna sit amet libero placerat, sed porta quam iaculis. Morbi
-        ut enim id velit pharetra lacinia molestie eget nisi. Cras finibus
-        bibendum massa, ac accumsan metus mattis eu. Donec quis lacus non magna
-        viverra aliquam ut eu dolor. Cras vitae nulla dapibus, sagittis nisl eu,
-        pharetra lacus. Nunc laoreet nibh non ligula feugiat, sed scelerisque
-        justo tincidunt.
+        La creación de productos a escala internacional, requiere una serie
+        pasos previos para planificar desde la creación de la marca, hasta la
+        puesta en el mercado escogido para comercializarlo, así como el
+        seguimiento y el apoyo necesario para que la marca tenga éxito.
+        <br /><br />
+        Nosotros podemos asesorarle a lo largo de todo este proceso, que incluye
+        la formulación del producto, para que cumpla con los más altos
+        estándares de excelencia y calidad mundial. También la implementación de
+        costos competitivos a escala mundial y por supuesto, diseño de marca y
+        empaque.
       </p>
     </AppSection>
-    <AppSection bg-color="white" class="text-black">
-      <header>
-        <h2 class="mb-8 text-4xl text-normal-blue-500 font-bold text-left">
-          Capacidad para exportar a Mercados Internacionales
+    <AppSection
+      bg-color="white"
+      items="start"
+      class="text-black px-4 md:px-32"
+      :style="{
+        background: `url(\'${require('~/assets/img/background/export-map.jpg')}\') no-repeat left/contain`,
+      }"
+    >
+      <header class="w-full">
+        <h2
+          class="mb-8 text-3xl md:text-5xl text-normal-blue-500 font-bold text-left"
+        >
+          Capacidad para exportar a<br />
+          Mercados Internacionales
         </h2>
       </header>
       <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          imperdiet leo orci. Nulla quis placerat nulla. Phasellus mattis
-          consequat lacinia.
+          Actualmente, exportamos nuestros productos desde Centroamérica a
+          diferentes partes del mundo, incluyendo:
         </p>
         <ul class="mb-8">
           <li class="line-bullet font-bold">Norteamérica</li>
@@ -44,9 +54,8 @@
           <li class="line-bullet font-bold">Australia</li>
         </ul>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          imperdiet leo orci. Nulla quis placerat nulla. Phasellus mattis
-          consequat lacinia.
+          Sin embargo, tenemos la capacidad para cubrir cualquier país que el
+          cliente requiera.
         </p>
       </div>
     </AppSection>

@@ -5,6 +5,7 @@
         background: `url(\'${require('~/assets/img/background/home-header.jpg')}\')`,
         backgroundPosition: 'top left',
         backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
       }"
       class="relative"
     >
@@ -50,6 +51,7 @@
         background: `url(\'${require('~/assets/img/background/development-trade.jpg')}\')`,
         backgroundPosition: 'right',
         backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
       }"
     >
       <div>
@@ -77,7 +79,15 @@
         </div>
       </div>
     </AppSection>
-    <AppSection class="grid grid-cols-2">
+    <AppSection
+      class="grid grid-cols-2"
+      :style="{
+        background: `url(\'${require('~/assets/img/background/map.png')}\') #0f2646`,
+        backgroundPosition: 'right',
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat',
+      }"
+    >
       <div>
         <header>
           <h2 class="text-6xl font-bold">Descubre EDT</h2>
@@ -197,9 +207,3 @@ export default Vue.extend({
   },
 });
 </script>
-
-<style scoped>
-.title-shadow {
-  text-shadow: 1px 2px 30px theme('colors.black');
-}
-</style>
