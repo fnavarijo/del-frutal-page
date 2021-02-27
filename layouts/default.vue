@@ -1,6 +1,7 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans relative">
     <AppNav :class="navBgColor" />
+    <AppNavMobile />
     <Nuxt />
     <AppFooter />
   </div>
@@ -10,12 +11,14 @@
 import Vue from 'vue';
 
 import AppNav from '@/components/AppNav.vue';
+import AppNavMobile from '@/components/AppNavMobile.vue';
 import AppFooter from '@/components/AppFooter.vue';
 
 export default Vue.extend({
   name: 'Default',
   components: {
     AppNav,
+    AppNavMobile,
     AppFooter,
   },
   computed: {

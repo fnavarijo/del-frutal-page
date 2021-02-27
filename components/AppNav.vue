@@ -1,12 +1,14 @@
 <template>
   <nav
-    class="px-8 py-4 w-screen fixed flex items-center justify-between text-white z-10"
+    class="px-8 py-4 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
   >
-    <img
-      src="https://vuejs.org/images/logo.png"
-      class="h-12 w-12"
-      alt="EDT Logo"
-    />
+    <NuxtLink to="/">
+      <img
+        src="https://vuejs.org/images/logo.png"
+        class="h-12 w-12"
+        alt="EDT Logo"
+      />
+    </NuxtLink>
     <ul class="flex">
       <li class="uppercase font-bold mx-2">
         <NuxtLink to="/">Inicio</NuxtLink>

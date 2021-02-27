@@ -18,11 +18,19 @@ module.exports = {
       fontFamily: {
         sans: ['Gotham', ...defaultTheme.fontFamily.sans],
       },
+      width: {
+        7: '1.75rem',
+        '30px': '30px',
+        '37px': '37px',
+      },
       height: {
+        7: '1.75rem',
+        '30px': '30px',
         'screen-1/2': '50vh',
       },
       minHeight: {
         'screen-1/2': '50vh',
+        'screen-2/3': '66vh',
       },
       padding: {
         '16-9ratio': '56.25%',
@@ -56,6 +64,9 @@ module.exports = {
       lineHeight: {
         12: '3rem',
         14: '3.5rem',
+      },
+      transformOrigin: {
+        'left-center': '0 50%',
       },
     },
   },
