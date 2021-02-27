@@ -12,14 +12,16 @@
     </div>
     <FormInput class="mb-4" name="correo" placeholder="Correo:" type="email" />
     <FormTextArea name="mensaje" class="mb-4" placeholder="Mensaje" />
-    <div class="flex space-x-3 items-center">
-      <span
+    <div class="flex items-center space-x-2">
+      <span class="inline-block flex-2"
         >¿Te gustaría recibir ofertas e información sobre nuestros servicios y
         productos?</span
       >
-      <FormRadioButton name="accept" label="Si" />
-      <FormRadioButton name="accept" label="No" />
-      <FormButton />
+      <div class="flex-1 flex justify-center items-center">
+        <FormRadioButton class="mr-4" name="accept" label="Si" />
+        <FormRadioButton class="mr-4" name="accept" label="No" />
+        <FormButton />
+      </div>
     </div>
   </form>
 </template>

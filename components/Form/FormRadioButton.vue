@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <label :for="name">{{ label }}</label>
-    <input class="custom-radio" type="radio" :name="name" />
+  <div class="flex justify-center">
+    <label>
+      {{ label }}
+      <input
+        class="radio-button inline-block appearance-none rounded-none w-4 h-4 border-white border transition-all duration-200 ease-in"
+        type="radio"
+        :name="name"
+      />
+    </label>
   </div>
 </template>
 
@@ -24,12 +30,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.custom-radio {
-  /* -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  height: 5px;
-  width: 5px;
-  border-radius: 0; */
+.radio-button:checked {
+  @apply bg-white;
 }
 </style>

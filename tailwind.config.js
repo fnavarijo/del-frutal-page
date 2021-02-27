@@ -68,6 +68,9 @@ module.exports = {
       transformOrigin: {
         'left-center': '0 50%',
       },
+      flex: {
+        2: '2',
+      },
     },
   },
   plugins: [],

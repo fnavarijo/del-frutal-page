@@ -1,6 +1,6 @@
 <template>
   <section
-    class="px-8 py-4 min-h-screen w-full flex flex-col"
+    class="px-8 py-4 min-h-screen w-full flex flex-col relative"
     :class="`bg-${bgColor} justify-${justify} items-${items}`"
   >
     <slot />
