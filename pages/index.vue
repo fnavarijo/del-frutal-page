@@ -23,7 +23,7 @@
       />
     </AppSection>
     <AppSection class="min-h-screen-1/2">
-      <header class="w-full mb-32 relative flex items-center justify-center">
+      <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2
           class="px-4 md:px-8 text-2xl md:text-4xl relative capitalize inline-block bg-normal-blue-500"
@@ -56,11 +56,7 @@
     >
       <div>
         <header class="mb-4">
-          <img
-            class="h-16 mb-2"
-            src="https://vuejs.org/images/logo.png"
-            alt=""
-          />
+          <img class="h-16 mb-2" src="~assets/img/edt-simple.png" alt="" />
           <h2 class="font-bold text-xl">Export Development and Trade</h2>
         </header>
         <div>
@@ -163,42 +159,42 @@ export default Vue.extend({
     ourGroupItems(): Array<any> {
       return [
         {
-          img: 'statistics.svg',
+          img: 'statistics.png',
           value: '17',
           name: 'Estados en USA',
         },
         {
-          img: 'statistics.svg',
+          img: 'worldwide.png',
           value: '10',
           name: 'Países',
         },
         {
-          img: 'statistics.svg',
+          img: 'teamwork.png',
           value: '+10,000',
           name: 'Colaboradores',
         },
         {
-          img: 'statistics.svg',
+          img: 'delivery-truck.png',
           value: '75',
           name: 'Distribuidores en USA',
         },
         {
-          img: 'statistics.svg',
+          img: 'vote.png',
           value: '+100',
           name: 'Productos',
         },
         {
-          img: 'statistics.svg',
+          img: 'package.png',
           value: '15',
           name: 'Marcas',
         },
         {
-          img: 'statistics.svg',
+          img: 'shop.png',
           value: '+ 15.Mill',
           name: 'De puntos de venta',
         },
         {
-          img: 'statistics.svg',
+          img: 'factory.png',
           value: '+20',
           name: 'Plantas',
         },

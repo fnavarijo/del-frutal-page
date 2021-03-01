@@ -1,13 +1,9 @@
 <template>
   <nav
-    class="px-8 py-4 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
+    class="p-8 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
   >
     <NuxtLink to="/">
-      <img
-        src="https://vuejs.org/images/logo.png"
-        class="h-12 w-12"
-        alt="EDT Logo"
-      />
+      <img src="~assets/img/logo-export.png" class="w-56" alt="EDT Logo" />
     </NuxtLink>
     <ul class="flex">
       <li class="uppercase font-bold mx-2">

@@ -11,8 +11,8 @@
     >
       <header class="flex flex-col items-center mb-4">
         <img
-          src="https://vuejs.org/images/logo.png"
-          class="h-12 w-12 mb-4"
+          src="~assets/img/edt-simple.png"
+          class="w-32 mb-4"
           alt="EDT Logo"
         />
         <h1 class="text-4xl md:text-6xl font-bold title-shadow">
