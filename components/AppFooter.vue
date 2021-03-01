@@ -29,9 +29,18 @@
           phone="(52) 962-62-83665"
         />
       </div>
-      <div class="ml-0 md:ml-8">
-        <h3 class="text-2xl font-bold">Comunícate con nosotros:</h3>
-        <ContactUsForm />
+      <div class="flex flex-col md:flex-row">
+        <div class="ml-0 md:ml-8 mr-4">
+          <h3 class="text-2xl font-bold">Comunícate con nosotros:</h3>
+          <ContactUsForm />
+        </div>
+        <div class="flex flex-row md:flex-col justify-around">
+          <img class="w-10" src="~assets/img/google-plus.png" alt="" />
+          <img class="w-10" src="~assets/img/facebook.png" alt="" />
+          <img class="w-10" src="~assets/img/twitter.png" alt="" />
+          <img class="w-10" src="~assets/img/youtube.png" alt="" />
+          <img class="w-10" src="~assets/img/instagram.png" alt="" />
+        </div>
       </div>
     </div>
     <div
