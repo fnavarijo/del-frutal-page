@@ -1,6 +1,7 @@
 <template>
   <nav
-    class="p-8 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
+    class="py-12 px-16 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
+    :class="gradient"
   >
     <NuxtLink to="/">
       <img src="~assets/img/logo-export.png" class="w-56" alt="EDT Logo" />
@@ -10,13 +11,13 @@
         <NuxtLink to="/">Inicio</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Nuestro Grupo</NuxtLink>
+        <NuxtLink to="#our-group">Nuestro Grupo</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Marcas</NuxtLink>
+        <NuxtLink to="#brands">Marcas</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Descubre EDT</NuxtLink>
+        <NuxtLink to="#find-edt">Descubre EDT</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
         <NuxtLink to="/quienes-somos">¿Quienes somos?</NuxtLink>
@@ -41,7 +42,7 @@
         </ul>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/contact-us">Contactenos</NuxtLink>
+        <NuxtLink to="/contact-us">Contáctenos</NuxtLink>
       </li>
     </ul>
   </nav>
@@ -52,6 +53,14 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'AppNav',
+  computed: {
+    gradient(): string {
+      const { path } = this.$route;
+      return ['/private-label', '/export'].includes(path)
+        ? ''
+        : 'bg-gradient-to-b from-black to-transparent';
+    },
+  },
 });
 </script>
 

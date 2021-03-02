@@ -27,14 +27,14 @@
     <AppSection
       bg-color="white"
       items="start"
-      class="text-black px-4 md:px-32"
+      class="px-4 md:px-32 min-h-screen-1/2 text-black"
       :style="{
-        background: `url(\'${require('~/assets/img/background/export-map.jpg')}\') no-repeat left/contain`,
+        background: `url(\'${require('~/assets/img/background/export-map.jpg')}\') no-repeat left/cover`,
       }"
     >
       <header class="w-full">
         <h2
-          class="mb-8 text-3xl md:text-5xl text-normal-blue-500 font-bold text-left"
+          class="mb-8 text-3xl md:text-5xl text-normal-blue-500 font-bold text-left leading-none"
         >
           Capacidad para exportar a<br />
           Mercados Internacionales

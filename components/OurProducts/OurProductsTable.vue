@@ -3,10 +3,10 @@
     <div
       v-for="(product, index) in products"
       :key="index"
-      class="bg-gray-200 p-4 cursor-pointer"
+      class="bg-gray-200 p-4 cursor-pointer relative w-24 h-24 flex justify-center overflow-hidden"
       @click="$emit('product-selected', product.name)"
     >
-      <img class="w-24" :src="product.url" alt="" />
+      <img class="w-24 absolute -bottom-4" :src="product.url" alt="" />
     </div>
   </div>
 </template>

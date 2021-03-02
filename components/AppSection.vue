@@ -1,9 +1,13 @@
 <template>
   <section
-    class="px-8 py-4 min-h-screen w-full flex flex-col relative"
+    class="px-8 py-4 min-h-screen w-full relative flex flex-col"
     :class="`bg-${bgColor} justify-${justify} items-${items}`"
   >
-    <slot />
+    <div
+      class="flex flex-col justify-center items-center md:max-w-screen-md lg:max-w-screen-lg"
+    >
+      <slot />
+    </div>
   </section>
 </template>
 

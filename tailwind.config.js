@@ -27,8 +27,10 @@ module.exports = {
         7: '1.75rem',
         '30px': '30px',
         'screen-1/2': '50vh',
+        'screen-1/3': '33vh',
       },
       minHeight: {
+        'screen-1/3': '33vh',
         'screen-1/2': '50vh',
         'screen-2/3': '66vh',
       },

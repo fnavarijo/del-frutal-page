@@ -54,7 +54,7 @@
           >
         </ul>
         <NuxtLink to="/contact-us" class="triangle-bullet"
-          ><li>Contáctanos</li></NuxtLink
+          ><li>Contáctenos</li></NuxtLink
         >
       </ul>
     </nav>

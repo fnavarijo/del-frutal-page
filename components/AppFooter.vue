@@ -2,7 +2,7 @@
   <footer class="text-white">
     <div
       v-if="shouldDisplayUpper"
-      class="py-4 px-8 bg-dark-blue-800 flex flex-col md:flex-row"
+      class="py-4 px-8 bg-dark-blue-800 flex flex-col md:flex-row justify-center"
     >
       <div
         class="space-y-3 border-r-0 md:border-r border-white pr-0 md:pr-8 mb-6 md:mb-0"

@@ -10,7 +10,7 @@
       class="relative"
     >
       <h1
-        class="text-5xl md:text-6xl mb-4 text-center font-black leading-14 title-shadow"
+        class="text-5xl md:text-6xl mb-8 text-center font-black leading-14 title-shadow"
       >
         Generamos valor<br />
         a tus Negocios
@@ -22,7 +22,7 @@
         class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
       />
     </AppSection>
-    <AppSection class="min-h-screen-1/2">
+    <AppSection id="our-group" class="min-h-screen-1/2">
       <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2
@@ -39,7 +39,11 @@
         />
       </div>
     </AppSection>
-    <AppSection bg-color="white" class="text-normal-blue-500">
+    <AppSection
+      id="brands"
+      bg-color="white"
+      class="text-normal-blue-500 min-h-screen-1/2 my-8"
+    >
       <header class="text-center">
         <h2 class="text-5xl">Nuestras <strong>Marcas</strong></h2>
       </header>
@@ -76,10 +80,11 @@
       </div>
     </AppSection>
     <AppSection
-      class="grid grid-cols-2"
+      id="find-edt"
+      class="grid grid-cols-2 min-h-screen-1/2"
       :style="{
         background: `url(\'${require('~/assets/img/background/map.png')}\') #0f2646`,
-        backgroundPosition: 'right',
+        backgroundPosition: 'right 10% center',
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
       }"

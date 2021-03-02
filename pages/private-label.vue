@@ -35,11 +35,11 @@
         </p>
       </div>
     </AppSection>
-    <AppSection class="min-h-screen-1/2 text-white" justify="start">
+    <AppSection class="min-h-screen-1/3 text-white" justify="start">
       <header class="mb-8">
         <h2 class="text-4xl font-bold">Beneficios</h2>
       </header>
-      <ol class="benefits-list">
+      <ol class="benefits-list text-lg space-y-4">
         <li class="mb-3 benefits-list__item">
           Altos estándares de Calidad de los Productos.
         </li>
@@ -70,7 +70,7 @@
       <header class="mb-4">
         <h2 class="text-4xl font-bold text-white">Más Información</h2>
       </header>
-      <form class="w-full md:w-1/2">
+      <form class="w-full">
         <FormInput class="mb-4" name="nombre" placeholder="Nombre:" />
         <FormInput class="mb-4" name="apellidos" placeholder="Apellidos:" />
         <FormInput class="mb-4" name="empresa" placeholder="Empresa o marca:" />
