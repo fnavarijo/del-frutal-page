@@ -4,7 +4,8 @@
     :class="`bg-${bgColor} justify-${justify} items-${items}`"
   >
     <div
-      class="flex flex-col justify-center items-center md:max-w-screen-md lg:max-w-screen-lg"
+      class="flex flex-col justify-center items-center"
+      :class="`${maxContent}`"
     >
       <slot />
     </div>
@@ -28,6 +29,10 @@ export default Vue.extend({
     items: {
       type: String,
       default: 'center',
+    },
+    maxContent: {
+      type: String,
+      default: 'md:max-w-screen-md lg:max-w-screen-lg',
     },
   },
 });
