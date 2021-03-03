@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div class="text-white relative">
     <AppSection
       :style="{
         background: `url(\'${require('~/assets/img/background/home-header.jpg')}\')`,
@@ -22,7 +22,8 @@
         class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
       />
     </AppSection>
-    <AppSection id="our-group" class="min-h-screen-1/2">
+    <a id="our-group" class="block relative -top-250 invisible" />
+    <AppSection class="min-h-screen-1/2">
       <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2
@@ -39,10 +40,11 @@
         />
       </div>
     </AppSection>
+    <a id="brands" class="block relative -top-16 invisible" />
     <AppSection
-      id="brands"
       bg-color="white"
       class="text-normal-blue-500 min-h-screen-1/2 my-8"
+      max-content="xl:max-w-screen-xl"
     >
       <header class="text-center">
         <h2 class="text-5xl">Nuestras <strong>Marcas</strong></h2>
@@ -79,8 +81,8 @@
         </div>
       </div>
     </AppSection>
+    <a id="find-edt" class="block relative -top-250 invisible" />
     <AppSection
-      id="find-edt"
       class="grid grid-cols-2 min-h-screen-1/2"
       :style="{
         background: `url(\'${require('~/assets/img/background/map.png')}\') #0f2646`,
