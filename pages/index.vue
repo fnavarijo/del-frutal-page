@@ -18,9 +18,11 @@
       <span class="p-4 uppercase bg-california rounded-md font-bold">
         Exporta con nosotros
       </span>
-      <DownArrow
-        class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
-      />
+      <NuxtLink to="#our-group">
+        <DownArrow
+          class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
+        />
+      </NuxtLink>
     </AppSection>
     <a id="our-group" class="block relative -top-250 invisible" />
     <AppSection class="min-h-screen-1/2">
