@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="pt-12">
     <AppSection bg-color="white">
-      <header class="mb-8">
+      <header class="md:mb-8 xl:mb-0">
         <h1 class="text-3xl md:text-5xl font-bold text-dark-blue-700">
           Servicios de Maquila y Desarrollo de Productos
         </h1>
       </header>
       <div class="grid grid-cols-1 md:grid-cols-2">
         <div class="flex items-center justify-center">
-          <img class="w-2/3" src="~assets/img/private-label.png" alt="" />
+          <img class="w-full" src="~assets/img/private-label.png" alt="" />
         </div>
         <p class="flex items-center">
           Tenemos la capacidad para desarrollar marcas y productos para cubrir
