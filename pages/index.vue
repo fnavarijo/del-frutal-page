@@ -130,14 +130,14 @@
         </ul>
       </div>
     </AppSection>
-    <AppSection>
-      <div class="relative pt-16-9ratio h-0 w-full">
+    <AppSection inner-container-class="w-full">
+      <div class="relative pt-16-9ratio h-0 w-full min">
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/7wtfhZwyrcc"
+          src="https://player.vimeo.com/video/44094657"
+          width="640"
+          height="360"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen
           class="absolute top-0 left-0 w-full h-full"
         ></iframe>

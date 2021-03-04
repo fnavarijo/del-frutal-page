@@ -5,7 +5,7 @@
   >
     <div
       class="flex flex-col justify-center items-center"
-      :class="`${maxContent}`"
+      :class="`${maxContent} ${innerContainerClass}`"
     >
       <slot />
     </div>
@@ -33,6 +33,10 @@ export default Vue.extend({
     maxContent: {
       type: String,
       default: 'md:max-w-screen-md lg:max-w-screen-lg',
+    },
+    innerContainerClass: {
+      type: String,
+      default: '',
     },
   },
 });

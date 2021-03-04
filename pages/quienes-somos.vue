@@ -30,24 +30,16 @@
     <AppSection class="min-h-screen-1/2">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
         <div class="flex flex-col items-center">
-          <img
-            class="h-12 w-12"
-            src="https://vuejs.org/images/logo.png"
-            alt=""
-          />
-          <h2 class="text-4xl text-center font-bold mb-12">Visión</h2>
+          <img class="h-16 w-16 mb-4" src="~assets/img/vision.svg" alt="" />
+          <h2 class="text-5xl text-center font-bold mb-8">Visión</h2>
           <p>
             Ser el mejor operador comercial para la exportación de productos de
             los que se nos ha confiado la distribución.
           </p>
         </div>
         <div class="flex flex-col items-center">
-          <img
-            class="h-12 w-12"
-            src="https://vuejs.org/images/logo.png"
-            alt=""
-          />
-          <h2 class="text-4xl text-center font-bold mb-12">Misión</h2>
+          <img class="h-16 w-16 mb-4" src="~assets/img/mision.svg" alt="" />
+          <h2 class="text-5xl text-center font-bold mb-8">Misión</h2>
           <p>
             Crear y desarrollar negocios que contribuyan a crear valor, por
             medio de la de los productos que distribuimos, tanto en el mercado
