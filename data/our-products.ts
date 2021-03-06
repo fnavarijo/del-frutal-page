@@ -2,18 +2,20 @@ export const ourProducts = [
   {
     type: 'food',
     name: 'marinero',
+    brand: 'marinero',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403399/products/Marinero_f3dgqb.png',
   },
   {
     type: 'food',
-    name: 'naba',
+    name: 'naú',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403398/products/Na%C3%BA_xnwrsy.png',
   },
   {
     type: 'food',
     name: 'señorial',
+    brand: 'senorial',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403383/products/Se%C3%B1orial_gtkrku.png',
   },
@@ -26,24 +28,28 @@ export const ourProducts = [
   {
     type: 'nutrition',
     name: 'incaparina-vainilla',
+    brand: 'incaparina',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403395/products/Incaparina_Vainilla_xmbx1a.png',
   },
   {
     type: 'nutrition',
     name: 'incaparina-multicereal',
+    brand: 'incaparina',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403394/products/Incaparina_multicereal_uerbvq.png',
   },
   {
     type: 'nutrition',
     name: 'incaparina-original',
+    brand: 'incaparina',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403394/products/Incaparina_original_pet4dq.png',
   },
   {
     type: 'nutrition',
     name: 'corn-flakes',
+    brand: 'gran-dia',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403387/products/Corn_Flakes_ulrrnv.png',
   },
@@ -62,24 +68,28 @@ export const ourProducts = [
   {
     type: 'drinks',
     name: 'nectar-maravilla',
+    brand: 'nectar-maravilla',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403401/products/Nectar_Maravilla_q7mpnm.png',
   },
   {
     type: 'drinks',
     name: 'naturas-tetra',
+    brand: 'naturas',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403400/products/Naturas_Tetra_fhicak.png',
   },
   {
     type: 'drinks',
     name: 'revive',
+    brand: 'revive',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403399/products/Revive_smnmgq.png',
   },
   {
     type: 'drinks',
     name: 'malta-gallo',
+    brand: 'malta-gallo',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403395/products/Malta_Gallo_kkf9gr.png',
   },
@@ -98,6 +108,7 @@ export const ourProducts = [
   {
     type: 'drinks',
     name: 'del-frutal',
+    brand: 'del-frutal',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403391/products/Del_Frutal_gzucyr.png',
   },
@@ -110,6 +121,7 @@ export const ourProducts = [
   {
     type: 'drinks',
     name: 'famosa',
+    brand: 'famosa',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403389/products/Famosa_bpgwvu.png',
   },
@@ -134,12 +146,14 @@ export const ourProducts = [
   {
     type: 'drinks',
     name: 'monte-carlo',
+    brand: 'monte-carlo',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403386/products/Cerveza_Monte_Carlo_ztdsl3.png',
   },
   {
     type: 'drinks',
     name: 'maravilla',
+    brand: 'malta-maravilla',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403383/products/Cerveza_Maravilla_c3sxbk.png',
   },

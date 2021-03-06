@@ -21,7 +21,7 @@
         @product-selected="displaySelectedProduct"
       />
     </div>
-    <OurProducts v-show="!!selectedProduct" />
+    <OurProducts v-show="!!selectedProduct" :selected-brand="selectedProduct" />
   </div>
 </template>
 

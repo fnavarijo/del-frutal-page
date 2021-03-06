@@ -4,7 +4,7 @@
       v-for="(product, index) in products"
       :key="index"
       class="bg-gray-200 p-4 cursor-pointer relative w-32 h-32 flex justify-center overflow-hidden"
-      @click="$emit('product-selected', product.name)"
+      @click="$emit('product-selected', product.brand)"
     >
       <img class="w-32 absolute -bottom-4" :src="product.url" alt="" />
     </div>
