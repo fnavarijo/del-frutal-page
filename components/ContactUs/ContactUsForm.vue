@@ -4,9 +4,11 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
       <FormSelect name="country" class="mb-4">
         <option value="">País</option>
-        <option value="GT">Guatemala</option>
-        <option value="SV">El Salvador</option>
-        <option value="US">Estados Unidos</option>
+        <option value="GT">Estados Unidos</option>
+        <option value="SV">México</option>
+        <option value="US">Puerto Rico</option>
+        <option value="US">Cuba</option>
+        <option value="US">República Dominicana</option>
       </FormSelect>
       <FormInput class="mb-4" name="telefono" placeholder="Telefono:" />
     </div>
