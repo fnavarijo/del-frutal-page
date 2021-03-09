@@ -56,6 +56,7 @@ export const ourProducts = [
   {
     type: 'nutrition',
     name: 'cereal-infantil',
+    brand: 'incaparina',
     url:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614403382/products/Cereal_Infantil_f214sd.png',
   },

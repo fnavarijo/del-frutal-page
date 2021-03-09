@@ -7,7 +7,7 @@
       </p>
     </div>
     <div>
-      <OurProductCarousel />
+      <OurProductCarousel :name="brand.name || ''" :images="brand.products" />
     </div>
   </div>
 </template>

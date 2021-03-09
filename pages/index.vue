@@ -50,7 +50,7 @@
     <a id="brands" class="block relative -top-16 invisible" />
     <AppSection
       bg-color="white"
-      class="text-normal-blue-500 min-h-screen-1/2 my-8"
+      class="text-normal-blue-500 min-h-screen-2/3 my-8"
       max-content="xl:max-w-screen-xl"
     >
       <header class="text-center">

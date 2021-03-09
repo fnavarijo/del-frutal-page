@@ -1,5 +1,10 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center relative">
+    <DownArrow
+      v-show="!!selectedProduct"
+      class="fill-current text-normal-blue-500 w-8 h-8 transform rotate-90 absolute -top-16 left-0 cursor-pointer"
+      @click="backToOurProducts"
+    />
     <div v-show="!selectedProduct">
       <ul class="flex flex-col md:flex-row justify-center space-x-2 mb-8">
         <li
@@ -31,6 +36,9 @@ import Vue from 'vue';
 import OurProductsTable from '@/components/OurProducts/OurProductsTable.vue';
 import OurProducts from '@/components/OurProducts/OurProducts.vue';
 
+// @ts-ignore
+import DownArrow from '@/assets/img/down-arrow.svg?inline';
+
 import { ourProducts } from '@/data/our-products';
 
 export default Vue.extend({
@@ -38,6 +46,7 @@ export default Vue.extend({
   components: {
     OurProductsTable,
     OurProducts,
+    DownArrow,
   },
   data() {
     return {
@@ -65,8 +74,10 @@ export default Vue.extend({
   },
   methods: {
     displaySelectedProduct(product: string): void {
-      console.log('Product', product);
       this.selectedProduct = product;
+    },
+    backToOurProducts(): void {
+      this.selectedProduct = '';
     },
   },
 });

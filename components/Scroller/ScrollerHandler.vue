@@ -1,5 +1,8 @@
 <template>
-  <div class="flex items-center text-neutral-gray-500 relative">
+  <div
+    v-if="steps > 0"
+    class="flex items-center text-neutral-gray-500 relative"
+  >
     <div class="h-1 w-full bg-neutral-gray-500" />
     <ScrollerDot
       v-for="(dot, index) in dots"
@@ -32,6 +35,10 @@ export default Vue.extend({
       type: Number,
       default: 2,
     },
+    name: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
@@ -44,6 +51,14 @@ export default Vue.extend({
     },
     positions(): number {
       return 100 / this.steps;
+    },
+  },
+  watch: {
+    name() {
+      if (this.name !== '') {
+        this.thumbPosition = 0;
+        this.$emit('select-step', 0);
+      }
     },
   },
   methods: {
