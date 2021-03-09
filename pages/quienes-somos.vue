@@ -1,6 +1,7 @@
 <template>
   <div class="text-white">
     <AppSection
+      id="who-we-are"
       class="min-h-screen md:min-h-screen-2/3"
       :style="{
         background: `linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\'${require('~/assets/img/background/who-we.jpg')}\')`,

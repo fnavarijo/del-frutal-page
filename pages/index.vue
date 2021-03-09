@@ -1,6 +1,7 @@
 <template>
-  <div class="text-white relative">
+  <div id="index-container" class="text-white relative">
     <AppSection
+      id="index"
       :style="{
         background: `url(\'${require('~/assets/img/background/home-header.jpg')}\')`,
         backgroundPosition: 'top left',
@@ -15,11 +16,15 @@
         Generamos valor<br />
         a tus Negocios
       </h1>
-      <span class="p-4 uppercase bg-california rounded-md font-bold">
+      <NuxtLink
+        to="/contact-us"
+        class="p-4 uppercase bg-california rounded-md font-bold"
+      >
         Exporta con nosotros
-      </span>
+      </NuxtLink>
       <NuxtLink to="#our-group">
         <DownArrow
+          v-show="isIndexVisible"
           class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
         />
       </NuxtLink>
@@ -164,6 +169,11 @@ export default Vue.extend({
     DownArrow,
     OurProductsTabs,
   },
+  data() {
+    return {
+      isIndexVisible: false,
+    };
+  },
   computed: {
     ourGroupItems(): Array<any> {
       return [
@@ -208,6 +218,28 @@ export default Vue.extend({
           name: 'Plantas',
         },
       ];
+    },
+  },
+  mounted() {
+    const options = {
+      rootMargin: '0px',
+      threshold: 0.9,
+    };
+
+    const observer = new IntersectionObserver(
+      this.observerInterception,
+      options
+    );
+
+    const target = document.querySelector('#index');
+    observer.observe(target!);
+  },
+  methods: {
+    observerInterception(entries: Array<any>): void {
+      const [indexElement] = entries.filter(
+        ({ target }) => target.id === 'index'
+      );
+      this.isIndexVisible = indexElement.isIntersecting;
     },
   },
 });
