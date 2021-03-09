@@ -22,9 +22,13 @@
   src: url('~assets/fonts/GothamPro-Black.woff');
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   counter-reset: list-item;
-  scroll-behavior: smooth;
 }
 
 .triangle-bullet {
