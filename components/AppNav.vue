@@ -2,7 +2,7 @@
   <!-- :class="[isSelectorVisible ? gradient : blackBanner]" -->
   <nav
     class="py-12 px-16 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
-    :class="[gradient]"
+    :class="[isOnTopSection ? gradient : blackBanner]"
   >
     <NuxtLink to="/">
       <img src="~assets/img/logo-export.png" class="w-56" alt="EDT Logo" />
@@ -51,6 +51,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import { mapState } from 'vuex';
 
 export default Vue.extend({
   name: 'AppNav',
@@ -68,44 +69,17 @@ export default Vue.extend({
         : 'bg-gradient-to-b from-black to-transparent';
     },
     blackBanner(): string {
-      return 'bg-gradient-to-b from-black to-black';
+      const { path } = this.$route;
+      return ['/', '/quienes-somos'].includes(path)
+        ? 'bg-gradient-to-b from-black to-black'
+        : '';
     },
+    ...mapState(['isOnTopSection']),
   },
   watch: {
     $route() {
       this.isSelectorVisible = false;
-      // this.setObserverOnRoutes(['index', 'quienes-somos']);
     },
-  },
-  // mounted() {
-  //   const options = {
-  //     rootMargin: '0px',
-  //     threshold: 0.9,
-  //   };
-  //   this.observer = new IntersectionObserver(
-  //     this.observerInterception,
-  //     options
-  //   );
-
-  //   this.setObserverOnRoutes(['index', 'quienes-somos']);
-  // },
-  methods: {
-    // setObserverOnRoutes(routes: Array<string>): void {
-    //   const { name } = this.$route;
-    //   if (routes.includes(name!)) {
-    //     const selector = name! === 'index' ? '#index' : '#who-we-are';
-    //     console.log('Selector', selector);
-    //     const target = document.querySelector(selector);
-    //     // @ts-ignore
-    //     this.observer.observe(target!);
-    //   }
-    // },
-    // observerInterception(entries: Array<any>): void {
-    //   const [indexElement] = entries.filter(
-    //     ({ target }) => target.id === 'index' || target.id === 'who-we-are'
-    //   );
-    //   this.isSelectorVisible = indexElement.isIntersecting;
-    // },
   },
 });
 </script>

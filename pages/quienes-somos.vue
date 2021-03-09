@@ -113,5 +113,36 @@ export default Vue.extend({
   components: {
     AppSection,
   },
+  data() {
+    return {
+      isIndexVisible: false,
+    };
+  },
+  mounted() {
+    const options = {
+      rootMargin: '0px',
+      threshold: 0.9,
+    };
+
+    const observer = new IntersectionObserver(
+      this.observerInterception,
+      options
+    );
+
+    const target = document.querySelector('#who-we-are');
+    observer.observe(target!);
+  },
+  beforeDestroy() {
+    this.$store.commit('setIntersectionFlag', true);
+  },
+  methods: {
+    observerInterception(entries: Array<any>): void {
+      const [indexElement] = entries.filter(
+        ({ target }) => target.id === 'who-we-are'
+      );
+      this.isIndexVisible = indexElement.isIntersecting;
+      this.$store.commit('setIntersectionFlag', indexElement.isIntersecting);
+    },
+  },
 });
 </script>

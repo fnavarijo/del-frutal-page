@@ -234,12 +234,16 @@ export default Vue.extend({
     const target = document.querySelector('#index');
     observer.observe(target!);
   },
+  beforeDestroy() {
+    this.$store.commit('setIntersectionFlag', true);
+  },
   methods: {
     observerInterception(entries: Array<any>): void {
       const [indexElement] = entries.filter(
         ({ target }) => target.id === 'index'
       );
       this.isIndexVisible = indexElement.isIntersecting;
+      this.$store.commit('setIntersectionFlag', indexElement.isIntersecting);
     },
   },
 });
