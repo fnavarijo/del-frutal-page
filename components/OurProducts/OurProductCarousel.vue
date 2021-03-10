@@ -5,7 +5,7 @@
         <img v-show="selectedStep === index" :src="img" class="w-64" alt="" />
       </span>
     </div>
-    <div class="w-1/2">
+    <div class="w-full">
       <ScrollerHandler
         :steps="images.length - 1"
         :name="name"

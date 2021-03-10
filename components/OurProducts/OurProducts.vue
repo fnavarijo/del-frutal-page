@@ -6,7 +6,7 @@
         {{ brand.description }}
       </p>
     </div>
-    <div>
+    <div class="flex items-center justify-center">
       <OurProductCarousel :name="brand.name || ''" :images="brand.products" />
     </div>
   </div>

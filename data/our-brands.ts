@@ -108,12 +108,12 @@ export const ourBrands: { [key: string]: any } = {
 
   'malta-maravilla': {
     name: 'MALTA MARAVILLA',
-    logo:
-      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925299/logos/malta_m4s70r.png',
+    logo: '',
     description:
       'La MALTA MARAVILLA es un sano alimento natural, nutritivo y energético, recomendado en la dieta de los niños, adolescentes, deportistas y en la de las mujeres gestantes.',
     products: [
-      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268155/products/MaltaGallo/lata_Malta_Gallo_y11kib.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348214/products/MaltaMaravilla/2_z1e4wq.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348213/products/MaltaMaravilla/1_sotafu.png',
     ],
   },
 
@@ -123,6 +123,11 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267473/logos/SALVAVIDAS_ce5wt2.png',
     description:
       'Las bebidas Salvavidas son refrescantes al paladar con un toque de gas. Los pequeños gustan de estas bebidas por sus colores y delicioso sabor.',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349055/products/Salvavidas/2_hwdtkb.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349055/products/Salvavidas/3_omrpwd.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349055/products/Salvavidas/1_bkdqzl.png',
+    ],
   },
 
   'monte-carlo': {
@@ -131,6 +136,11 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267490/logos/Monte_Carlo_xlj3a4.png',
     description:
       'Una cerveza de clase superior, para consumidores con gustos exigentes que disfrutan bebiendo algo único y distintivo.',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348325/products/MonteCarlo/1_rxcuwy.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348324/products/MonteCarlo/2_qfgxjc.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348324/products/MonteCarlo/3_vmbvdn.png',
+    ],
   },
 
   'malta-gallo': {
@@ -156,6 +166,11 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925300/logos/Revive_zf0gi3.png',
     description:
       'Revive es una bebida hidratante que contiene las sales, minerales y electrólitos que el cuerpo necesita para recuperarse después de actividad física. Es la perfecta combinación entre hidratación y sabor.',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348995/products/Revive/2_gf5d1x.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348994/products/Revive/3_nh8yfc.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348994/products/Revive/1_axv7hj.png',
+    ],
   },
 
   marinero: {
@@ -164,13 +179,93 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925300/logos/marinero_k7tba9.png',
     description:
       'Marinero es un coctel vegetal hecho a base de tomate y almejas. Es un excelente mixer para beber con vodka, ron o tequila.',
-    products: [],
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348270/products/Marinero/2_vh7pwi.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348270/products/Marinero/1_ne0xxq.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348269/products/Marinero/3_xucnlw.png',
+    ],
   },
 
   sipi: {
     name: 'SIPI',
     logo:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925300/logos/sipi_jrxhcw.png',
+    description:
+      'Con más de 33 años de tradición en Guatemala, Sipi es una deliciosa y divertida bebida enriquecida con vitamina C, ideal para acompañar a los niños en sus aventuras de todos los días. ¡Dile Sipi a la diversión!',
+    products: [],
+  },
+
+  islena: {
+    name: 'ISLEÑA',
+    logo: '',
+    description:
+      'Bebida de malta carbonatada a partir de cebada, lúpulo y agua. No contiene alcohol y se consume de la misma forma que la gaseosa o la cola en su forma original. Isleña, ¡La energía caribeña que hace subir el ritmo por tus pies!',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348089/products/Islena/1_xr8mm7.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348089/products/Islena/2_sopj13.png',
+    ],
+  },
+
+  'super-cola': {
+    name: 'SUPER COLA',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349319/logos/Super_Cola_pjmjul.png',
     description: '',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349321/products/SupeCola/2_wgvduo.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349320/products/SupeCola/3_vjimno.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349319/products/SupeCola/1_hza0ci.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349319/products/SupeCola/4_geagjx.png',
+    ],
+  },
+
+  carnaval: {
+    name: 'CARNAVAL',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347903/logos/Carnaval_ighilw.png',
+    description: '',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347873/products/Carnaval/4_jeawyy.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347872/products/Carnaval/2_cfpikd.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347872/products/Carnaval/Sin_t%C3%ADtulo-1_hkyxfm.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347872/products/Carnaval/3_gtazom.png',
+    ],
+  },
+
+  'new-cola': {
+    name: 'NEW COLA',
+    logo: '',
+    description:
+      'New Cola es un producto juvenil, creado para las nuevas generaciones que siempre están en la búsqueda de sabores intensos y refrescantes. New Cola es un nuevo sabor que nace de las exigencias de las tendencias del mercado, de contar siempre con opciones diferentes de consumo. ',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348901/products/NewCola/2_oxqsly.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348901/products/NewCola/1_db0agr.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348901/products/NewCola/3_cpa64p.png',
+    ],
+  },
+
+  'santa-delfina': {
+    name: 'SANTA DELFINA',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349217/logos/Santa_Delfina_eoivad.png',
+    description:
+      'Agua mineralizada, ligeramente gasificada. El acompañante perfecto para tus comidas especiales, que abre tu sentidos, logrando que lo bueno sea mejor',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615349169/products/SaltaDelfina/1_t6nyd0.png',
+    ],
+  },
+
+  nau: {
+    name: 'NAÚ',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348835/logos/nau_h2nodm.png',
+    description:
+      'Los sabores y mezclas de Naú fueron cuidadosamente elegidos, desde productos básicos como el maní, hasta las mezclas únicas combinadas con sabores locales como el chile cobanero y las pasas. Por su valor nutricional contienen entre 80 y 130 calorías por porción, por eso son una excelente opción para refaccionar o acompañar comidas',
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348826/products/Nau/3_za0drz.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348826/products/Nau/4_bdd8gt.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348826/products/Nau/2_saoply.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348825/products/Nau/1_uf8rec.png',
+    ],
   },
 };

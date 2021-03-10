@@ -79,6 +79,9 @@ module.exports = {
       flex: {
         2: '2',
       },
+      gridTemplateColumns: {
+        16: 'repeat(16, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
