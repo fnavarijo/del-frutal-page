@@ -30,7 +30,7 @@
       </NuxtLink>
     </AppSection>
     <a id="our-group" class="block relative -top-250 invisible" />
-    <AppSection class="min-h-screen-1/2">
+    <AppSection class="min-h-screen-1/2" max-content="md:max-w-screen-xl">
       <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2

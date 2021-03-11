@@ -192,7 +192,12 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925300/logos/sipi_jrxhcw.png',
     description:
       'Con más de 33 años de tradición en Guatemala, Sipi es una deliciosa y divertida bebida enriquecida con vitamina C, ideal para acompañar a los niños en sus aventuras de todos los días. ¡Dile Sipi a la diversión!',
-    products: [],
+    products: [
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615424621/products/Sipi/3_eizqr1.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615424620/products/Sipi/1_ignj6t.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615424620/products/Sipi/4_p8lt6b.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615424620/products/Sipi/2_rhgsbz.png',
+    ],
   },
 
   islena: {
