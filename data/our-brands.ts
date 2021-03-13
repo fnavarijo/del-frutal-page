@@ -108,7 +108,8 @@ export const ourBrands: { [key: string]: any } = {
 
   'malta-maravilla': {
     name: 'MALTA MARAVILLA',
-    logo: '',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615593769/logos/malta-maravilla_t0k0on.png',
     description:
       'La MALTA MARAVILLA es un sano alimento natural, nutritivo y energético, recomendado en la dieta de los niños, adolescentes, deportistas y en la de las mujeres gestantes.',
     products: [
@@ -202,7 +203,8 @@ export const ourBrands: { [key: string]: any } = {
 
   islena: {
     name: 'ISLEÑA',
-    logo: '',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615593768/logos/Isle%C3%B1a_x85y0o.png',
     description:
       'Bebida de malta carbonatada a partir de cebada, lúpulo y agua. No contiene alcohol y se consume de la misma forma que la gaseosa o la cola en su forma original. Isleña, ¡La energía caribeña que hace subir el ritmo por tus pies!',
     products: [
@@ -239,7 +241,8 @@ export const ourBrands: { [key: string]: any } = {
 
   'new-cola': {
     name: 'NEW COLA',
-    logo: '',
+    logo:
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615593770/logos/New_Cola_ohando.png',
     description:
       'New Cola es un producto juvenil, creado para las nuevas generaciones que siempre están en la búsqueda de sabores intensos y refrescantes. New Cola es un nuevo sabor que nace de las exigencias de las tendencias del mercado, de contar siempre con opciones diferentes de consumo. ',
     products: [
