@@ -37,13 +37,13 @@
             <li
               class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
             >
-              Private label
+              Marca Privada
             </li>
           </NuxtLink>
         </ul>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/contact-us">Contáctenos</NuxtLink>
+        <NuxtLink to="/contact-us">Contáctanos</NuxtLink>
       </li>
     </ul>
   </nav>

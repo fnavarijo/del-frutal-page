@@ -50,11 +50,11 @@
             ><li>Exportación</li></NuxtLink
           >
           <NuxtLink class="triangle-bullet" to="/private-label"
-            ><li>Private Label</li></NuxtLink
+            ><li>Marca Privada</li></NuxtLink
           >
         </ul>
         <NuxtLink to="/contact-us" class="triangle-bullet"
-          ><li>Contáctenos</li></NuxtLink
+          ><li>Contáctanos</li></NuxtLink
         >
       </ul>
     </nav>
