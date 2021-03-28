@@ -74,16 +74,14 @@
         </header>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus
-            diam, tempus a diam id, rutrum ullamcorper dolor. Vestibulum
-            malesuada elit in turpis tincidunt rutrum. Aliquam finibus ante
-            enim, at scelerisque quam faucibus sed. In nec urna lorem. Proin
-            pulvinar eros vitae purus ullamcorper scelerisque. Sed eu tristique
-            est. Phasellus sodales turpis ut consectetur luctus. Donec convallis
-            est a odio ultricies varius. Mauris id tortor ipsum. Mauris porta
-            massa augue, sit amet imperdiet ipsum consequat eu. Quisque quis
-            ipsum tempus, accumsan leo efficitur, maximus sapien. Nullam a
-            ligula non elit interdum efficitur.
+            Comercializamos alimentos y bebidas de clase mundial, brindando a
+            nuestros clientes una amplia variedad de posibilidades de acuerdo
+            con los requisitos específicos de cada mercado.
+            <br />
+            <br />
+            Los productos que ofrecemos se comercializan en los Estados Unidos,
+            México, el Caribe y Europa, cumpliendo con los altos estándares de
+            calidad requeridos por esos mercados.
           </p>
         </div>
       </div>
