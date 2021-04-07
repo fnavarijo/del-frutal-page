@@ -11,8 +11,15 @@
         <WebIcon class="w-16 h-16" />
       </div>
     </div>
-    <div class="flex items-center justify-center">
-      <OurProductCarousel :name="brand.name || ''" :images="brand.products" />
+    <div class="flex items-center justify-center relative">
+      <OurProductCarousel
+        :name="brand.name || ''"
+        :images="getProductImages(brand.products)"
+        @selected-presentation="setPresentation"
+      />
+      <div v-show="presentation" class="absolute bottom-0 right-0">
+        {{ presentation }}
+      </div>
     </div>
   </div>
 </template>
@@ -48,9 +55,22 @@ export default Vue.extend({
       default: false,
     },
   },
+  data() {
+    return {
+      presentation: '',
+    };
+  },
   computed: {
     brand(): any {
       return ourBrands[this.selectedBrand] || {};
+    },
+  },
+  methods: {
+    setPresentation(index: number): void {
+      this.presentation = this.brand.products[index].presentation;
+    },
+    getProductImages(products: Array<any>): Array<string> {
+      return products.map(({ url }: { url: string }) => url);
     },
   },
 });

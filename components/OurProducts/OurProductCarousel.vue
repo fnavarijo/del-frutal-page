@@ -40,9 +40,13 @@ export default Vue.extend({
       selectedStep: 0,
     };
   },
+  mounted() {
+    this.$emit('selected-presentation', 0);
+  },
   methods: {
     updateSelectedStep(step: number): void {
       this.selectedStep = step;
+      this.$emit('selected-presentation', step);
     },
   },
 });
