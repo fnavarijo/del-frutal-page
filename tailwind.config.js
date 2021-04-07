@@ -50,6 +50,7 @@ module.exports = {
           900: '#030b16',
         },
         'neutral-gray': {
+          200: '#f1f1f1',
           500: '#7c7c7c',
         },
       },

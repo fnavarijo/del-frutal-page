@@ -56,7 +56,8 @@
       <header class="text-center mb-16">
         <h2 class="text-5xl">Nuestras <strong>Marcas</strong></h2>
       </header>
-      <OurProductsTabs />
+      <!-- <OurProductsTabs /> -->
+      <OurProductCardContainer />
     </AppSection>
     <AppSection
       class="min-h-screen-1/2 grid grid-cols-2"
