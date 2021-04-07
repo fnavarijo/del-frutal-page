@@ -26,7 +26,7 @@ export const ourBrands: { [key: string]: any } = {
   incaparina: {
     name: 'INCAPARINA',
     logo:
-      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1614925300/logos/incaparina_jlt8zg.png',
+      'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347996/logos/Logo_bhilnf.png',
     description:
       'Incaparina es un alimento altamente nutricional. Es una mezcla 100% vegetal procedente del maíz y soya, fortificada con vitaminas y minerales esenciales, hierro y zinc. ¡Incaparina es energía, fuerza y salud para toda la familia!',
     products: [

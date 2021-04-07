@@ -34,7 +34,7 @@
       <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2
-          class="px-4 md:px-8 text-2xl md:text-4xl relative capitalize inline-block bg-normal-blue-500"
+          class="px-4 md:px-8 text-2xl md:text-4xl relative capitalize inline-block bg-normal-blue-500 font-thin"
         >
           Nuestro Grupo
         </h2>
@@ -54,7 +54,7 @@
       max-content="xl:max-w-screen-xl"
     >
       <header class="text-center mb-16">
-        <h2 class="text-5xl">Nuestras <strong>Marcas</strong></h2>
+        <h2 class="text-5xl font-thin">Nuestras <strong>Marcas</strong></h2>
       </header>
       <!-- <OurProductsTabs /> -->
       <OurProductCardContainer />

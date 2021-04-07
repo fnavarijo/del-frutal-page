@@ -6,21 +6,21 @@
       @click="backToGeneralProducts"
     />
     <div v-if="!selectedCategory">
-      <div class="flex mb-4">
-        <span class="font-light inline-block w-full text-center text-xl"
+      <div class="flex items-center mb-4">
+        <span class="font-light inline-block w-full text-center text-3xl"
           >Cervezas y Maltas</span
         >
-        <span class="font-light inline-block w-full text-center text-xl"
+        <span class="font-light inline-block w-full text-center text-3xl"
           >Snacks</span
         >
-        <span class="font-light inline-block w-full text-center text-xl"
+        <span class="font-light inline-block w-full text-center text-3xl"
           >Atoles y Cereales</span
         >
-        <span class="font-light inline-block w-full text-center text-xl"
+        <span class="font-light inline-block w-full text-center text-3xl"
           >Bebidas</span
         >
       </div>
-      <div class="flex bg-neutral-gray-200 rounded-3xl">
+      <div class="flex bg-neutral-gray-200 rounded-3xl space-x-12">
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267416/logos/Famosa_v2ew4a.png"
           @click="setCategory('beer', 'Cervezas y Maltas')"

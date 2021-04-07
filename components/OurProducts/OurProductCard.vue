@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center p-8 relative">
-    <img class="w-48" :src="image" alt="" />
+  <div class="flex flex-col items-center justify-center p-8 relative">
+    <img class="w-40" :src="image" alt="" />
     <button
       class="bg-normal-blue-500 text-white font-bold py-2 px-8 rounded-xl absolute -bottom-4"
       @click="$emit('click')"
