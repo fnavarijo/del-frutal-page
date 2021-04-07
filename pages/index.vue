@@ -98,7 +98,7 @@
     >
       <div>
         <header>
-          <h2 class="text-6xl font-bold">Descubre EDT</h2>
+          <h2 class="text-6xl font-thin">Descubre EDT</h2>
         </header>
         <ul>
           <li class="text-2xl font-bold triangle-bullet">
@@ -117,6 +117,10 @@
             <li>Nuevo York</li>
             <li>Tennessee</li>
             <li>Texas</li>
+            <li>Virginia</li>
+            <li>Alabama</li>
+            <li>Washington</li>
+            <li>Oklahoma</li>
           </ul>
           <li class="text-2xl font-bold triangle-bullet">
             <span>México</span>

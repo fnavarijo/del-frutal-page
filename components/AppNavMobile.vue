@@ -50,7 +50,7 @@
             ><li>Exportación</li></NuxtLink
           >
           <NuxtLink class="triangle-bullet" to="/private-label"
-            ><li>Marca Privada</li></NuxtLink
+            ><li>Marca Propia</li></NuxtLink
           >
         </ul>
         <NuxtLink to="/contact-us" class="triangle-bullet"

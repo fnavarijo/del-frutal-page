@@ -24,7 +24,10 @@
         <NuxtLink to="/quienes-somos">¿Quienes somos?</NuxtLink>
       </li>
       <li class="uppercase relative font-bold mx-2 group">
-        <span>Export</span>
+        <div class="flex items-center cursor-pointer">
+          <span class="mr-2"> Export </span>
+          <DownArrow class="fill-current text-white w-4 h-4" />
+        </div>
         <ul class="absolute invisible group-hover:visible">
           <NuxtLink to="/export">
             <li
@@ -37,7 +40,7 @@
             <li
               class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
             >
-              Marca Privada
+              Marca Propia
             </li>
           </NuxtLink>
         </ul>
@@ -53,8 +56,14 @@
 import Vue from 'vue';
 import { mapState } from 'vuex';
 
+// @ts-ignore
+import DownArrow from '@/assets/img/down-arrow.svg?inline';
+
 export default Vue.extend({
   name: 'AppNav',
+  components: {
+    DownArrow,
+  },
   data() {
     return {
       isSelectorVisible: true,

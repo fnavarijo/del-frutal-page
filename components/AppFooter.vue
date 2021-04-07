@@ -31,7 +31,7 @@
       </div>
       <div class="flex flex-col md:flex-row">
         <div class="ml-0 md:ml-8 mr-4">
-          <h3 class="text-2xl font-bold">Comunícate con nosotros:</h3>
+          <h3 class="text-2xl font-light">Comunícate con nosotros:</h3>
           <ContactUsForm />
         </div>
         <div class="flex flex-row md:flex-col justify-around">

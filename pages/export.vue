@@ -6,7 +6,9 @@
       }"
     >
       <header class="mb-8">
-        <h1 class="text-4xl md:text-6xl font-bold text-center">Export</h1>
+        <h1 class="text-4xl md:text-6xl font-thin text-center">
+          Exportación de Marcas Propias
+        </h1>
         <h2 class="text-xl md:text-3xl font-bold text-center">
           Asesoría en Mercados Internacionales
         </h2>
@@ -17,7 +19,7 @@
         puesta en el mercado escogido para comercializarlo, así como el
         seguimiento y el apoyo necesario para que la marca tenga éxito.
         <br /><br />
-        Nosotros podemos asesorarle a lo largo de todo este proceso, que incluye
+        Nosotros podemos asesorarte a lo largo de todo este proceso, que incluye
         la formulación del producto, para que cumpla con los más altos
         estándares de excelencia y calidad mundial. También la implementación de
         costos competitivos a escala mundial y por supuesto, diseño de marca y

@@ -21,7 +21,7 @@
         </h1>
       </header>
       <p>
-        EDT comercializa alimentos y bebidas de clase mundial, dando a sus
+        EDT comercializa alimentos y bebidas de clase mundial, dando a nuestros
         clientes una amplia variedad de posibilidades de acuerdo a los
         requerimientos específicos del mercado. Los productos que ofrecemos se
         comercializan en: Estados Unidos, México, el Caribe y Europa, y cumplen
@@ -43,7 +43,7 @@
           <h2 class="text-5xl text-center font-bold mb-8">Misión</h2>
           <p>
             Crear y desarrollar negocios que contribuyan a crear valor, por
-            medio de la de los productos que distribuimos, tanto en el mercado
+            medio de los productos que distribuimos, tanto en el mercado
             regional como en el mercado internacional, satisfaciendo a nuestros
             clientes y colaboradores.
           </p>

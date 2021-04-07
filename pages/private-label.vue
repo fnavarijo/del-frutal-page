@@ -37,32 +37,32 @@
     </AppSection>
     <AppSection class="min-h-screen-1/3 text-white" justify="start">
       <header class="mb-8">
-        <h2 class="text-4xl font-bold">Beneficios</h2>
+        <h2 class="text-4xl font-light">Beneficios</h2>
       </header>
       <ol class="benefits-list text-lg space-y-4">
         <li class="mb-3 benefits-list__item">
-          Altos estándares de Calidad de los Productos.
+          Altos estándares de calidad de los productos.
         </li>
         <li class="my-3 benefits-list__item">
           Plantas con diversas certificaciones
         </li>
         <li class="my-3 benefits-list__item">
-          Experiencia de X años realizando Maquilas (revisar desde cuando
-          producimos Monterrey, Malta Rica)
+          Experiencia de más de 10 años en elaboración de marcas privadas a
+          través de maquilas
         </li>
         <li class="my-3 benefits-list__item">
           Disponibilidad a exportar a cualquiera de las dos costas según
           conveniencia del cliente.
         </li>
         <li class="my-3 benefits-list__item">
-          Acompañamiento en la gestión de Exportación ante Aduana y SAT
+          Acompañamiento en la gestión de exportación ante aduana y SAT
         </li>
         <li class="my-3 benefits-list__item">
-          Experiencia en coordinación de cargas con la mayoría de Navieras en el
-          país.
+          Experiencia en coordinación de cargas con la mayoría de navieras en el
+          país
         </li>
         <li class="my-3 benefits-list__item">
-          Servicio Full Service (llave en mano)
+          Servicio completo y acompañamiento 100%
         </li>
       </ol>
     </AppSection>
@@ -146,7 +146,7 @@ export default Vue.extend({
 
 .benefits-list__item::before {
   counter-increment: benefits-item;
-  content: counter(benefits-item);
+  content: counter(benefits-item) '.';
 
   @apply mr-2;
 }
