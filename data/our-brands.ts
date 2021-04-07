@@ -67,7 +67,7 @@ export const ourBrands: { [key: string]: any } = {
     logo:
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267416/logos/Famosa_v2ew4a.png',
     description:
-      'Desde Guatemala a Estados Unidos, Famosa es la cerveza irreverente, fuera de lo común y que sigue su propio camino.  Con nuestra calidad certificada, te acompañamos en momentos inigualables, ¡compartiendo con tus amigos y familia la mejor cerveza! ¡Viva Famosa!',
+      'FAMOSA, fórmula de excelencia con historia de más de 125 años. Creada en 1,896 bajo el maestro cervecero de origen alemán, German Spitz, que ha llegado a Estados Unidos y otros países del mundo a conquistar los corazones y el paladar de los latinos. Una cerveza lager clara con contenido alcohólico de 5.0%. Con cuerpo definido, aroma acelerado y una fórmula reconocida por sus notas amargas y herbáceas provenientes del lúpulo; con sabor prolongado.',
     products: [
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267937/products/Famosa/Six_Pack_wbazdt.png',
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267932/products/Famosa/12_pack_t7trf7.png',

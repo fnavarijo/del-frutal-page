@@ -3,6 +3,7 @@
     <img class="w-48" :src="image" alt="" />
     <button
       class="bg-normal-blue-500 text-white font-bold py-2 px-8 rounded-xl absolute -bottom-4"
+      @click="$emit('click')"
     >
       Ver más
     </button>
