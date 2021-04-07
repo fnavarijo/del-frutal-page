@@ -46,7 +46,7 @@
       />
     </div>
     <div v-else>
-      <h3 class="text-center text-2xl mb-12">
+      <h3 class="text-center text-3xl mb-12 font-thin">
         {{ selectedCategoryName }}
       </h3>
       <OurProductCardSlider
