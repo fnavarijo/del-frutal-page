@@ -7,16 +7,16 @@
     />
     <div v-if="!selectedCategory">
       <div class="flex items-center mb-4">
-        <span class="font-light inline-block w-full text-center text-3xl"
+        <span class="font-light inline-block w-full text-center text-2xl"
           >Cervezas y Maltas</span
         >
-        <span class="font-light inline-block w-full text-center text-3xl"
+        <span class="font-light inline-block w-full text-center text-2xl"
           >Snacks</span
         >
-        <span class="font-light inline-block w-full text-center text-3xl"
+        <span class="font-light inline-block w-full text-center text-2xl"
           >Atoles y Cereales</span
         >
-        <span class="font-light inline-block w-full text-center text-3xl"
+        <span class="font-light inline-block w-full text-center text-2xl"
           >Bebidas</span
         >
       </div>
