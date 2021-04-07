@@ -22,6 +22,14 @@
   src: url('~assets/fonts/GothamPro-Black.woff');
 }
 
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('~assets/fonts/GothamPro-Light.woff');
+}
+
 html,
 body {
   scroll-behavior: smooth;
