@@ -1,6 +1,6 @@
 <template>
   <div class="w-full overflow-hidden relative">
-    <MapBackground class="absolute -top-48 -left-64" />
+    <MapBackground class="absolute -top-48 -left-64 text-normal-red-400" />
   </div>
 </template>
 
