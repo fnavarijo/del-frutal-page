@@ -43,6 +43,12 @@ module.exports = {
           100: '#ced5de',
           500: '#0f2646',
         },
+        'normal-red': {
+          400: '#e23342',
+        },
+        'normal-yellow': {
+          400: '#f2a83d',
+        },
         'dark-blue': {
           200: '#3b4552',
           700: '#0d223c',
@@ -65,6 +71,14 @@ module.exports = {
         '-12': '-3rem',
         '-16': '-4rem',
         '-20': '-5rem',
+        '-24': '-6rem',
+        '-28': '-7rem',
+        '-32': '-8rem',
+        '-40': '-10rem',
+        '-48': '-12rem',
+        '-56': '-14rem',
+        '-60': '-16rem',
+        '-64': '-18rem',
         '-250': '-250px',
       },
       borderWidth: {
@@ -82,6 +96,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         16: 'repeat(16, minmax(0, 1fr))',
+        'box-bigger': 'minmax(0, 1fr) minmax(0, 2fr)',
       },
     },
   },
