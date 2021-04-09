@@ -20,17 +20,20 @@
           >Bebidas</span
         >
       </div>
-      <div class="flex bg-neutral-gray-200 rounded-3xl space-x-12">
+      <div class="flex bg-neutral-gray-200 rounded-3xl space-x-6">
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267416/logos/Famosa_v2ew4a.png"
+          class="border-r border-black pr-6 pl-6"
           @click="setCategory('beer', 'Cervezas y Maltas')"
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267439/logos/Se%C3%B1orial_tlayvc.png"
+          class="border-r border-black pr-6 pl-6"
           @click="setCategory('snack', 'Snacks')"
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347996/logos/Logo_bhilnf.png"
+          class="border-r border-black pr-6 pl-6"
           @click="setCategory('atole-cereals', 'Atoles y Cereales')"
         />
         <OurProductCard
