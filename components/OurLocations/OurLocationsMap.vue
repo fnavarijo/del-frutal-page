@@ -753,7 +753,8 @@
         />
         <path
           id="usa-pin-12"
-          class="fill-current text-normal-red-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-red-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'oklahoma')"
           d="m 142.9,101.1 c -0.7,-0.7 -1.9,-0.7 -2.7,0 -0.7,0.7 -0.7,1.9 -0.2,2.7 l 1.5,2.2 1.5,-2.2 c 0.7,-0.8 0.6,-2.1 -0.1,-2.7 z m -1.3,2.3 c -0.5,0 -1,-0.4 -1,-1 0,-0.5 0.4,-1 1,-1 0.5,0 1,0.4 1,1 0,0.5 -0.4,1 -1,1 z m 0,-0.4"
         />
       </g>
@@ -765,7 +766,8 @@
         />
         <path
           id="cuba-pin-1"
-          class="fill-current text-normal-red-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-red-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'cuba')"
           d="m 163.1,115 c -0.7,-0.7 -1.9,-0.7 -2.7,0 -0.7,0.7 -0.7,1.9 -0.2,2.7 l 1.5,2.2 1.5,-2.2 c 0.6,-0.8 0.5,-2.1 -0.1,-2.7 z m -1.3,2.3 c -0.5,0 -1,-0.4 -1,-1 0,-0.5 0.4,-1 1,-1 0.5,0 1,0.4 1,1 -0.1,0.5 -0.5,1 -1,1 z m 0,-0.4"
         />
       </g>
@@ -777,7 +779,8 @@
         />
         <path
           id="republica-dominicana-pin-1"
-          class="fill-current text-normal-red-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-red-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'republica-dominicana')"
           d="m 167.3,117.4 c -0.7,-0.7 -1.9,-0.7 -2.7,0 -0.7,0.7 -0.7,1.9 -0.2,2.7 l 1.5,2.2 1.5,-2.2 c 0.7,-0.8 0.6,-2.1 -0.1,-2.7 z m -1.3,2.3 c -0.5,0 -1,-0.4 -1,-1 0,-0.5 0.4,-1 1,-1 0.5,0 1,0.4 1,1 0,0.5 -0.5,1 -1,1 z m 0,-0.4"
         />
       </g>
@@ -789,7 +792,8 @@
         />
         <path
           id="puerto-rico-pin-1"
-          class="fill-current text-normal-red-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-red-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'puerto-rico')"
           d="m 173.6,118 c -0.7,-0.7 -1.9,-0.7 -2.7,0 -0.7,0.7 -0.7,1.9 -0.2,2.7 l 1.5,2.2 1.5,-2.2 c 0.6,-0.8 0.5,-2 -0.1,-2.7 z m -1.4,2.3 c -0.5,0 -1,-0.4 -1,-1 0,-0.5 0.4,-1 1,-1 0.5,0 1,0.4 1,1 0,0.5 -0.4,1 -1,1 z m 0,-0.4"
         />
       </g>
@@ -801,7 +805,8 @@
         />
         <path
           id="mexico-pin-1"
-          class="fill-current text-normal-red-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-red-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'mexico')"
           d="m 138.9,113.1 c -0.7,-0.7 -1.9,-0.7 -2.7,0 -0.7,0.7 -0.7,1.9 -0.2,2.7 l 1.5,2.2 1.5,-2.2 c 0.6,-0.8 0.5,-2 -0.1,-2.7 z m -1.4,2.3 c -0.5,0 -1,-0.4 -1,-1 0,-0.5 0.4,-1 1,-1 0.5,0 1,0.4 1,1 0,0.6 -0.4,1 -1,1 z m 0,-0.3"
         />
       </g>
@@ -813,7 +818,8 @@
         />
         <path
           id="usa-pin-4"
-          class="fill-current text-normal-yellow-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-yellow-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'texas')"
           d="m 140.8,108 c -0.4,-0.4 -1.1,-0.4 -1.5,0 -0.4,0.4 -0.4,1.1 -0.1,1.5 l 0.9,1.2 0.9,-1.2 c 0.2,-0.4 0.2,-1.1 -0.2,-1.5 z m -0.7,1.3 c -0.3,0 -0.6,-0.3 -0.6,-0.6 0,-0.3 0.3,-0.6 0.6,-0.6 0.3,0 0.6,0.3 0.6,0.6 -0.1,0.4 -0.3,0.6 -0.6,0.6 z m 0,-0.2"
         />
       </g>
@@ -837,7 +843,8 @@
         />
         <path
           id="usa-pin-1"
-          class="fill-current text-normal-yellow-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-yellow-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'washington')"
           d="m 123.1,90.2 c -0.4,-0.4 -1.1,-0.4 -1.5,0 -0.4,0.4 -0.4,1.1 -0.1,1.5 l 0.9,1.2 0.9,-1.2 c 0.2,-0.4 0.1,-1.1 -0.2,-1.5 z m -0.8,1.3 c -0.3,0 -0.6,-0.3 -0.6,-0.6 0,-0.3 0.3,-0.6 0.6,-0.6 0.3,0 0.6,0.3 0.6,0.6 0,0.4 -0.3,0.6 -0.6,0.6 z m 0,-0.2"
         />
       </g>
@@ -873,7 +880,8 @@
         />
         <path
           id="usa-pin-8"
-          class="fill-current text-normal-yellow-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-yellow-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'virginia')"
           d="m 159.6,100.9 c -0.4,-0.4 -1.1,-0.4 -1.5,0 -0.4,0.4 -0.4,1.1 -0.1,1.5 l 0.9,1.2 0.9,-1.2 c 0.2,-0.4 0.2,-1.1 -0.2,-1.5 z m -0.7,1.3 c -0.3,0 -0.6,-0.3 -0.6,-0.6 0,-0.3 0.3,-0.6 0.6,-0.6 0.3,0 0.6,0.3 0.6,0.6 -0.1,0.4 -0.3,0.6 -0.6,0.6 z m 0,-0.2"
         />
       </g>
@@ -897,7 +905,8 @@
         />
         <path
           id="usa-pin-7"
-          class="fill-current text-normal-yellow-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-yellow-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'alabama')"
           d="m 151.7,106.8 c -0.4,-0.4 -1.1,-0.4 -1.5,0 -0.4,0.4 -0.4,1.1 -0.1,1.5 l 0.9,1.2 0.9,-1.2 c 0.3,-0.4 0.2,-1.1 -0.2,-1.5 z m -0.7,1.3 c -0.3,0 -0.6,-0.3 -0.6,-0.6 0,-0.3 0.3,-0.6 0.6,-0.6 0.3,0 0.6,0.3 0.6,0.6 -0.1,0.4 -0.3,0.6 -0.6,0.6 z m 0,-0.2"
         />
       </g>
@@ -957,7 +966,8 @@
         />
         <path
           id="usa-pin-2"
-          class="fill-current text-normal-yellow-400 opacity-0 transform -translate-y-1 transition ease-linear duration-200"
+          class="fill-current text-normal-yellow-400 opacity-0 transform transition ease-linear duration-200"
+          :class="displayPin(selectedArea, 'arizona')"
           d="m 133.9,105.5 c -0.4,-0.4 -1.1,-0.4 -1.5,0 -0.4,0.4 -0.4,1.1 -0.1,1.5 l 0.9,1.2 0.9,-1.2 c 0.2,-0.4 0.2,-1.1 -0.2,-1.5 z m -0.7,1.3 c -0.3,0 -0.6,-0.3 -0.6,-0.6 0,-0.3 0.3,-0.6 0.6,-0.6 0.3,0 0.6,0.3 0.6,0.6 -0.1,0.4 -0.3,0.6 -0.6,0.6 z m 0,-0.2"
         />
       </g>
@@ -983,14 +993,14 @@ export default Vue.extend({
   components: {
     MapBackground,
   },
+  props: {
+    selectedArea: {
+      type: String,
+      default: '',
+    },
+  },
   mounted() {
-    const countries = [
-      'mexico',
-      'usa',
-      'puerto-rico',
-      'republica-dominicana',
-      'cuba',
-    ];
+    const countries = ['usa'];
     countries.forEach((country) => {
       const countryElement = document.getElementById(country);
       countryElement!.onmouseover = this.setColor;
@@ -1023,6 +1033,11 @@ export default Vue.extend({
         pin?.classList.remove('opacity-100');
         pin?.classList.add('-translate-y-1');
       });
+    },
+    displayPin(countryName: string, countryToMatch: string) {
+      return countryName === countryToMatch
+        ? 'translate-y-0 opacity-100'
+        : '-translate-y-1';
     },
   },
 });

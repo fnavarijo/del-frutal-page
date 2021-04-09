@@ -88,55 +88,7 @@
       </div>
     </AppSection>
     <a id="find-edt" class="block relative -top-250 invisible" />
-    <AppSection
-      class="min-h-screen-1/2"
-      max-content=""
-      inner-container-class="w-full"
-    >
-      <div class="grid grid-cols-box-bigger w-full">
-        <div class="md:pl-12 lg:pl-12 xl:pl-24">
-          <header>
-            <h2 class="text-6xl font-thin">Descubre EDT</h2>
-          </header>
-          <ul>
-            <li class="text-2xl font-bold triangle-bullet">
-              <span>Estados Unidos</span>
-            </li>
-            <ul class="ml-4 text-base font-normal">
-              <li>Arizona</li>
-              <li>California</li>
-              <li>Delawere</li>
-              <li>Florida</li>
-              <li>Georgia</li>
-              <li>Illinois</li>
-              <li>Maryland</li>
-              <li>Massachusetts</li>
-              <li>New Jersey</li>
-              <li>Nuevo York</li>
-              <li>Tennessee</li>
-              <li>Texas</li>
-              <li>Virginia</li>
-              <li>Alabama</li>
-              <li>Washington</li>
-              <li>Oklahoma</li>
-            </ul>
-            <li class="text-2xl font-bold triangle-bullet">
-              <span>México</span>
-            </li>
-            <li class="text-2xl font-bold triangle-bullet">
-              <span>Puerto Rico</span>
-            </li>
-            <li class="text-2xl font-bold triangle-bullet">
-              <span>Cuba</span>
-            </li>
-            <li class="text-2xl font-bold triangle-bullet">
-              <span>República Dominicana</span>
-            </li>
-          </ul>
-        </div>
-        <OurLocationsMap />
-      </div>
-    </AppSection>
+    <DiscoverEDT />
     <AppSection inner-container-class="w-full">
       <div class="relative pt-16-9ratio h-0 w-full min">
         <iframe
