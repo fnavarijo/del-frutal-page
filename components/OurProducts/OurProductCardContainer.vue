@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col relative">
+  <div class="flex flex-col relative w-full">
     <DownArrow
       v-show="!!selectedCategory"
       class="fill-current text-normal-blue-500 w-8 h-8 transform rotate-90 absolute -top-16 left-0 cursor-pointer"

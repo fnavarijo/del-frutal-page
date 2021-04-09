@@ -22,12 +22,16 @@ module.exports = {
         7: '1.75rem',
         '30px': '30px',
         '37px': '37px',
+        '640px': '640px',
+        '860px': '860px',
       },
       height: {
         7: '1.75rem',
         '30px': '30px',
         'screen-1/2': '50vh',
         'screen-1/3': '33vh',
+        '1/2': '50%',
+        '4/5': '80%',
       },
       minHeight: {
         'screen-1/3': '33vh',
