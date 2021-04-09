@@ -84,22 +84,28 @@ export const ourBrands: { [key: string]: any } = {
       'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347996/logos/Logo_bhilnf.png',
     description:
       'Incaparina es un alimento altamente nutricional. Es una mezcla 100% vegetal procedente del maíz y soya, fortificada con vitaminas y minerales esenciales, hierro y zinc. ¡Incaparina es energía, fuerza y salud para toda la familia!',
+    'description-multicereal':
+      'Es una bebida instantánea que ofrece los mismos beneficios nutricionales de Incaparina Original® en una variedad de deliciosos sabores: strudel de manzana, vainilla y chocolate. Este innovador y práctico producto es una mezcla en polvo elaborada a base de tres cereales: avena, soya y arroz. Para su preparación solamente se agrega agua o leche y listo, no es necesario agregar azúcar o cocerlo.',
     products: [
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268096/products/Incaparina/Chocolate_u0nem8.png',
+        presentation: 'Multicereal',
       },
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268095/products/Incaparina/Vainilla_maqrav.png',
+        presentation: 'Multicereal',
       },
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268095/products/Incaparina/Strudel_de_Manzana_a46a80.png',
+        presentation: 'Multicereal',
       },
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268094/products/Incaparina/Incaparina_Original_ykfrae.png',
+        presentation: 'Original',
       },
     ],
   },

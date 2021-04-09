@@ -2,8 +2,11 @@
   <div class="grid grid-cols-1 md:grid-cols-2">
     <div class="flex flex-col justify-center">
       <img class="w-56 mb-8" :src="brand.logo" alt="" />
-      <p>
+      <p v-if="!showExtraDescription">
         {{ brand.description }}
+      </p>
+      <p v-else>
+        {{ brand['description-multicereal'] }}
       </p>
       <div v-if="showSocial" class="flex">
         <FbIcon class="w-16 h-16" />
@@ -58,6 +61,7 @@ export default Vue.extend({
   data() {
     return {
       presentation: '',
+      showExtraDescription: false,
     };
   },
   computed: {
@@ -67,7 +71,9 @@ export default Vue.extend({
   },
   methods: {
     setPresentation(index: number): void {
-      this.presentation = this.brand.products[index].presentation;
+      const presentation = this.brand.products[index].presentation || '';
+      this.presentation = presentation;
+      this.showExtraDescription = presentation.includes('Multicereal');
     },
     getProductImages(products: Array<any>): Array<string> {
       return products.map(({ url }: { url: string }) => url);
