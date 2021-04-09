@@ -21,6 +21,61 @@ export const ourBrands: { [key: string]: any } = {
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267694/products/DelFrutal/Tetra_200ml_ykzlve.png',
         presentation: 'Tetra 200ml',
       },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952399/products/DelFrutal/DF-MANZANA-200ML-2_dxgvfw.jpg',
+        presentation: 'Tetra 200ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952399/products/DelFrutal/DF-MELOCOT%C3%93N-200ML-2_zrjz0z.jpg',
+        presentation: 'Tetra 200ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952401/products/DelFrutal/330ml_etxf2u.png',
+        presentation: 'Lata 300ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952401/products/DelFrutal/1_1000ml_uh8j5m.jpg',
+        presentation: 'Litro',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952401/products/DelFrutal/1000ml_fj85og.jpg',
+        presentation: 'Litro',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952402/products/DelFrutal/DF-MANGO-200ML-2_korfhg.jpg',
+        presentation: 'Tetra 200ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952403/products/DelFrutal/Manzana-Lata330ml_k30mcr.jpg',
+        presentation: 'Lata 300ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952404/products/DelFrutal/M_1000ml_vbfueq.jpg',
+        presentation: 'Litro',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952404/products/DelFrutal/Melocot%C3%B3n-Lata-330ml_sxzoxp.jpg',
+        presentation: 'Lata 330ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952405/products/DelFrutal/Pera-Lata-330ml_e9iahl.jpg',
+        presentation: 'Lata 330ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952405/products/DelFrutal/Tetra_Litro_larkvs.png',
+        presentation: 'Litro',
+      },
     ],
   },
   incaparina: {
@@ -88,6 +143,22 @@ export const ourBrands: { [key: string]: any } = {
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268034/products/GranDia/2_qdfukh.png',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952096/products/GranDia/66_onoa3d.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952096/products/GranDia/YOGURT_wrlq7b.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952096/products/GranDia/_LINAZA_r6mmvm.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617952097/products/GranDia/Cereal-Dulciaritos-Gran-D%C3%ADa_-Cereal-de-Ma%C3%ADz-y-Avena-con-Sabor-a-Frutas-540-g_psfmgw.jpg',
       },
     ],
   },
@@ -200,6 +271,37 @@ export const ourBrands: { [key: string]: any } = {
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615268323/products/NectorMaravilla/Tertra_zzyfbt.png',
         presentation: 'Tetra 200ml',
       },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951615/products/NectorMaravilla/Lata_Pina_sfrboh.jpg',
+        presentation: 'Lata 300ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951615/products/NectorMaravilla/guayaba-200ml_vo541p.jpg',
+        presentation: 'Tetra 200ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951615/products/NectorMaravilla/Lata_Manzana_sp5emp.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951615/products/NectorMaravilla/mango-200ml_ovov9a.jpg',
+        presentation: 'Tetra 200ml',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951616/products/NectorMaravilla/mango-litro_qmrspd.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951616/products/NectorMaravilla/durazno-litro_kfdhak.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951616/products/NectorMaravilla/manzana-200ml_y1nbq3.jpg',
+      },
     ],
   },
 
@@ -303,6 +405,30 @@ export const ourBrands: { [key: string]: any } = {
       {
         url:
           'https://res.cloudinary.com/dxsslqd7f/image/upload/v1615348994/products/Revive/1_axv7hj.png',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951356/products/Revive/ReviveNarandina_d1jmxe.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951356/products/Revive/ReviveFrutiponch_oktj4y.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951357/products/Revive/Studio75_1889-Modifier_j8devl.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951357/products/Revive/PachonReviveNarandina_foljqo.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951357/products/Revive/PachonReviveFramberry_i4nfhw.jpg',
+      },
+      {
+        url:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1617951357/products/Revive/PachonReviveGruva_vrbfva.jpg',
       },
     ],
   },

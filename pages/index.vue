@@ -54,7 +54,7 @@
       max-content="xl:max-w-screen-xl"
     >
       <header class="text-center mb-16">
-        <h2 class="text-5xl font-thin">Nuestras <strong>Marcas</strong></h2>
+        <h2 class="text-5xl font-thin">Nuestras Marcas</h2>
       </header>
       <!-- <OurProductsTabs /> -->
       <OurProductCardContainer />
