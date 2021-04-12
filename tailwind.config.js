@@ -19,6 +19,7 @@ module.exports = {
         sans: ['Gotham', ...defaultTheme.fontFamily.sans],
       },
       width: {
+        'extra-full': '150%',
         7: '1.75rem',
         '30px': '30px',
         '37px': '37px',
@@ -66,6 +67,7 @@ module.exports = {
       },
       inset: {
         '1/2': '50%',
+        '1/4': '25%',
         4: '1rem',
         6: '1.5rem',
         8: '2rem',
@@ -101,6 +103,10 @@ module.exports = {
       gridTemplateColumns: {
         16: 'repeat(16, minmax(0, 1fr))',
         'box-bigger': 'minmax(0, 1fr) minmax(0, 2fr)',
+      },
+      translate: {
+        '1/4': '25%',
+        '-1/4': '-25%',
       },
     },
   },

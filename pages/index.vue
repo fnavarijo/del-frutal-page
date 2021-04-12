@@ -128,6 +128,9 @@ export default Vue.extend({
       isIndexVisible: false,
     };
   },
+  async fetch() {
+    await this.$store.dispatch('products/fetchProducts', 'beer');
+  },
   computed: {
     ourGroupItems(): Array<any> {
       return [

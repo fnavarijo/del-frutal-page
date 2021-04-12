@@ -1,7 +1,7 @@
 <template>
   <div class="w-860px">
     <Hooper :items-to-show="4">
-      <Slide v-for="(product, index) in selectedProducts" :key="index">
+      <Slide v-for="(product, index) in products" :key="index">
         <OurProductCard
           :image="product.url"
           class="h-4/5 bg-neutral-gray-200"
@@ -42,6 +42,10 @@ export default Vue.extend({
     selectedCategory: {
       type: String,
       required: true,
+    },
+    products: {
+      type: Array,
+      default: () => [],
     },
   },
   computed: {

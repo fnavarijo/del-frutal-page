@@ -38,7 +38,7 @@
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267362/logos/Del_frutal_y302jx.png"
-          @click="setCategory('drinks', 'Bebidas')"
+          @click="setCategory('drink', 'Bebidas')"
         />
       </div>
     </div>
@@ -46,6 +46,7 @@
       <OurProducts
         :selected-brand="selectedProduct"
         :show-social="showSocial(selectedProduct)"
+        :brand-info="singleProduct"
       />
     </div>
     <div v-else>
@@ -54,7 +55,8 @@
       </h3>
       <OurProductCardSlider
         :selected-category="selectedCategory"
-        @selected-product="selectedProduct = $event"
+        :products="products"
+        @selected-product="selectedProductHandler"
       />
     </div>
   </div>
@@ -62,6 +64,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import { mapState } from 'vuex';
 
 // @ts-ignore
 import DownArrow from '@/assets/img/down-arrow.svg?inline';
@@ -78,10 +81,14 @@ export default Vue.extend({
       selectedProduct: '',
     };
   },
+  computed: {
+    ...mapState('products', ['products', 'singleProduct']),
+  },
   methods: {
-    setCategory(categoryKey: string, categoryName: string) {
+    async setCategory(categoryKey: string, categoryName: string) {
       this.selectedCategory = categoryKey;
       this.selectedCategoryName = categoryName;
+      await this.$store.dispatch('products/fetchProducts', categoryKey);
     },
     backToGeneralProducts() {
       if (this.selectedProduct) {
@@ -95,6 +102,10 @@ export default Vue.extend({
       return ['famosa', 'del-frutal', 'incaparina', 'senorial'].includes(
         selectedProduct
       );
+    },
+    async selectedProductHandler(brandUID: string) {
+      this.selectedProduct = brandUID;
+      await this.$store.dispatch('products/fetchProductByUID', brandUID);
     },
   },
 });

@@ -1,11 +1,11 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2">
     <div class="flex flex-col justify-center">
-      <img class="w-56 mb-8" :src="brand.logo" alt="" />
-      <p v-if="!showExtraDescription" class="text-justify">
-        {{ brand.description }}
+      <img class="w-56" :src="brandInfo.logo" alt="" />
+      <p v-if="!showExtraDescription" class="text-justify mb-4">
+        {{ brandInfo.description }}
       </p>
-      <p v-else>
+      <p v-else class="mb-6 text-justify">
         {{ brand['description-multicereal'] }}
       </p>
       <div v-if="showSocial" class="flex">
@@ -14,13 +14,13 @@
         <WebIcon class="w-16 h-16" />
       </div>
     </div>
-    <div class="flex items-center justify-center relative">
+    <div class="flex flex-col items-center justify-center relative">
       <OurProductCarousel
         :name="brand.name || ''"
-        :images="getProductImages(brand.products)"
+        :images="getProductImages(brandInfo.products || [])"
         @selected-presentation="setPresentation"
       />
-      <div v-show="presentation" class="absolute bottom-0 right-0">
+      <div v-show="presentation" class="mt-8">
         {{ presentation }}
       </div>
     </div>
@@ -57,6 +57,10 @@ export default Vue.extend({
       type: Boolean,
       default: false,
     },
+    brandInfo: {
+      type: Object,
+      required: true,
+    },
   },
   data() {
     return {
@@ -69,9 +73,17 @@ export default Vue.extend({
       return ourBrands[this.selectedBrand] || {};
     },
   },
+  watch: {
+    brandInfo() {
+      this.setPresentation(0);
+    },
+  },
+  mounted() {
+    this.setPresentation(0);
+  },
   methods: {
     setPresentation(index: number): void {
-      const presentation = this.brand.products[index].presentation || '';
+      const presentation = this.brandInfo.products?.[index].presentation || '';
       this.presentation = presentation;
       this.showExtraDescription = presentation.includes('Multicereal');
     },
