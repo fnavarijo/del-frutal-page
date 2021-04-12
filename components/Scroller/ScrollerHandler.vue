@@ -12,7 +12,7 @@
       @click="updateStep(index)"
     />
     <ScrollerSelectedDot
-      class="w-8 absolute text-dark-blue-700 transition-all linear duration-200"
+      class="w-8 absolute text-dark-blue-700 transition-all linear duration-200 transform -translate-x-1/4"
       :style="{ left: `${thumbPosition}%` }"
     />
   </div>
