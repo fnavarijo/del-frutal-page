@@ -1,6 +1,7 @@
 <template>
   <AppSection
     class="text-white"
+    max-content=""
     :style="{
       background:
         'linear-gradient(180deg, rgba(0,0,0,0.75), rgba(0, 0, 0, 0)), #0f2646',
@@ -10,7 +11,7 @@
       <h1 class="text-5xl font-thin">Comunícate con Nosotros</h1>
     </header>
     <ContactUsForm class="w-full mb-8" />
-    <div class="grid grid-cols-4 gap-4 absolute bottom-8 mx-8">
+    <div class="grid grid-cols-4 gap-4 absolute bottom-8 left-0 right-0 mx-8">
       <LocationInfo
         country="Estados unidos"
         address="EDT USA Corporation, Miami FI."
