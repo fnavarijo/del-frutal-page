@@ -34,13 +34,13 @@
           <h3 class="text-2xl font-light">Comunícate con nosotros:</h3>
           <ContactUsForm />
         </div>
-        <div class="flex flex-row md:flex-col justify-around">
+        <!-- <div class="flex flex-row md:flex-col justify-around">
           <img class="w-10" src="~assets/img/google-plus.png" alt="" />
           <img class="w-10" src="~assets/img/facebook.png" alt="" />
           <img class="w-10" src="~assets/img/twitter.png" alt="" />
           <img class="w-10" src="~assets/img/youtube.png" alt="" />
           <img class="w-10" src="~assets/img/instagram.png" alt="" />
-        </div>
+        </div> -->
       </div>
     </div>
     <div
