@@ -2,7 +2,7 @@
   <div class="grid grid-cols-1 md:grid-cols-2">
     <div class="flex flex-col justify-center">
       <img class="w-56 mb-8" :src="brand.logo" alt="" />
-      <p v-if="!showExtraDescription">
+      <p v-if="!showExtraDescription" class="text-justify">
         {{ brand.description }}
       </p>
       <p v-else>
