@@ -11,11 +11,11 @@
       }"
     >
       <header class="flex flex-col items-center mb-4">
-        <img
+        <!-- <img
           src="~assets/img/edt-simple.png"
           class="w-32 mb-4"
           alt="EDT Logo"
-        />
+        /> -->
         <h1 class="text-5xl md:text-6xl font-thin title-shadow">
           ¿Quiénes somos?
         </h1>
