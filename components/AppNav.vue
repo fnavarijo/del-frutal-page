@@ -33,14 +33,14 @@
             <li
               class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
             >
-              Exportacion
+              Marca Propia
             </li>
           </NuxtLink>
           <NuxtLink to="/private-label">
             <li
               class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
             >
-              Marca Propia
+              Marca Privada
             </li>
           </NuxtLink>
         </ul>

@@ -47,10 +47,10 @@
         <li class="triangle-bullet">Export</li>
         <ul class="ml-6 space-y-4">
           <NuxtLink class="triangle-bullet" to="/export"
-            ><li>Exportación</li></NuxtLink
+            ><li>Marca Propia</li></NuxtLink
           >
           <NuxtLink class="triangle-bullet" to="/private-label"
-            ><li>Marca Propia</li></NuxtLink
+            ><li>Marca Privada</li></NuxtLink
           >
         </ul>
         <NuxtLink to="/contact-us" class="triangle-bullet"
