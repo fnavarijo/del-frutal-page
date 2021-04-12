@@ -2,7 +2,7 @@
   <div class="pt-12">
     <AppSection bg-color="white">
       <header class="md:mb-8 xl:mb-0">
-        <h1 class="text-3xl md:text-5xl font-bold text-dark-blue-700">
+        <h1 class="text-3xl md:text-5xl font-thin text-dark-blue-700">
           Servicios de Maquila y Desarrollo de Productos
         </h1>
       </header>
@@ -10,7 +10,7 @@
         <div class="flex items-center justify-center">
           <img class="w-full" src="~assets/img/private-label.png" alt="" />
         </div>
-        <p class="flex items-center">
+        <p class="flex items-center text-justify">
           Tenemos la capacidad para desarrollar marcas y productos para cubrir
           cualquier tipo de necesidad de nuestros clientes en el ramo de:
           Cerveza, Cereales, Malta, Bebidas Carbonatadas y Néctares.
@@ -25,7 +25,7 @@
         </p>
       </div>
       <div>
-        <h2 class="text-3xl font-bold text-dark-blue-700">
+        <h2 class="text-3xl font-thin text-dark-blue-700 text-justify">
           Servicios Integrales
         </h2>
         <p>
@@ -37,7 +37,7 @@
     </AppSection>
     <AppSection class="min-h-screen-1/3 text-white" justify="start">
       <header class="mb-8">
-        <h2 class="text-4xl font-light">Beneficios</h2>
+        <h2 class="text-3xl font-light">Beneficios</h2>
       </header>
       <ol class="benefits-list text-lg space-y-4">
         <li class="mb-3 benefits-list__item">
@@ -68,7 +68,7 @@
     </AppSection>
     <AppSection>
       <header class="mb-4">
-        <h2 class="text-4xl font-bold text-white">Más Información</h2>
+        <h2 class="text-3xl font-thin text-white">Más Información</h2>
       </header>
       <form class="w-full">
         <FormInput class="mb-4" name="nombre" placeholder="Nombre:" />

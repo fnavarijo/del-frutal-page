@@ -16,11 +16,11 @@
           class="w-32 mb-4"
           alt="EDT Logo"
         />
-        <h1 class="text-4xl md:text-6xl font-bold title-shadow">
+        <h1 class="text-5xl md:text-6xl font-thin title-shadow">
           ¿Quiénes somos?
         </h1>
       </header>
-      <p>
+      <p class="text-justify">
         EDT comercializa alimentos y bebidas de clase mundial, dando a nuestros
         clientes una amplia variedad de posibilidades de acuerdo a los
         requerimientos específicos del mercado. Los productos que ofrecemos se
@@ -32,16 +32,16 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
         <div class="flex flex-col items-center">
           <img class="h-16 w-16 mb-4" src="~assets/img/vision.svg" alt="" />
-          <h2 class="text-5xl text-center font-bold mb-8">Visión</h2>
-          <p>
+          <h2 class="text-4xl text-center font-thin mb-8">Visión</h2>
+          <p class="text-justify">
             Ser el mejor operador comercial para la exportación de productos de
             los que se nos ha confiado la distribución.
           </p>
         </div>
         <div class="flex flex-col items-center">
           <img class="h-16 w-16 mb-4" src="~assets/img/mision.svg" alt="" />
-          <h2 class="text-5xl text-center font-bold mb-8">Misión</h2>
-          <p>
+          <h2 class="text-4xl text-center font-thin mb-8">Misión</h2>
+          <p class="text-justify">
             Crear y desarrollar negocios que contribuyan a crear valor, por
             medio de los productos que distribuimos, tanto en el mercado
             regional como en el mercado internacional, satisfaciendo a nuestros
@@ -60,9 +60,9 @@
       }"
     >
       <header class="mb-16">
-        <h2 class="text-5xl uppercase font-bold title-shadow">Historia</h2>
+        <h2 class="text-4xl uppercase font-thin title-shadow">Historia</h2>
       </header>
-      <p>
+      <p class="text-justify">
         En 2004 se consolida EDT (Export Development and Trade), como parte de
         la Corporación Castillo Hermanos bajo la Vicepresidencia de Cadenas de
         Comercio e Internacional. Pasando de exportar 350 mil a 3.5 millones de
@@ -71,7 +71,7 @@
     </AppSection>
     <AppSection class="min-h-screen-1/2 text-black" bg-color="white">
       <header>
-        <h2 class="text-4xl text-center font-bold text-normal-blue-500">
+        <h2 class="text-4xl text-center font-thin text-normal-blue-500">
           Propuesta de Valor
         </h2>
       </header>
@@ -86,7 +86,7 @@
           </li>
           <li class="mb-4 triangle-bullet">El cumplimiento de lo ofrecido.</li>
         </ul>
-        <p>
+        <p class="text-justify">
           Nos esforzamos por ser un proveedor de confianza y un importante socio
           comercial de cada uno de nuestros distribuidores. Los productos que
           comercializamos son producidos por fábricas con tecnología de

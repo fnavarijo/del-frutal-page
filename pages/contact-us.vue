@@ -7,7 +7,7 @@
     }"
   >
     <header class="mb-4">
-      <h1 class="text-4xl font-bold">Comunícate con Nosotros</h1>
+      <h1 class="text-5xl font-thin">Comunícate con Nosotros</h1>
     </header>
     <ContactUsForm class="w-full mb-8" />
     <div class="grid grid-cols-4 gap-4 absolute bottom-8 mx-8">

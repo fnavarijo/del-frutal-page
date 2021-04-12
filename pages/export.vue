@@ -9,11 +9,11 @@
         <h1 class="text-4xl md:text-6xl font-thin text-center">
           Exportación de Marcas Propias
         </h1>
-        <h2 class="text-xl md:text-3xl font-bold text-center">
+        <h2 class="text-xl md:text-3xl font-thin text-center">
           Asesoría en Mercados Internacionales
         </h2>
       </header>
-      <p>
+      <p class="text-justify">
         La creación de productos a escala internacional, requiere una serie
         pasos previos para planificar desde la creación de la marca, hasta la
         puesta en el mercado escogido para comercializarlo, así como el
@@ -36,14 +36,14 @@
     >
       <header class="w-full">
         <h2
-          class="mb-8 text-3xl md:text-5xl text-normal-blue-500 font-bold text-left leading-none"
+          class="mb-8 text-3xl md:text-5xl text-normal-blue-500 font-thin text-left leading-none"
         >
           Capacidad para exportar a<br />
           Mercados Internacionales
         </h2>
       </header>
       <div>
-        <p>
+        <p class="text-justify">
           Actualmente, exportamos nuestros productos desde Centroamérica a
           diferentes partes del mundo, incluyendo:
         </p>
@@ -55,7 +55,7 @@
           <li class="line-bullet font-bold">Africa</li>
           <li class="line-bullet font-bold">Australia</li>
         </ul>
-        <p>
+        <p class="text-justify">
           Sin embargo, tenemos la capacidad para cubrir cualquier país que el
           cliente requiera.
         </p>

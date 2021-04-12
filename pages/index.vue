@@ -34,7 +34,7 @@
       <header class="w-full mb-24 relative flex items-center justify-center">
         <hr class="w-full h-1 bg-white absolute top-1/2" />
         <h2
-          class="px-4 md:px-8 text-2xl md:text-4xl relative capitalize inline-block bg-normal-blue-500 font-thin"
+          class="px-4 md:px-8 text-2xl md:text-5xl relative capitalize inline-block bg-normal-blue-500 font-thin"
         >
           Nuestro Grupo
         </h2>
@@ -71,10 +71,10 @@
       <div>
         <header class="mb-4">
           <img class="h-16 mb-2" src="~assets/img/edt-simple.png" alt="" />
-          <h2 class="font-bold text-xl">Export Development and Trade</h2>
+          <h2 class="font-thin text-xl">Export Development and Trade</h2>
         </header>
         <div>
-          <p>
+          <p class="text-justify">
             Comercializamos alimentos y bebidas de clase mundial, brindando a
             nuestros clientes una amplia variedad de posibilidades de acuerdo
             con los requisitos específicos de cada mercado.

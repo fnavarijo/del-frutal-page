@@ -7,7 +7,7 @@
     <div class="grid grid-cols-box-bigger w-full">
       <div class="md:pl-12 lg:pl-12 xl:pl-24">
         <header>
-          <h2 class="text-6xl font-thin">Descubre EDT</h2>
+          <h2 class="text-5xl font-thin">Descubre EDT</h2>
         </header>
         <ul>
           <li class="text-2xl font-bold triangle-bullet">
