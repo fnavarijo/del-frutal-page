@@ -89,7 +89,7 @@
     </AppSection>
     <a id="find-edt" class="block relative -top-250 invisible" />
     <DiscoverEDT />
-    <AppSection inner-container-class="w-full">
+    <AppSection inner-container-class="w-full" max-content="">
       <div class="relative pt-16-9ratio h-0 w-full min">
         <iframe
           src="https://player.vimeo.com/video/517305723"
