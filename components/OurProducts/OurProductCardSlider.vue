@@ -1,6 +1,13 @@
 <template>
-  <div class="w-860px">
-    <Hooper :items-to-show="4">
+  <div>
+    <Hooper
+      :items-to-show="4"
+      style="height: 300px"
+      class="focus:outline-none"
+      :wheel-control="false"
+      :short-drag="false"
+      :trim-white-space="true"
+    >
       <Slide v-for="(product, index) in products" :key="index">
         <OurProductCard
           :image="product.url"

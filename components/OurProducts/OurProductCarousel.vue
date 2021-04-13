@@ -1,9 +1,14 @@
 <template>
   <div class="flex flex-col items-center">
     <div class="mb-8">
-      <span v-for="(img, index) in images" :key="index">
-        <img v-show="selectedStep === index" :src="img" class="w-64" alt="" />
-      </span>
+      <div v-for="(img, index) in images" :key="index">
+        <img
+          v-show="selectedStep === index"
+          :src="img"
+          class="w-200px h-450px object-cover"
+          alt=""
+        />
+      </div>
     </div>
     <div class="w-extra-full">
       <ScrollerHandler

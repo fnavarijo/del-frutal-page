@@ -52,6 +52,7 @@
       bg-color="white"
       class="text-normal-blue-500 min-h-screen-2/3 my-8"
       max-content="xl:max-w-screen-xl"
+      inner-container-class="w-full"
     >
       <header class="text-center mb-16">
         <h2 class="text-5xl font-thin">Nuestras Marcas</h2>

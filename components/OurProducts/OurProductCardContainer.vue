@@ -5,7 +5,7 @@
       class="fill-current text-normal-blue-500 w-8 h-8 transform rotate-90 absolute -top-16 left-0 cursor-pointer"
       @click="backToGeneralProducts"
     />
-    <div v-if="!selectedCategory">
+    <div v-if="!selectedCategory" class="w-4/5 mx-auto">
       <div class="flex items-center mb-4">
         <span class="font-light inline-block w-full text-center text-2xl"
           >Cervezas y Maltas</span
@@ -20,24 +20,25 @@
           >Bebidas</span
         >
       </div>
-      <div class="flex bg-neutral-gray-200 rounded-3xl space-x-6">
+      <div class="flex bg-neutral-gray-200 rounded-3xl">
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267416/logos/Famosa_v2ew4a.png"
-          class="border-r border-black pr-6 pl-6"
+          class="border-r border-black px-12"
           @click="setCategory('beer', 'Cervezas y Maltas')"
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267439/logos/Se%C3%B1orial_tlayvc.png"
-          class="border-r border-black pr-6 pl-6"
+          class="border-r border-black px-12"
           @click="setCategory('snack', 'Snacks')"
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615347996/logos/Logo_bhilnf.png"
-          class="border-r border-black pr-6 pl-6"
+          class="border-r border-black px-12"
           @click="setCategory('atole-cereals', 'Atoles y Cereales')"
         />
         <OurProductCard
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1615267362/logos/Del_frutal_y302jx.png"
+          class="px-12"
           @click="setCategory('drink', 'Bebidas')"
         />
       </div>
@@ -49,7 +50,7 @@
         :brand-info="singleProduct"
       />
     </div>
-    <div v-else>
+    <div v-else class="w-4/5 mx-auto">
       <h3 class="text-center text-3xl mb-12 font-thin">
         {{ selectedCategoryName }}
       </h3>

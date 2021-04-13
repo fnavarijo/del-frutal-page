@@ -23,6 +23,7 @@ module.exports = {
         7: '1.75rem',
         '30px': '30px',
         '37px': '37px',
+        '200px': '200px',
         '640px': '640px',
         '860px': '860px',
       },
@@ -33,6 +34,7 @@ module.exports = {
         'screen-1/3': '33vh',
         '1/2': '50%',
         '4/5': '80%',
+        '450px': '450px',
       },
       minHeight: {
         'screen-1/3': '33vh',
@@ -41,6 +43,7 @@ module.exports = {
       },
       padding: {
         '16-9ratio': '56.25%',
+        '2-ratio': '200%',
       },
       colors: {
         california: '#fb9b03',
