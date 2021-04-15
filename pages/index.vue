@@ -10,41 +10,45 @@
       }"
       class="relative"
     >
-      <h1
-        class="text-5xl md:text-6xl mb-8 text-center font-black leading-14 title-shadow"
-      >
-        Generamos valor<br />
-        a tus Negocios
-      </h1>
-      <NuxtLink
-        to="/contact-us"
-        class="p-4 uppercase bg-california rounded-md font-bold"
-      >
-        Exporta con nosotros
-      </NuxtLink>
-      <NuxtLink to="#our-group">
-        <DownArrow
-          v-show="isIndexVisible"
-          class="fill-current text-white absolute bottom-6 m-auto w-8 h-8 animate-bounce"
-        />
-      </NuxtLink>
+      <h1>Premiada la mejor cerveza</h1>
     </AppSection>
     <a id="our-group" class="block relative -top-250 invisible" />
-    <AppSection class="min-h-screen-1/2" max-content="md:max-w-screen-xl">
-      <header class="w-full mb-24 relative flex items-center justify-center">
-        <hr class="w-full h-1 bg-white absolute top-1/2" />
-        <h2
-          class="px-4 md:px-8 text-2xl md:text-5xl relative capitalize inline-block bg-normal-blue-500 font-thin"
+    <AppSection
+      class="min-h-screen"
+      max-content="md:max-w-screen-xl"
+      :style="{
+        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258341/FAMOSA/Acerca%20de/fondo_fapbpg.jpg')`,
+        backgroundPosition: 'top left',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          class="flex flex-col justify-center items-center md:items-start space-y-4"
         >
-          Nuestro Grupo
-        </h2>
-      </header>
-      <div class="grid grid-cols-2 md:grid-cols-8 gap-4">
-        <OurGroupItem
-          v-for="(item, index) in ourGroupItems"
-          :key="index"
-          v-bind="item"
-        />
+          <img
+            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+            alt=""
+            class="w-56"
+          />
+          <h2 class="text-4xl font-bold">Acerca de Famosa</h2>
+          <p class="text-justify">
+            FAMOSA, fórmula de excelencia con historia de más de 125 años.
+            Creada en 1,896 bajo el maestro cervecero de origen alemán, German
+            Spitz, que ha llegado a Estados Unidos y otros países del mundo a
+            conquistar los corazones y el paladar de los latinos. Una cerveza
+            lager clara con contenido alcohólico de 5.0%. Con cuerpo definido,
+            aroma acelerado y una fórmula reconocida por sus notas amargas y
+            herbáceas provenientes del lúpulo; con sabor prolongado.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618465031/FAMOSA/Acerca%20de/pack_gxwnmh.png"
+            alt=""
+          />
+        </div>
       </div>
     </AppSection>
     <a id="brands" class="block relative -top-16 invisible" />
@@ -54,53 +58,54 @@
       max-content="xl:max-w-screen-xl"
       inner-container-class="w-full"
     >
-      <header class="text-center mb-16">
-        <h2 class="text-5xl font-thin">Nuestras Marcas</h2>
-      </header>
-      <!-- <OurProductsTabs /> -->
-      <OurProductCardContainer />
+      <div>Presetaciones</div>
     </AppSection>
     <AppSection
       class="min-h-screen-1/2 grid grid-cols-2"
       :style="{
-        background: `url(\'${require('~/assets/img/background/development-trade.jpg')}\')`,
+        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Premios/1/fondo_qk5uxh.jpg')`,
         backgroundPosition: 'right',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
       }"
     >
       <div>
-        <header class="mb-4">
-          <img class="h-16 mb-2" src="~assets/img/edt-simple.png" alt="" />
-          <h2 class="font-thin text-xl">Export Development and Trade</h2>
-        </header>
-        <div>
-          <p class="text-justify">
-            Comercializamos alimentos y bebidas de clase mundial, brindando a
-            nuestros clientes una amplia variedad de posibilidades de acuerdo
-            con los requisitos específicos de cada mercado.
-            <br />
-            <br />
-            Los productos que ofrecemos se comercializan en los Estados Unidos,
-            México, el Caribe y Europa, cumpliendo con los altos estándares de
-            calidad requeridos por esos mercados.
-          </p>
-        </div>
+        <img
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258480/FAMOSA/Premios/1/frase_k9bk38.svg"
+          alt=""
+        />
       </div>
     </AppSection>
-    <a id="find-edt" class="block relative -top-250 invisible" />
-    <DiscoverEDT />
-    <AppSection inner-container-class="w-full" max-content="">
-      <div class="relative pt-16-9ratio h-0 w-full min">
-        <iframe
-          src="https://player.vimeo.com/video/517305723"
-          width="640"
-          height="360"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-        ></iframe>
+    <AppSection
+      class="min-h-screen-2/3 grid grid-cols-2"
+      :style="{
+        backgroundImage: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
+        backgroundPosition: 'right',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }"
+    >
+      <div>
+        <h2 class="text-4xl font-bold mb-8">Dónde comprar</h2>
+        <ul>
+          <span class="font-bold triangle-bullet text-xl"
+            >Puntos de venta en Estados Unidos:</span
+          >
+          <li class="ml-6">California</li>
+          <li class="ml-6">New Jersey</li>
+          <li class="ml-6">Georgia</li>
+          <li class="ml-6">New York</li>
+          <li class="ml-6">Texas</li>
+          <li class="ml-6">Florida</li>
+          <li class="ml-6">Illinois</li>
+          <li class="ml-6">Maryland</li>
+          <li class="ml-6">Virginia</li>
+          <li class="ml-6">Alabama</li>
+          <li class="ml-6">Tennessee</li>
+          <li class="ml-6">Massachusetts</li>
+          <li class="ml-6">Washington</li>
+          <li class="ml-6">Oklahoma</li>
+        </ul>
       </div>
     </AppSection>
   </div>
@@ -110,19 +115,11 @@
 import Vue from 'vue';
 
 import AppSection from '@/components/AppSection.vue';
-import OurGroupItem from '@/components/OurGroup/OurGroupItem.vue';
-import OurProductsTabs from '@/components/OurProducts/OurProductsTabs.vue';
-
-// @ts-ignore
-import DownArrow from '@/assets/img/down-arrow.svg?inline';
 
 export default Vue.extend({
   name: 'Index',
   components: {
     AppSection,
-    OurGroupItem,
-    DownArrow,
-    OurProductsTabs,
   },
   data() {
     return {
@@ -131,52 +128,6 @@ export default Vue.extend({
   },
   async fetch() {
     await this.$store.dispatch('products/fetchProducts', 'beer');
-  },
-  computed: {
-    ourGroupItems(): Array<any> {
-      return [
-        {
-          img: 'statistics.png',
-          value: '17',
-          name: 'Estados en USA',
-        },
-        {
-          img: 'worldwide.png',
-          value: '10',
-          name: 'Países',
-        },
-        {
-          img: 'teamwork.png',
-          value: '+10,000',
-          name: 'Colaboradores',
-        },
-        {
-          img: 'delivery-truck.png',
-          value: '75',
-          name: 'Distribuidores en USA',
-        },
-        {
-          img: 'vote.png',
-          value: '+100',
-          name: 'Productos',
-        },
-        {
-          img: 'package.png',
-          value: '15',
-          name: 'Marcas',
-        },
-        {
-          img: 'shop.png',
-          value: '+ 15.Mill',
-          name: 'De puntos de venta',
-        },
-        {
-          img: 'factory.png',
-          value: '+20',
-          name: 'Plantas',
-        },
-      ];
-    },
   },
   mounted() {
     const options = {

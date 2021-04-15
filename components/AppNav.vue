@@ -9,44 +9,22 @@
     </NuxtLink>
     <ul class="flex">
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Inicio</NuxtLink>
+        <NuxtLink to="/">Acerca de famosa</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#our-group">Nuestro Grupo</NuxtLink>
+        <NuxtLink to="/#our-group">Productos</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#brands">Marcas</NuxtLink>
+        <NuxtLink to="/#brands">Premios</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#find-edt">Descubre EDT</NuxtLink>
+        <NuxtLink to="/#find-edt">Dónde comprar</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/quienes-somos">¿Quienes somos?</NuxtLink>
-      </li>
-      <li class="uppercase relative font-bold mx-2 group">
-        <div class="flex items-center cursor-pointer">
-          <span class="mr-2"> Export </span>
-          <DownArrow class="fill-current text-white w-4 h-4" />
-        </div>
-        <ul class="absolute invisible group-hover:visible">
-          <NuxtLink to="/export">
-            <li
-              class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
-            >
-              Marca Propia
-            </li>
-          </NuxtLink>
-          <NuxtLink to="/private-label">
-            <li
-              class="mb-1 p-1 uppercase bg-white opacity-75 border text-black text-sm whitespace-no-wrap sub-link"
-            >
-              Marca Privada
-            </li>
-          </NuxtLink>
-        </ul>
+        <NuxtLink to="/quienes-somos">Contáctanos</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/contact-us">Contáctanos</NuxtLink>
+        <NuxtLink to="/contact-us">¿Quieres vender famosa?</NuxtLink>
       </li>
     </ul>
   </nav>
