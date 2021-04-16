@@ -3,14 +3,27 @@
     <AppSection
       id="index"
       :style="{
-        backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
-        backgroundPosition: 'top left',
-        backgroundSize: 'cover',
+        backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
+        backgroundPosition: 'top right, right bottom, top left',
+        backgroundSize: '15%, auto, cover',
         backgroundRepeat: 'no-repeat',
       }"
       class="relative"
+      max-content="md:max-w-screen-xl"
+      inner-container-class="w-full grid grid-cols-2"
     >
-      <h1>Premiada la mejor cerveza</h1>
+      <div>
+        <img
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591893/FAMOSA/Inicio/Banner%201/Premiada-01_ozrn6f.svg"
+          alt=""
+          class="w-full mb-8"
+        />
+        <button
+          class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
+        >
+          Conoce más
+        </button>
+      </div>
     </AppSection>
     <a id="about" class="block relative -top-64 invisible" />
     <AppSection
@@ -60,15 +73,63 @@
         backgroundPosition: 'top left',
         backgroundRepeat: 'no-repeat',
       }"
+      inner-container-class="w-full text-normal-brown-500"
     >
       <div class="grid grid-cols-3">
         <div>
-          <h2>Presentaciones</h2>
-          <p>Lorem Ipsum</p>
+          <h2 class="text-3xl font-bold mb-4">Presentaciones</h2>
+          <p>
+            <strong>Famosa Lager Beer:</strong> Cerveza tipo lager de cuerpo
+            espumoso persistente en el vaso. Su sabor es acentuado y definido
+            por un amargo especial provenietne del lúpulo, con un contendio
+            alcohólico del 5%.
+            <br />
+            Tiene un sabor y calidad incomparable, un tono dorado oscuro y su
+            espuma clara y estable.
+          </p>
         </div>
         <div></div>
         <div>
-          <p>Armonización: Quesos, comida</p>
+          <p class="mb-8">
+            <strong>Armonización:</strong> Quesos, comida oriental, comida
+            latinoamericana, especialmente con salsas picantes, carnes rojas a
+            la parilla acompañada de aderezos y salsas.
+          </p>
+          <div>
+            <div class="grid grid-cols-2 mb-4">
+              <span class="font-bold flex items-center">Categoria</span
+              ><img
+                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258564/FAMOSA/Producto/categoria_xjlah2.svg"
+                alt=""
+                class="w-12"
+              />
+            </div>
+            <div class="grid grid-cols-2 mb-4">
+              <span class="font-bold flex items-center"
+                >Contenido de Alcohol</span
+              ><img
+                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258570/FAMOSA/Producto/Contenido_de_alcohol_i843qr.svg"
+                alt=""
+                class="w-12"
+              />
+            </div>
+            <div class="grid grid-cols-2 mb-4">
+              <span class="font-bold flex items-center">Temperatura ideal</span
+              ><img
+                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258525/FAMOSA/Producto/temperatura_zlardn.svg"
+                alt=""
+                class="w-12"
+              />
+            </div>
+            <div class="grid grid-cols-2 mb-4">
+              <span class="font-bold flex items-center">IBUs</span
+              ><img
+                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258521/FAMOSA/Producto/IBUs_zrkaki.svg"
+                alt=""
+                class="w-12"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </AppSection>

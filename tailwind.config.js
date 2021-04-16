@@ -58,6 +58,7 @@ module.exports = {
         },
         'normal-yellow': {
           400: '#f2a83d',
+          500: '#d7bd68',
         },
         'dark-blue': {
           200: '#3b4552',
@@ -68,6 +69,9 @@ module.exports = {
         'neutral-gray': {
           200: '#f1f1f1',
           500: '#7c7c7c',
+        },
+        'normal-brown': {
+          500: '#331503',
         },
       },
       inset: {
