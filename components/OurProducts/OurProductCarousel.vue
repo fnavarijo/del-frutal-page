@@ -5,12 +5,12 @@
         <img
           v-show="selectedStep === index"
           :src="img"
-          class="w-200px h-450px object-cover"
+          class="w-400px h-450px object-cover"
           alt=""
         />
       </div>
     </div>
-    <div class="w-extra-full">
+    <div class="w-mid-full">
       <ScrollerHandler
         :steps="images.length - 1"
         :name="name"

@@ -1,47 +1,15 @@
 <template>
   <footer class="text-white">
-    <div
-      v-if="shouldDisplayUpper"
-      class="py-4 px-8 bg-dark-blue-800 flex flex-col md:flex-row justify-center"
-    >
-      <div
-        class="space-y-3 border-r-0 md:border-r border-white pr-0 md:pr-8 mb-6 md:mb-0"
+    <div class="py-4 px-8 grid grid-cols-3 bg-black text-white">
+      <span class="font-bold inline-block mx-auto"
+        >(305) 415-9944, (305) 415-9966</span
       >
-        <LocationInfo
-          country="Estados unidos"
-          address="EDT USA Corporation, Miami FI."
-          phone="(305) 415-9944, (305) 415-9966"
-          fax="(305) 415-9955"
-        />
-        <LocationInfo
-          country="República Dominicana"
-          address="Distribuidora EDT República Dominicana"
-          phone="(305) 415-9966"
-        />
-        <LocationInfo
-          country="Guatemala"
-          address="EDT, Desarrollo de Exportaciones y Comercio S.A."
-          phone="(502) 2289-1666"
-        />
-        <LocationInfo
-          country="México"
-          address="Comercializadora Chiapaneca, S.A. de C.V"
-          phone="(52) 962-62-83665"
-        />
-      </div>
-      <div class="flex flex-col md:flex-row">
-        <div class="ml-0 md:ml-8 mr-4">
-          <h3 class="text-2xl font-light">Comunícate con nosotros:</h3>
-          <ContactUsForm />
-        </div>
-        <!-- <div class="flex flex-row md:flex-col justify-around">
-          <img class="w-10" src="~assets/img/google-plus.png" alt="" />
-          <img class="w-10" src="~assets/img/facebook.png" alt="" />
-          <img class="w-10" src="~assets/img/twitter.png" alt="" />
-          <img class="w-10" src="~assets/img/youtube.png" alt="" />
-          <img class="w-10" src="~assets/img/instagram.png" alt="" />
-        </div> -->
-      </div>
+      <span class="font-bold inline-block mx-auto"
+        >customerservice@edtexport.com</span
+      >
+      <span class="font-bold inline-block mx-auto"
+        >EDT USA Corporation, Miami FI.</span
+      >
     </div>
     <div
       class="py-4 px-8 bg-dark-blue-900 text-center border-t border-dark-blue-200"

@@ -3,7 +3,7 @@
     <AppSection
       id="index"
       :style="{
-        background: `url(\'${require('~/assets/img/background/home-header.jpg')}\')`,
+        backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
         backgroundPosition: 'top left',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -12,7 +12,7 @@
     >
       <h1>Premiada la mejor cerveza</h1>
     </AppSection>
-    <a id="our-group" class="block relative -top-250 invisible" />
+    <a id="about" class="block relative -top-64 invisible" />
     <AppSection
       class="min-h-screen"
       max-content="md:max-w-screen-xl"
@@ -51,20 +51,33 @@
         </div>
       </div>
     </AppSection>
-    <a id="brands" class="block relative -top-16 invisible" />
+    <a id="products" class="block relative -top-16 invisible" />
     <AppSection
-      bg-color="white"
-      class="text-normal-blue-500 min-h-screen-2/3 my-8"
-      max-content="xl:max-w-screen-xl"
-      inner-container-class="w-full"
+      :style="{
+        backgroundImage:
+          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258429/FAMOSA/Producto/fonod_ypz1jp.jpg\')',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top left',
+        backgroundRepeat: 'no-repeat',
+      }"
     >
-      <div>Presetaciones</div>
+      <div class="grid grid-cols-3">
+        <div>
+          <h2>Presentaciones</h2>
+          <p>Lorem Ipsum</p>
+        </div>
+        <div></div>
+        <div>
+          <p>Armonización: Quesos, comida</p>
+        </div>
+      </div>
     </AppSection>
+    <a id="prices" class="block relative -top-16 invisible" />
     <AppSection
       class="min-h-screen-1/2 grid grid-cols-2"
       :style="{
-        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Premios/1/fondo_qk5uxh.jpg')`,
-        backgroundPosition: 'right',
+        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258479/FAMOSA/Premios/1/cerveza_d7ij45.png'), url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Premios/1/fondo_qk5uxh.jpg')`,
+        backgroundPosition: 'right, top left',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
       }"
@@ -76,12 +89,13 @@
         />
       </div>
     </AppSection>
+    <a id="where-to-buy" class="block relative -top-16 invisible" />
     <AppSection
       class="min-h-screen-2/3 grid grid-cols-2"
       :style="{
-        backgroundImage: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
-        backgroundPosition: 'right',
-        backgroundSize: 'cover',
+        backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618551932/FAMOSA/Donde%20comprar/mapa_kwyhlj.png\'), url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
+        backgroundPosition: 'right, top left',
+        backgroundSize: '50%, cover',
         backgroundRepeat: 'no-repeat',
       }"
     >
@@ -107,6 +121,21 @@
           <li class="ml-6">Oklahoma</li>
         </ul>
       </div>
+    </AppSection>
+    <a id="contact-us" class="block relative -top-16 invisible" />
+    <AppSection
+      :style="{
+        backgroundImage:
+          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258350/FAMOSA/Contacto/fondo_odrdy3.jpg\')',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top left',
+      }"
+    >
+      <header class="w-full mb-4">
+        <h2 class="text-5xl font-bold">Comunícate con nosotros:</h2>
+      </header>
+      <ContactUsForm />
     </AppSection>
   </div>
 </template>

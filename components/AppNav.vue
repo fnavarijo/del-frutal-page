@@ -5,23 +5,27 @@
     :class="[isOnTopSection ? gradient : blackBanner]"
   >
     <NuxtLink to="/">
-      <img src="~assets/img/logo-export.png" class="w-56" alt="EDT Logo" />
+      <img
+        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+        class="w-24"
+        alt="Famosa Logo"
+      />
     </NuxtLink>
     <ul class="flex">
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/">Acerca de famosa</NuxtLink>
+        <NuxtLink to="/#about">Acerca de famosa</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#our-group">Productos</NuxtLink>
+        <NuxtLink to="/#products">Productos</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#brands">Premios</NuxtLink>
+        <NuxtLink to="/#prices">Premios</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#find-edt">Dónde comprar</NuxtLink>
+        <NuxtLink to="/#where-to-buy">Dónde comprar</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/quienes-somos">Contáctanos</NuxtLink>
+        <NuxtLink to="/#contact-us">Contáctanos</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
         <NuxtLink to="/contact-us">¿Quieres vender famosa?</NuxtLink>

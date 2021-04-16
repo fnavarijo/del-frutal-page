@@ -1,7 +1,5 @@
 <template>
-  <button
-    class="darken px-4 py-2 text-lg bg-california text-normal-blue-500 font-bold"
-  >
+  <button class="darken px-4 py-2 text-lg bg-black text-white font-bold">
     <slot>Enviar</slot>
   </button>
 </template>
