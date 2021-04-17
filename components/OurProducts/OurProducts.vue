@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2">
     <div class="flex flex-col justify-center">
-      <img class="w-56" :src="brandInfo.logo" alt="" />
+      <img class="w-56 h-56 object-contain" :src="brandInfo.logo" alt="" />
       <p v-if="!showExtraDescription" class="text-justify mb-4">
         {{ brandInfo.description }}
       </p>
