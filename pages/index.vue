@@ -65,91 +65,9 @@
       </div>
     </AppSection>
     <a id="products" class="block relative -top-16 invisible" />
-    <AppSection
-      :style="{
-        backgroundImage:
-          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258429/FAMOSA/Producto/fonod_ypz1jp.jpg\')',
-        backgroundSize: 'cover',
-        backgroundPosition: 'top left',
-        backgroundRepeat: 'no-repeat',
-      }"
-      inner-container-class="w-full text-normal-brown-500"
-    >
-      <div class="grid grid-cols-3">
-        <div>
-          <h2 class="text-3xl font-bold mb-4">Presentaciones</h2>
-          <p>
-            <strong>Famosa Lager Beer:</strong> Cerveza tipo lager de cuerpo
-            espumoso persistente en el vaso. Su sabor es acentuado y definido
-            por un amargo especial provenietne del lúpulo, con un contendio
-            alcohólico del 5%.
-            <br />
-            Tiene un sabor y calidad incomparable, un tono dorado oscuro y su
-            espuma clara y estable.
-          </p>
-        </div>
-        <div></div>
-        <div>
-          <p class="mb-8">
-            <strong>Armonización:</strong> Quesos, comida oriental, comida
-            latinoamericana, especialmente con salsas picantes, carnes rojas a
-            la parilla acompañada de aderezos y salsas.
-          </p>
-          <div>
-            <div class="grid grid-cols-2 mb-4">
-              <span class="font-bold flex items-center">Categoria</span
-              ><img
-                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258564/FAMOSA/Producto/categoria_xjlah2.svg"
-                alt=""
-                class="w-12"
-              />
-            </div>
-            <div class="grid grid-cols-2 mb-4">
-              <span class="font-bold flex items-center"
-                >Contenido de Alcohol</span
-              ><img
-                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258570/FAMOSA/Producto/Contenido_de_alcohol_i843qr.svg"
-                alt=""
-                class="w-12"
-              />
-            </div>
-            <div class="grid grid-cols-2 mb-4">
-              <span class="font-bold flex items-center">Temperatura ideal</span
-              ><img
-                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258525/FAMOSA/Producto/temperatura_zlardn.svg"
-                alt=""
-                class="w-12"
-              />
-            </div>
-            <div class="grid grid-cols-2 mb-4">
-              <span class="font-bold flex items-center">IBUs</span
-              ><img
-                src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258521/FAMOSA/Producto/IBUs_zrkaki.svg"
-                alt=""
-                class="w-12"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </AppSection>
+    <HomeSectionPresentations />
     <a id="prices" class="block relative -top-16 invisible" />
-    <AppSection
-      class="min-h-screen-1/2 grid grid-cols-2"
-      :style="{
-        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258479/FAMOSA/Premios/1/cerveza_d7ij45.png'), url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Premios/1/fondo_qk5uxh.jpg')`,
-        backgroundPosition: 'right, top left',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-      }"
-    >
-      <div>
-        <img
-          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258480/FAMOSA/Premios/1/frase_k9bk38.svg"
-          alt=""
-        />
-      </div>
-    </AppSection>
+    <HomeSectionsPrice />
     <a id="where-to-buy" class="block relative -top-16 invisible" />
     <AppSection
       class="min-h-screen-2/3 grid grid-cols-2"
