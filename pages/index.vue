@@ -30,9 +30,10 @@
       class="min-h-screen"
       max-content="md:max-w-screen-xl"
       :style="{
-        background: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258341/FAMOSA/Acerca%20de/fondo_fapbpg.jpg')`,
-        backgroundPosition: 'top left',
-        backgroundSize: 'cover',
+        backgroundImage:
+          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618465031/FAMOSA/Acerca%20de/pack_gxwnmh.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258341/FAMOSA/Acerca%20de/fondo_fapbpg.jpg\')',
+        backgroundPosition: '90% 100%, top left',
+        backgroundSize: '40%, cover',
         backgroundRepeat: 'no-repeat',
       }"
     >
@@ -55,12 +56,6 @@
             aroma acelerado y una fórmula reconocida por sus notas amargas y
             herbáceas provenientes del lúpulo; con sabor prolongado.
           </p>
-        </div>
-        <div>
-          <img
-            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618465031/FAMOSA/Acerca%20de/pack_gxwnmh.png"
-            alt=""
-          />
         </div>
       </div>
     </AppSection>
