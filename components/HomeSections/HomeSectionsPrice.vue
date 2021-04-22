@@ -45,7 +45,7 @@ export default Vue.extend({
     };
   },
   computed: {
-    background() {
+    background(): any {
       const backgroundDecorationImage = !this.arePricesShown
         ? "url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258479/FAMOSA/Premios/1/cerveza_d7ij45.png'),"
         : '';
