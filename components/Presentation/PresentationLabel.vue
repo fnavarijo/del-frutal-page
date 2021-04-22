@@ -1,8 +1,13 @@
 <template>
-  <div class="flex flex-col items-center">
-    <img :src="imageUrl" class="w-8" alt="" /><span class="text-sm">{{
-      label
-    }}</span>
+  <div class="flex flex-col items-center relative cursor-pointer">
+    <img :src="imageUrl" class="w-8 mb-2" alt="" />
+    <span class="text-sm">
+      {{ label }}
+    </span>
+    <hr
+      v-show="isActive"
+      class="w-full h-1 border-0 bg-california absolute -bottom-2"
+    />
   </div>
 </template>
 
