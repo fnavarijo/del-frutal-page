@@ -28,6 +28,7 @@
     <div class="flex space-x-4">
       <button
         class="bg-white bg-opacity-10 text-white text-2xl uppercase px-4 py-2"
+        @click="closeDialog"
       >
         Si
       </button>
@@ -45,7 +46,12 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import { mapMutations } from 'vuex';
+
 export default Vue.extend({
   name: 'AgeDialog',
+  methods: {
+    ...mapMutations('dialog', ['closeDialog']),
+  },
 });
 </script>
