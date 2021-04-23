@@ -48,9 +48,7 @@
           backgroundRepeat: 'no-repeat',
         }"
       >
-        <div
-          class="grid grid-cols-2 w-full h-full md:max-w-screen-md lg:max-w-screen-lg"
-        >
+        <div class="grid grid-cols-2 w-full h-full max-w-screen-xl">
           <div class="flex flex-col justify-center items-start">
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591893/FAMOSA/Inicio/Banner%201/Premiada-01_ozrn6f.svg"
