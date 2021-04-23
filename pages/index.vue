@@ -1,6 +1,9 @@
 <template>
   <div id="index-container" class="text-white relative">
-    <AppSection
+    <div id="index" class="absolute top-8">
+      <!-- Hacky element to intercept with top -->
+    </div>
+    <!-- <AppSection
       id="index"
       :style="{
         backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
@@ -24,7 +27,8 @@
           Conoce más
         </button>
       </div>
-    </AppSection>
+    </AppSection> -->
+    <HomeBannerSlider />
     <a id="about" class="block relative -top-64 invisible" />
     <AppSection
       class="min-h-screen"
