@@ -1,6 +1,11 @@
 <template>
   <div class="flex flex-col items-center relative cursor-pointer">
-    <img :src="imageUrl" class="w-8 mb-2" alt="" />
+    <img
+      :src="imageUrl"
+      class="w-8 mb-2"
+      :class="{ 'selected-icon': isActive }"
+      alt=""
+    />
     <span class="text-sm">
       {{ label }}
     </span>
@@ -31,3 +36,10 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style>
+.selected-icon {
+  filter: invert(27%) sepia(18%) saturate(2444%) hue-rotate(345deg)
+    brightness(104%) contrast(97%);
+}
+</style>
