@@ -111,4 +111,8 @@ export default Vue.extend({
 .hooper-indicator.is-active {
   @apply bg-neutral-gray-500 opacity-75;
 }
+
+.hooper-pagination {
+  @apply bottom-8;
+}
 </style>
