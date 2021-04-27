@@ -27,7 +27,7 @@
           @presentation-selected="setSelectedPresentation"
         />
       </div>
-      <div>
+      <div class="flex flex-col justify-center">
         <img
           :src="presentationsImages[selectedPresentation]"
           class="w-2/3 px-12 mx-auto object-contain"

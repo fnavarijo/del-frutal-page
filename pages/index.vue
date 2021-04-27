@@ -29,7 +29,7 @@
       </div>
     </AppSection> -->
     <HomeBannerSlider />
-    <a id="about" class="block relative -top-64 invisible" />
+    <a id="about" class="block relative invisible" />
     <AppSection
       class="min-h-screen"
       max-content="md:max-w-screen-xl"
@@ -65,9 +65,9 @@
     </AppSection>
     <a id="products" class="block relative -top-16 invisible" />
     <HomeSectionPresentations />
-    <a id="prices" class="block relative -top-16 invisible" />
+    <a id="prices" class="block relative -top-64 invisible" />
     <HomeSectionsPrice />
-    <a id="where-to-buy" class="block relative -top-16 invisible" />
+    <a id="where-to-buy" class="block relative -top-64 invisible" />
     <AppSection
       class="min-h-screen-2/3 grid grid-cols-2"
       :style="{
