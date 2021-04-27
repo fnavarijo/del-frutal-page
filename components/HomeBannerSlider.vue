@@ -101,3 +101,14 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style>
+.hooper-indicator {
+  @apply h-2 w-2 rounded-full;
+}
+
+.hooper-indicator:hover,
+.hooper-indicator.is-active {
+  @apply bg-neutral-gray-500 opacity-75;
+}
+</style>

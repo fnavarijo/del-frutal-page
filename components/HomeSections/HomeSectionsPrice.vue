@@ -13,7 +13,7 @@
     <div v-show="!arePricesShown" class="grid grid-cols-2 w-full">
       <div class="flex flex-col justify-start items-start">
         <img
-          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258480/FAMOSA/Premios/1/frase_k9bk38.svg"
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1619483907/FAMOSA/Premios/premio-01_b9tntt.png"
           alt=""
         />
         <button
