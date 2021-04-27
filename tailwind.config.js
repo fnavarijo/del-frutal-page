@@ -18,6 +18,16 @@ module.exports = {
       fontFamily: {
         sans: ['Gotham', ...defaultTheme.fontFamily.sans],
       },
+      backgroundSize: {
+        '50%': '50%',
+        '60%': '60%',
+        '70%': '70%',
+        '80%': '80%',
+        '90%': '90%',
+        '50%-cover': '50%, cover',
+        '60%-cover': '60%, cover',
+        '90%-cover': '90%, cover',
+      },
       width: {
         'extra-full': '150%',
         'extra-mid-full': '120%',
