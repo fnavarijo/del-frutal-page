@@ -28,7 +28,9 @@
         <NuxtLink to="/#contact-us">Contáctanos</NuxtLink>
       </li>
       <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/contact-us">¿Quieres vender famosa?</NuxtLink>
+        <span class="cursor-pointer" @click="openSellDialog"
+          >¿Quieres vender famosa?</span
+        >
       </li>
     </ul>
   </nav>
@@ -36,7 +38,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { mapState } from 'vuex';
+import { mapState, mapMutations } from 'vuex';
 
 // @ts-ignore
 import DownArrow from '@/assets/img/down-arrow.svg?inline';
@@ -71,6 +73,9 @@ export default Vue.extend({
     $route() {
       this.isSelectorVisible = false;
     },
+  },
+  methods: {
+    ...mapMutations('dialog', ['openSellDialog']),
   },
 });
 </script>

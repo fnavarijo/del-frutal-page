@@ -1,6 +1,6 @@
 <template>
   <footer class="text-white">
-    <div class="py-4 px-8 grid grid-cols-3 bg-black text-white">
+    <div class="py-4 px-8 grid grid-cols-1 md:grid-cols-3 bg-black text-white">
       <span class="font-bold inline-block mx-auto"
         >(305) 415-9944, (305) 415-9966</span
       >

@@ -1,5 +1,5 @@
 <template>
-  <div v-show="showDialog" class="h-screen w-screen absolute z-50">
+  <div v-show="showDialog" class="h-screen w-screen z-50 fixed">
     <slot />
   </div>
 </template>

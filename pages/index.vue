@@ -69,7 +69,7 @@
     <HomeSectionsPrice />
     <a id="where-to-buy" class="block relative -top-64 invisible" />
     <AppSection
-      class="min-h-screen-2/3 grid grid-cols-2"
+      class="min-h-screen-2/3 grid grid-cols-1 md:grid-cols-2"
       :style="{
         backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618551932/FAMOSA/Donde%20comprar/mapa_kwyhlj.png\'), url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
         backgroundPosition: 'right, top left',

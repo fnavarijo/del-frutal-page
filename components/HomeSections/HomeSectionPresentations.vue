@@ -10,7 +10,7 @@
     inner-container-class="w-full text-normal-brown-500"
     max-content=""
   >
-    <div class="grid grid-cols-3">
+    <div class="grid grid-cols-1 md:grid-cols-3">
       <div class="flex flex-col justify-center text-justify">
         <h2 class="text-4xl font-bold mb-4">Presentaciones</h2>
         <p class="mb-8">

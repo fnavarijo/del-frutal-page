@@ -3,8 +3,8 @@
     <label class="flex items-center">
       {{ label }}
       <input
-        class="radio-button inline-block appearance-none rounded-none w-4 h-4 border-white border transition-all duration-200 ease-in"
-        type="radio"
+        class="radio-button inline-block appearance-none rounded-none w-4 h-4 border-white border transition-all duration-200 ease-in cursor-pointer"
+        type="checkbox"
         :name="name"
       />
     </label>
@@ -15,7 +15,7 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  name: 'FormRadioButton',
+  name: 'FormCheckbox',
   props: {
     name: {
       type: String,

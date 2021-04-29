@@ -5,6 +5,9 @@
     <AppDialog :show-dialog="showDialog">
       <AgeDialog />
     </AppDialog>
+    <AppDialog :show-dialog="showSellDialog">
+      <SellDialog />
+    </AppDialog>
     <Nuxt />
     <AppFooter />
   </div>
@@ -18,6 +21,7 @@ import AppNav from '@/components/AppNav.vue';
 import AppNavMobile from '@/components/AppNavMobile.vue';
 import AppFooter from '@/components/AppFooter.vue';
 import AgeDialog from '@/components/Dialog/AgeDialog.vue';
+import SellDialog from '@/components/Dialog/SellDialog.vue';
 
 export default Vue.extend({
   name: 'Default',
@@ -26,6 +30,7 @@ export default Vue.extend({
     AppNavMobile,
     AppFooter,
     AgeDialog,
+    SellDialog,
   },
   computed: {
     navBgColor(): string {
@@ -34,7 +39,16 @@ export default Vue.extend({
         ? 'bg-normal-blue-500'
         : '';
     },
-    ...mapState('dialog', ['showDialog']),
+    showDialog(): boolean {
+      let acceptedTerms = 'false';
+      if (process.browser) {
+        acceptedTerms = localStorage.getItem('acceptedTerms') || 'false';
+      }
+      return this.$store.state.dialog.showDialog && acceptedTerms === 'false';
+    },
+    showSellDialog(): boolean {
+      return this.$store.state.dialog.showSellDialog;
+    },
   },
   mounted() {
     this.$store.commit('dialog/openDialog');
