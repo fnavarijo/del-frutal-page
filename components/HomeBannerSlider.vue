@@ -6,7 +6,7 @@
       :infinite-scroll="true"
     >
       <Slide
-        class="relative px-8 py-4 flex justify-center items-center bg-60%-cover xl:bg-50%-cover"
+        class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover"
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1619481257/FAMOSA/Premios/Botellas_qoru7n.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
           backgroundPosition: '5% 0%, top left',
