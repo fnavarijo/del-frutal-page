@@ -1,5 +1,4 @@
 <template>
-  <!-- :class="[isSelectorVisible ? gradient : blackBanner]" -->
   <nav
     class="py-12 px-16 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
     :class="[isOnTopSection ? gradient : blackBanner]"
@@ -11,28 +10,38 @@
         alt="Famosa Logo"
       />
     </NuxtLink>
-    <ul class="flex">
-      <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#about">Acerca de famosa</NuxtLink>
-      </li>
-      <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#products">Productos</NuxtLink>
-      </li>
-      <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#prices">Premios</NuxtLink>
-      </li>
-      <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#where-to-buy">Dónde comprar</NuxtLink>
-      </li>
-      <li class="uppercase font-bold mx-2">
-        <NuxtLink to="/#contact-us">Contáctanos</NuxtLink>
-      </li>
-      <li class="uppercase font-bold mx-2">
-        <span class="cursor-pointer" @click="openSellDialog"
-          >¿Quieres vender famosa?</span
-        >
-      </li>
-    </ul>
+    <div>
+      <div class="flex justify-end mb-4">
+        <span class="mr-2 text-sm">Parte de la familia EDT:</span
+        ><img
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Inicio/EDT_aguzfc.png"
+          class="w-24"
+          alt=""
+        />
+      </div>
+      <ul class="flex">
+        <li class="uppercase font-bold mx-2">
+          <NuxtLink to="/#about">Acerca de famosa</NuxtLink>
+        </li>
+        <li class="uppercase font-bold mx-2">
+          <NuxtLink to="/#products">Productos</NuxtLink>
+        </li>
+        <li class="uppercase font-bold mx-2">
+          <NuxtLink to="/#prices">Premios</NuxtLink>
+        </li>
+        <li class="uppercase font-bold mx-2">
+          <NuxtLink to="/#where-to-buy">Dónde comprar</NuxtLink>
+        </li>
+        <li class="uppercase font-bold mx-2">
+          <NuxtLink to="/#contact-us">Contáctanos</NuxtLink>
+        </li>
+        <li class="uppercase font-bold mx-2">
+          <span class="cursor-pointer" @click="openSellDialog"
+            >¿Quieres vender famosa?</span
+          >
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
