@@ -83,6 +83,10 @@ module.exports = {
         'normal-brown': {
           500: '#331503',
         },
+        'dark-red': {
+          600: '#3F170D',
+          700: '#300F08',
+        },
       },
       opacity: {
         10: '.1',

@@ -1,23 +1,24 @@
 <template>
   <footer class="text-white">
-    <div class="py-4 px-8 grid grid-cols-1 md:grid-cols-3 bg-black text-white">
-      <span class="font-bold inline-block mx-auto"
-        >(305) 415-9944, (305) 415-9966</span
+    <div class="py-4 px-8 grid grid-cols-1 md:grid-cols-3 bg-dark-red-600">
+      <InfoFooter
+        image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/3_wqyqgj.png"
       >
-      <span class="font-bold inline-block mx-auto"
-        >customerservice@edtexport.com</span
+        (305) 415-9944, (305) 415-9966
+      </InfoFooter>
+      <InfoFooter
+        image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/2_bilga6.png"
       >
-      <span class="font-bold inline-block mx-auto"
-        >EDT USA Corporation, Miami FI.</span
+        customerservice@edtexport.com
+      </InfoFooter>
+      <InfoFooter
+        image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/1_cgepys.png"
       >
+        EDT USA Corporation, Miami FI.
+      </InfoFooter>
     </div>
-    <div
-      class="py-4 px-8 bg-dark-blue-900 text-center border-t border-dark-blue-200"
-    >
-      <span>
-        Copyright © 2019 Export Development & Trade. Todos los derechos
-        reservados.
-      </span>
+    <div class="py-4 px-8 bg-dark-red-700 text-center">
+      <span> © 2019 Export Development & Trade </span>
     </div>
   </footer>
 </template>
@@ -25,13 +26,11 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import ContactUsForm from '@/components/ContactUs/ContactUsForm.vue';
-import LocationInfo from '@/components/LocationInfo.vue';
+import InfoFooter from '@/components/Footer/InfoFooter.vue';
 
 export default Vue.extend({
   components: {
-    LocationInfo,
-    ContactUsForm,
+    InfoFooter,
   },
   computed: {
     shouldDisplayUpper(): boolean {
