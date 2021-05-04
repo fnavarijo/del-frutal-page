@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form @submit.prevent="submitForm">
     <FormInput class="mb-4" name="nombre" placeholder="Nombre:" />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
       <FormSelect name="country" class="mb-4">
@@ -20,17 +20,27 @@
         productos?</span
       >
       <div class="flex-1 flex justify-center items-center">
-        <FormRadioButton class="mr-4" name="accept" label="Si" />
-        <FormRadioButton class="mr-4" name="accept" label="No" />
+        <FormRadioButton
+          class="mr-4 font-bold uppercase"
+          name="accept"
+          label="Si"
+        />
+        <FormRadioButton
+          class="mr-4 font-bold uppercase"
+          name="accept"
+          label="No"
+        />
         <FormButton />
       </div>
     </div>
+    <ContactUsMessage v-show="formSubmitted" class="mt-4" />
   </form>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 
+import ContactUsMessage from '@/components/ContactUs/ContactUsMessage.vue';
 import FormInput from '@/components/Form/FormInput.vue';
 import FormSelect from '@/components/Form/FormSelect.vue';
 import FormButton from '@/components/Form/FormButton.vue';
@@ -43,6 +53,17 @@ export default Vue.extend({
     FormSelect,
     FormButton,
     FormRadioButton,
+    ContactUsMessage,
+  },
+  data() {
+    return {
+      formSubmitted: false,
+    };
+  },
+  methods: {
+    submitForm() {
+      this.formSubmitted = true;
+    },
   },
 });
 </script>

@@ -1,9 +1,9 @@
 <template>
   <div class="flex justify-center">
     <label class="flex items-center">
-      {{ label }}
+      <span>{{ label }}</span>
       <input
-        class="radio-button inline-block appearance-none rounded-none w-4 h-4 border-white border transition-all duration-200 ease-in"
+        class="ml-2 radio-button inline-block appearance-none rounded-none w-4 h-4 border-white border transition-all duration-200 ease-in"
         type="radio"
         :name="name"
       />
