@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col items-center relative cursor-pointer">
-    <img
-      :src="imageUrl"
-      class="w-8 mb-2"
+    <div
+      class="w-8 mb-2 fill-current text-green-600 presentation-icon"
       :class="{ 'selected-icon': isActive }"
       alt=""
+      v-html="require(`~/assets/img/presentations/${imageName}.svg?raw`)"
     />
     <span class="text-sm">
       {{ label }}
@@ -21,7 +21,7 @@ import Vue from 'vue';
 export default Vue.extend({
   name: 'PresentationLabel',
   props: {
-    imageUrl: {
+    imageName: {
       type: String,
       required: true,
     },
@@ -38,8 +38,7 @@ export default Vue.extend({
 </script>
 
 <style>
-.selected-icon {
-  filter: invert(27%) sepia(18%) saturate(2444%) hue-rotate(345deg)
-    brightness(104%) contrast(97%);
+.selected-icon path {
+  @apply fill-current text-dark-red-300;
 }
 </style>
