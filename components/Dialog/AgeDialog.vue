@@ -60,6 +60,7 @@ export default Vue.extend({
     acceptTerms() {
       localStorage.setItem('acceptedTerms', 'true');
       this.$store.commit('dialog/closeDialog');
+      window.scrollTo(0, 0);
     },
   },
 });
