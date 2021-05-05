@@ -15,7 +15,7 @@
         <span class="mr-2 text-sm">Parte de la familia EDT:</span
         ><img
           src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Inicio/EDT_aguzfc.png"
-          class="w-24"
+          class="w-28"
           alt=""
         />
       </div>

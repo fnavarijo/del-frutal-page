@@ -32,6 +32,7 @@ module.exports = {
         'extra-full': '150%',
         'extra-mid-full': '120%',
         7: '1.75rem',
+        28: '7rem',
         '30px': '30px',
         '37px': '37px',
         '200px': '200px',
