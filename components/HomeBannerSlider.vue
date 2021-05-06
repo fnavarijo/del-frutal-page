@@ -6,6 +6,31 @@
       :infinite-scroll="true"
     >
       <Slide
+        class="relative px-8 py-4 flex justify-center items-center"
+        :style="{
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
+          backgroundPosition: '100% 15%, right bottom, top left',
+          backgroundSize: '15%, auto, cover',
+          backgroundRepeat: 'no-repeat',
+        }"
+      >
+        <div class="grid grid-cols-2 w-full h-full max-w-screen-xl">
+          <div class="flex flex-col justify-center items-start">
+            <img
+              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591893/FAMOSA/Inicio/Banner%201/Premiada-01_ozrn6f.svg"
+              alt=""
+              class="w-full mb-8"
+            />
+            <button
+              class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
+              @click="openSellDialog"
+            >
+              Conoce más
+            </button>
+          </div>
+        </div>
+      </Slide>
+      <Slide
         class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover"
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1619481257/FAMOSA/Premios/Botellas_qoru7n.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
@@ -38,31 +63,7 @@
           class="h-full w-full object-cover"
           alt=""
       /></Slide>
-      <Slide
-        class="relative px-8 py-4 flex justify-center items-center"
-        :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
-          backgroundPosition: '100% 15%, right bottom, top left',
-          backgroundSize: '15%, auto, cover',
-          backgroundRepeat: 'no-repeat',
-        }"
-      >
-        <div class="grid grid-cols-2 w-full h-full max-w-screen-xl">
-          <div class="flex flex-col justify-center items-start">
-            <img
-              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591893/FAMOSA/Inicio/Banner%201/Premiada-01_ozrn6f.svg"
-              alt=""
-              class="w-full mb-8"
-            />
-            <button
-              class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
-              @click="openSellDialog"
-            >
-              Conoce más
-            </button>
-          </div>
-        </div>
-      </Slide>
+
       <Navigation slot="hooper-addons">
         <template #hooper-prev>
           <DownArrow
