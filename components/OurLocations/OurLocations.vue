@@ -1,0 +1,88 @@
+<template>
+  <AppSection
+    class="min-h-screen-2/3"
+    :style="{
+      backgroundImage: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
+      backgroundPosition: 'top left',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+    }"
+    max-content="md:max-w-screen-xl"
+    inner-container-class="w-full"
+  >
+    <div class="grid grid-cols-1 md:grid-cols-2 w-full">
+      <div>
+        <h2 class="text-4xl font-bold mb-8">Dónde comprar</h2>
+        <ul>
+          <span class="font-bold triangle-bullet text-xl"
+            >Puntos de venta en Estados Unidos:</span
+          >
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('california')">
+            California
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('new-jersey')">
+            New Jersey
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('georgia')">
+            Georgia
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('new-york')">
+            New York
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('texas')">
+            Texas
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('florida')">
+            Florida
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('illinois')">
+            Illinois
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('maryland')">
+            Maryland
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('virginia')">
+            Virginia
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('alabama')">
+            Alabama
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('tennessee')">
+            Tennessee
+          </li>
+          <li
+            class="ml-6 cursor-pointer"
+            @mouseover="selectArea('massachusetts')"
+          >
+            Massachusetts
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('washington')">
+            Washington
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('oaklahoma')">
+            Oklahoma
+          </li>
+        </ul>
+      </div>
+      <OurLocationsMap :selected-area="selectedArea" />
+    </div>
+  </AppSection>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: 'OurLocations',
+  data() {
+    return {
+      selectedArea: '',
+    };
+  },
+  methods: {
+    selectArea(area: string): void {
+      this.selectedArea = area;
+    },
+  },
+});
+</script>

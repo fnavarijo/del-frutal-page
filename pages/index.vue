@@ -68,38 +68,7 @@
     <a id="prices" class="block relative -top-64 invisible" />
     <HomeSectionsPrice />
     <a id="where-to-buy" class="block relative -top-64 invisible" />
-    <AppSection
-      class="min-h-screen-2/3 grid grid-cols-1 md:grid-cols-2"
-      :style="{
-        backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618551932/FAMOSA/Donde%20comprar/mapa_kwyhlj.png\'), url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
-        backgroundPosition: 'right, top left',
-        backgroundSize: '50%, cover',
-        backgroundRepeat: 'no-repeat',
-      }"
-    >
-      <div>
-        <h2 class="text-4xl font-bold mb-8">Dónde comprar</h2>
-        <ul>
-          <span class="font-bold triangle-bullet text-xl"
-            >Puntos de venta en Estados Unidos:</span
-          >
-          <li class="ml-6">California</li>
-          <li class="ml-6">New Jersey</li>
-          <li class="ml-6">Georgia</li>
-          <li class="ml-6">New York</li>
-          <li class="ml-6">Texas</li>
-          <li class="ml-6">Florida</li>
-          <li class="ml-6">Illinois</li>
-          <li class="ml-6">Maryland</li>
-          <li class="ml-6">Virginia</li>
-          <li class="ml-6">Alabama</li>
-          <li class="ml-6">Tennessee</li>
-          <li class="ml-6">Massachusetts</li>
-          <li class="ml-6">Washington</li>
-          <li class="ml-6">Oklahoma</li>
-        </ul>
-      </div>
-    </AppSection>
+    <OurLocations />
     <a id="contact-us" class="block relative -top-16 invisible" />
     <AppSection
       :style="{
