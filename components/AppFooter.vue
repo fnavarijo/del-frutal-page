@@ -1,6 +1,8 @@
 <template>
   <footer class="text-white">
-    <div class="py-4 px-8 grid grid-cols-1 md:grid-cols-3 bg-dark-red-600">
+    <div
+      class="py-4 px-8 grid gap-4 grid-cols-1 md:gap-1 md:grid-cols-3 bg-dark-red-600"
+    >
       <InfoFooter
         image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/3_wqyqgj.png"
       >
