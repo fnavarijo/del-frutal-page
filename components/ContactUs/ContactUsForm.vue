@@ -33,7 +33,10 @@
         <FormButton />
       </div>
     </div>
-    <ContactUsMessage v-show="formSubmitted" class="mt-4" />
+    <ContactUsMessage
+      v-show="formSubmitted && handleSubmitMessage"
+      class="mt-4"
+    />
   </form>
 </template>
 
@@ -55,6 +58,12 @@ export default Vue.extend({
     FormRadioButton,
     ContactUsMessage,
   },
+  props: {
+    handleSubmitMessage: {
+      type: Boolean,
+      default: true,
+    },
+  },
   data() {
     return {
       formSubmitted: false,
@@ -63,6 +72,7 @@ export default Vue.extend({
   methods: {
     submitForm() {
       this.formSubmitted = true;
+      this.$emit('submit');
     },
   },
 });
