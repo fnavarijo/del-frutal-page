@@ -40,6 +40,31 @@
             >¿Quieres vender famosa?</span
           >
         </li>
+        <div class="flex">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/FB_gehi7n.png"
+              class="w-4 h-4 mr-2"
+              alt=""
+            />
+          </a>
+
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Inicio/IG_iqmqcx.png"
+              class="w-4 h-4"
+              alt=""
+            />
+          </a>
+        </div>
       </ul>
     </div>
   </nav>
