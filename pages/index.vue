@@ -29,7 +29,7 @@
       </div>
     </AppSection> -->
     <HomeBannerSlider />
-    <a id="about" class="block relative invisible" />
+    <a id="about" class="block relative top-0 md:-top-20 invisible" />
     <AppSection
       class="min-h-screen"
       max-content="md:max-w-screen-xl"
@@ -67,7 +67,7 @@
     <HomeSectionPresentations />
     <a id="prices" class="block relative -top-64 invisible" />
     <HomeSectionsPrice />
-    <a id="where-to-buy" class="block relative -top-64 invisible" />
+    <a id="where-to-buy" class="block relative top-0 md:-top-56 invisible" />
     <OurLocations />
     <a id="contact-us" class="block relative -top-16 invisible" />
     <AppSection
