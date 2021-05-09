@@ -27,10 +27,10 @@
           @presentation-selected="setSelectedPresentation"
         />
       </div>
-      <div class="flex flex-col justify-center">
+      <div class="w-3/5 pt-2-ratio relative h-0 overflow-hidden mx-auto">
         <img
           :src="presentationsImages[selectedPresentation]"
-          class="w-2/3 px-12 mx-auto object-contain"
+          class="w-full h-full absolute top-0 left-0 px-12 mx-auto object-contain"
           alt=""
         />
       </div>
@@ -87,11 +87,11 @@ export default Vue.extend({
   computed: {
     presentationsImages() {
       return [
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258601/FAMOSA/Producto/LATA_FAMOSA_12OZ_d8za3i.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258599/FAMOSA/Producto/LATA_FAMOSA_16OZ_izablg.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258592/FAMOSA/Producto/LATA_FAMOSA_24OZ_ifweuy.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258568/FAMOSA/Producto/Botella_Famos_12oz_xhj3o6.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258576/FAMOSA/Producto/Litro_Famosa_dftblu.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258601/FAMOSA/Producto/LATA_FAMOSA_12OZ_d8za3i_lower.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258599/FAMOSA/Producto/LATA_FAMOSA_16OZ_izablg.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258592/FAMOSA/Producto/LATA_FAMOSA_24OZ_ifweuy.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258568/FAMOSA/Producto/Botella_Famos_12oz_xhj3o6.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258576/FAMOSA/Producto/Litro_Famosa_dftblu.png',
       ];
     },
   },

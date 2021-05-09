@@ -20,7 +20,7 @@ export default Vue.extend({
   props: {
     bgColor: {
       type: String,
-      default: 'normal-blue-500',
+      default: 'white',
     },
     justify: {
       type: String,
