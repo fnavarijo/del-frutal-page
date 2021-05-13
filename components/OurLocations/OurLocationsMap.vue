@@ -2084,7 +2084,7 @@ ucMDb+odXGlDTDvbb28EGAC+rCUqyHuIJgAAAABJRU5ErkJggg=="
           <image
             id="hN1iNA_3_"
             class="opacity-0 transition ease-linear duration-200"
-            :class="displayPin(selectedArea, 'washington')"
+            :class="displayPin(selectedArea, 'oaklahoma')"
             style="overflow: visible; enable-background: new"
             width="29"
             height="44"
@@ -2110,7 +2110,7 @@ rg3sCf/XEnG5Kk40dM04AX5jPs3x7xOF3AQc04bd3d3yCWdJ7s6diszhw39nW1ufKsuy7E2bRkv2
 7n3LWrp0VTcuTfX19Ymp0TIUnMeb+m4pTXL9/Ysnm5relv7Onj0jVk2NXOuHwC/gewgPzsRMLX6w
 klpoOUQWOo2NUv3ZVjpdzQ8apQwMJTO1vP/yQ1T/f8KWVYnlLOPLZFgZDPECPZA02CsBBgD/fivY
 NmDokgAAAABJRU5ErkJggg=="
-            transform="matrix(1.5751 0 0 1.5751 563.6597 78.3843)"
+            transform="matrix(1.5751 0 0 1.5751 480.6597 290.3843)"
           ></image>
         </g>
         <g id="hN1iNA_6_">
@@ -2334,8 +2334,8 @@ Y0m5nKUcp8xdsmRi4ItBHz1uS2iVH9sjAQYAbpYlKo8j0MYAAAAASUVORK5CYII="
             class="opacity-0 transition ease-linear duration-200"
             :class="displayPin(selectedArea, 'maryland')"
             style="overflow: visible; enable-background: new"
-            width="30"
-            height="44"
+            width="50"
+            height="64"
             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAsCAYAAABygggEAAAACXBIWXMAAAmIAAAJiAFxlewOAAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABGxJREFUeNq0l9tvFFUcx88MS2m5
 lVJXFCKNFU1KSyK74oWokPCAJF4gQqI+NPjSB4LxwX/A8MIrDUZNgMAG4wWMEkm0QKSCDyVil0tK
@@ -2358,7 +2358,7 @@ j3hDCLICs167zWG0FuYN4Tg4wLzrt5/AVwydQtmEKZ5jiJxig6htgFtxIWV5+t0S4vMqL3BX6F7x
 xC5wUsW45iTiKHZ3d0uvnC4MD6fzra2jk21t4059/UiipaVu2sqVG1RFRWc3cnJDQ0PkBzgxRBfi
 sY0X+OrC4ODcfCYzC4ITbjqdU5WVN9kKSRXKQHywXCu+wQwmvXKjk0wmEs3NjlNdXQHRCVayHvZj
 uXK6epQnuv1eQ+g4M5wFC1xPLzXGFQ/Y7PVdAQYAWBEsqUzpisgAAAAASUVORK5CYII="
-            transform="matrix(1.1265 0 0 1.1265 918.223 211.6346)"
+            transform="matrix(1.1265 0 0 1.1265 910.223 195.6346)"
           ></image>
         </g>
         <g id="hN1iNA_22_">
@@ -2367,8 +2367,8 @@ uXK6epQnuv1eQ+g4M5wFC1xPLzXGFQ/Y7PVdAQYAWBEsqUzpisgAAAAASUVORK5CYII="
             class="opacity-0 transition ease-linear duration-200"
             :class="displayPin(selectedArea, 'new-jersey')"
             style="overflow: visible; enable-background: new"
-            width="31"
-            height="45"
+            width="60"
+            height="74"
             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAtCAYAAABWHLCfAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABApJREFUeNrMmH9oTWEYx9973c31
 M2Ypv9ZFxobkrCFNayKiREmWaM3/5B//KH+Iadbo0iI/M9RGkjS/ahEmNe7YrGsbtjEjhvk9s7vr
@@ -2390,7 +2390,7 @@ UCKkXzIjpw68R3EBVEjeyUsVdeQiZnE28snF4I3FO118pSqRaVBaXFG9lI+PX9DkNT95R0Xy5mpn
 wnT6ENDb2JjR4/Vm9tbVJbvy8xtceXk1vCcq09LS/HEVhzB9hVgDjoRmLBgUwdZWEaiqEq7cXDzp
 m8TnYBs6UBapTTspEK3rVbA19FHQ4Uh3eDxJLo8ngT0aHcEajmAV4n+33wIMAFHL/wNJCaqrAAAA
 AElFTkSuQmCC"
-            transform="matrix(0.7595 0 0 0.7595 980.532 214.9428)"
+            transform="matrix(0.7595 0 0 0.7595 965.532 195.9428)"
           ></image>
         </g>
         <g id="hN1iNA_26_">
@@ -2432,8 +2432,8 @@ b1lefUX1LwEGAInwMC7TU3spAAAAAElFTkSuQmCC"
             class="opacity-0 transition ease-linear duration-200"
             :class="displayPin(selectedArea, 'massachusetts')"
             style="overflow: visible; enable-background: new"
-            width="31"
-            height="44"
+            width="60"
+            height="74"
             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAsCAYAAACdQGM6AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+1JREFUeNq0mGtIFFEUx+9ua2mJ
 abgZSllUyFJJLfT4EGZhD4zsQ6BCUBCRHxOkMkEi+xD2KetDsIFQCSZEJVb2JMkP9oANei2ZUBZi
@@ -2454,7 +2454,7 @@ iIs4G72vt5n4tLGfJXPZeZBBueu1GHw0+EwFh1/uZiLeIxccuDZKPU7/a+0I2xZnuwha+SuU4LaV
 j4v/Jh4KhRKTQqGMhPLyyy6vd/Dfc/N6hxIqKhpwPBPnU+zEc9kQTuYvUxvB8nBj44pwILDQU1bW
 4ykt/YBjH/lV+pbP5/sS70pkATgBMqhg9JSUJIiJCeEpLqYUPJ8/DubzK3VDvEdOj2gr2MSFZiq/
 kUxy9dPNI2/GyAesxPwrwADPjvZKRANT4gAAAABJRU5ErkJggg=="
-            transform="matrix(0.7711 0 0 0.7711 1090.3046 132.4618)"
+            transform="matrix(0.7711 0 0 0.7711 1080.3046 110.4618)"
           ></image>
         </g>
         <g id="hN1iNA_24_">
