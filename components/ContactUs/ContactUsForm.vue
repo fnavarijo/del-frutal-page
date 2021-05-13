@@ -10,7 +10,7 @@
         <option value="US">Cuba</option>
         <option value="US">República Dominicana</option>
       </FormSelect>
-      <FormInput class="mb-4" name="telefono" placeholder="Telefono:" />
+      <FormInput class="mb-4" name="telefono" placeholder="Teléfono:" />
     </div>
     <FormInput class="mb-4" name="correo" placeholder="Correo:" type="email" />
     <FormTextArea name="mensaje" class="mb-4" placeholder="Mensaje" />

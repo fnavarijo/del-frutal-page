@@ -16,7 +16,7 @@
       <InfoFooter
         image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/1_cgepys.png"
       >
-        EDT USA Corporation, Miami FI.
+        Central Beer, Miami Fl.
       </InfoFooter>
     </div>
     <div class="py-4 px-8 bg-dark-red-700 text-center">

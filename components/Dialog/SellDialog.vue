@@ -13,7 +13,7 @@
       @click="closeDialog"
       ><img src="~/assets/img/cancel.svg" class="w-8 h-8" alt=""
     /></span>
-    <h1 class="text-5xl self-start">¿Quieres vender famosa?</h1>
+    <h1 class="text-5xl self-start">¿Quieres vender Famosa?</h1>
     <ContactUsForm :handle-submit-message="false" @submit="showThanksMessage" />
     <div v-show="showThanks" class="h-screen w-screen absolute top-0 thanks-bg">
       <div
