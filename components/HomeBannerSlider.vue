@@ -21,12 +21,12 @@
               alt=""
               class="w-full mb-8"
             />
-            <button
+            <NuxtLink
               class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
-              @click="openSellDialog"
+              to="/#about"
             >
               Conoce más
-            </button>
+            </NuxtLink>
           </div>
         </div>
       </Slide>
@@ -81,7 +81,6 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { mapMutations } from 'vuex';
 // @ts-ignore
 import {
   Hooper,
@@ -101,9 +100,6 @@ export default Vue.extend({
     Navigation,
     DownArrow,
     HooperPagination,
-  },
-  methods: {
-    ...mapMutations('dialog', ['openSellDialog']),
   },
 });
 </script>
