@@ -15,6 +15,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      screens: {
+        '2xl': '1536px',
+      },
       fontFamily: {
         sans: ['Gotham', ...defaultTheme.fontFamily.sans],
       },
@@ -111,6 +114,7 @@ module.exports = {
         '-6': '-1.5rem',
         '-8': '-2rem',
         '-12': '-3rem',
+        '-14': '-3.5rem',
         '-16': '-4rem',
         '-20': '-5rem',
         '-24': '-6rem',

@@ -63,7 +63,7 @@
         </div>
       </div>
     </AppSection>
-    <a id="products" class="block relative -top-16 invisible" />
+    <a id="products" class="block relative md:-top-12 invisible" />
     <HomeSectionPresentations />
     <a id="prices" class="block relative -top-64 invisible" />
     <HomeSectionsPrice />
