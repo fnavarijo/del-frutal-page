@@ -27,7 +27,7 @@
           @presentation-selected="setSelectedPresentation"
         />
       </div>
-      <div class="w-3/5 pt-2-ratio relative h-0 overflow-hidden mx-auto">
+      <div class="w-1/2 pt-2-ratio relative h-0 overflow-hidden mx-auto">
         <img
           :src="presentationsImages[selectedPresentation]"
           class="w-full h-full absolute top-0 left-0 px-12 mx-auto object-contain"
@@ -91,7 +91,7 @@ export default Vue.extend({
         'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258599/FAMOSA/Producto/LATA_FAMOSA_16OZ_izablg.png',
         'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258592/FAMOSA/Producto/LATA_FAMOSA_24OZ_ifweuy.png',
         'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258568/FAMOSA/Producto/Botella_Famos_12oz_xhj3o6.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258576/FAMOSA/Producto/Litro_Famosa_dftblu.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620858202/FAMOSA/15_LITER_BOTTLE_wltap1.png',
       ];
     },
   },
