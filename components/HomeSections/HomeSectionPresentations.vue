@@ -27,7 +27,7 @@
           @presentation-selected="setSelectedPresentation"
         />
       </div>
-      <div class="w-1/2 pt-2-ratio relative h-0 overflow-hidden mx-auto">
+      <div class="w-3/5 pt-2-ratio relative h-0 overflow-hidden mx-auto">
         <img
           :src="presentationsImages[selectedPresentation]"
           class="w-full h-full absolute top-0 left-0 px-12 mx-auto object-contain"
