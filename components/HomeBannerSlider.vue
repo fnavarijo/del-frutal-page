@@ -59,7 +59,7 @@
           backgroundRepeat: 'no-repeat',
         }"
         ><img
-          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258471/FAMOSA/Inicio/Banner%202/fondo_sghbul.jpg"
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620919051/FAMOSA/Gente_runtde.png"
           class="h-full w-full object-cover"
           alt=""
       /></Slide>

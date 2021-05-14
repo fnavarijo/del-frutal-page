@@ -87,11 +87,11 @@ export default Vue.extend({
   computed: {
     presentationsImages() {
       return [
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258601/FAMOSA/Producto/LATA_FAMOSA_12OZ_d8za3i_lower.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258599/FAMOSA/Producto/LATA_FAMOSA_16OZ_izablg.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258592/FAMOSA/Producto/LATA_FAMOSA_24OZ_ifweuy.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/q_auto:eco/v1618258568/FAMOSA/Producto/Botella_Famos_12oz_xhj3o6.png',
-        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620858202/FAMOSA/15_LITER_BOTTLE_wltap1.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620918952/FAMOSA/5_bglzie.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620918957/FAMOSA/4_lwa2lu.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620918953/FAMOSA/3_jnh9t8.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620918955/FAMOSA/2_nksbhp.png',
+        'https://res.cloudinary.com/dxsslqd7f/image/upload/v1620918955/FAMOSA/1_nravn6.png',
       ];
     },
   },
