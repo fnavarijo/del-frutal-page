@@ -20,13 +20,11 @@ const baseMessageProperties = {
 };
 
 const baseMessageContact = {
-  from_email: 'me@fnavarijo.com',
-  // from_email: 'noresponder@icasa.gt',
+  from_email: 'noresponder@icasa.gt',
   from_name: 'Correo de edt',
   to: [
-    { email: 'me@fnavarijo.com', name: 'Fernando Navarijo', type: 'to' },
-    // { email: 'jcsaravia@divika.com', name: 'Juan Saravia', type: 'to' },
-    // { email: 'jcdivika@gmail.com', name: 'Juan Divika', type: 'to' },
+    { email: 'jcsaravia@divika.com', name: 'Juan Saravia', type: 'to' },
+    { email: 'jcdivika@gmail.com', name: 'Juan Divika', type: 'to' },
   ],
   subject: 'Comunícate con nosotros',
 };

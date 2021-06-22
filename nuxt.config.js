@@ -91,7 +91,7 @@ export default {
     recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
     mandrillApiKey: process.env.MANDRILL_API_KEY,
   },
-  publicRuntimeConfig: {
-    mandrillApiKey: process.env.MANDRILL_API_KEY,
-  },
+  // publicRuntimeConfig: {
+  //   mandrillApiKey: process.env.MANDRILL_API_KEY,
+  // },
 };
