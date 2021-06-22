@@ -13,12 +13,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@mailchimp/mailchimp_transactional": "^1.0.27",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/recaptcha": "^1.0.4",
     "@prismicio/client": "^4.0.0",
     "core-js": "^3.8.3",
     "hooper": "^0.3.4",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vee-validate": "^3.4.10",
+    "vue-sanitize": "^0.2.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",

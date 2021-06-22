@@ -6,8 +6,10 @@
       alt=""
     />
     <span class="text-dark-red-500 inline-block ml-6">
-      <strong>¡Gracias por enviar tu mensaje!</strong>
-      Te estaremos contactando muy pronto.
+      <slot>
+        <strong>¡Gracias por enviar tu mensaje!</strong>
+        Te estaremos contactando muy pronto.
+      </slot>
     </span>
   </div>
 </template>

@@ -15,7 +15,6 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { mapState } from 'vuex';
 
 import AppNav from '@/components/AppNav.vue';
 import AppNavMobile from '@/components/AppNavMobile.vue';
@@ -50,8 +49,18 @@ export default Vue.extend({
       return this.$store.state.dialog.showSellDialog;
     },
   },
-  mounted() {
+  async mounted() {
     this.$store.commit('dialog/openDialog');
+    try {
+      // @ts-ignore
+      await this.$recaptcha.init();
+    } catch (e) {
+      console.error(e);
+    }
+  },
+  beforeDestroy() {
+    // @ts-ignore
+    this.$recaptcha.destroy();
   },
 });
 </script>

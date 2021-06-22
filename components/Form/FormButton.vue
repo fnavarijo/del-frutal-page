@@ -1,5 +1,8 @@
 <template>
-  <button class="darken px-4 py-2 text-lg bg-black text-white font-bold">
+  <button
+    :type="type"
+    class="darken px-4 py-2 text-lg bg-black text-white font-bold"
+  >
     <slot>Enviar</slot>
   </button>
 </template>
@@ -9,6 +12,12 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'FormButton',
+  props: {
+    type: {
+      type: String,
+      default: 'button',
+    },
+  },
 });
 </script>
 

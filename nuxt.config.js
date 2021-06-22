@@ -43,7 +43,11 @@ export default {
   css: ['@/assets/main.css', 'hooper/dist/hooper.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/validate.ts' },
+    { src: '~/plugins/sanitize.ts' },
+    { src: '~/plugins/emailInit.ts' },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -63,6 +67,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/recaptcha',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -73,5 +78,20 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['vee-validate/dist/rules'],
+  },
+  recaptcha: {
+    hideBadge: false,
+    siteKey: process.env.RECAPTCHA_SITE_KEY,
+    version: 3,
+    size: 'compact',
+  },
+  privateRuntimeConfig: {
+    recaptchaSiteKey: process.env.RECAPTCHA_SITE_KEY,
+    mandrillApiKey: process.env.MANDRILL_API_KEY,
+  },
+  publicRuntimeConfig: {
+    mandrillApiKey: process.env.MANDRILL_API_KEY,
+  },
 };
