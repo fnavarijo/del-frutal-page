@@ -31,6 +31,10 @@ module.exports = {
         '60%-cover': '60%, cover',
         '90%-cover': '90%, cover',
       },
+      backgroundPosition: {
+        'custom-top-left-banner': '5% 0%, top left',
+        'custom-center-banner': 'center top, top left',
+      },
       width: {
         'extra-full': '150%',
         'extra-mid-full': '120%',
@@ -60,6 +64,7 @@ module.exports = {
       padding: {
         '16-9ratio': '56.25%',
         '2-ratio': '200%',
+        full: '100%',
       },
       colors: {
         california: '#fb9b03',

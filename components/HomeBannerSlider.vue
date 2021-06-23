@@ -14,12 +14,14 @@
           backgroundRepeat: 'no-repeat',
         }"
       >
-        <div class="grid grid-cols-2 w-full h-full max-w-screen-xl">
-          <div class="flex flex-col justify-center items-start">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 w-full h-full max-w-screen-xl p-4"
+        >
+          <div class="flex flex-col justify-center items-end md:items-start">
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620858343/FAMOSA/Frase_nueva-01_f7j2jg.svg"
               alt=""
-              class="w-full mb-8"
+              class="w-3/5 md:w-full mb-8"
             />
             <NuxtLink
               class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
@@ -31,22 +33,23 @@
         </div>
       </Slide>
       <Slide
-        class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover"
+        class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover bg-custom-center-banner md:bg-custom-top-left-banner"
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1619481257/FAMOSA/Premios/Botellas_qoru7n.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
-          backgroundPosition: '5% 0%, top left',
           backgroundRepeat: 'no-repeat',
         }"
       >
         <div
-          class="grid grid-cols-2 w-full h-full md:max-w-screen-md lg:max-w-screen-lg"
+          class="grid grid-cols-1 md:grid-cols-2 w-full h-full md:max-w-screen-md lg:max-w-screen-lg p-4"
         >
-          <div></div>
-          <div class="flex flex-col justify-center items-start">
+          <div class="hidden md:block"></div>
+          <div
+            class="flex flex-col justify-end md:justify-center items-center md:items-start pb-12 md:pb-0"
+          >
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591890/FAMOSA/Inicio/Banner%201/Dsitinguida_lvbjxr.svg"
               alt=""
-              class="w-full mb-8"
+              class="w-3/5 md:w-full mb-8"
             />
           </div>
         </div>

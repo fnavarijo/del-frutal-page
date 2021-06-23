@@ -4,8 +4,8 @@
   >
     <NuxtLink to="/">
       <img
-        src="https://vuejs.org/images/logo.png"
-        class="h-12 w-12"
+        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+        class="w-16"
         alt="EDT Logo"
       />
     </NuxtLink>
@@ -33,27 +33,40 @@
         </div>
       </div>
       <ul class="space-y-4 text-lg">
-        <NuxtLink to="/" class="triangle-bullet"><li>Inicio</li></NuxtLink>
-        <NuxtLink to="/" class="triangle-bullet"
-          ><li>Nuestro grupo</li></NuxtLink
+        <NuxtLink
+          to="/"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
+          ><li>Inicio</li></NuxtLink
         >
-        <NuxtLink to="/" class="triangle-bullet"><li>Marcas</li></NuxtLink>
-        <NuxtLink to="/" class="triangle-bullet"
-          ><li>Descubre EDT</li></NuxtLink
+        <NuxtLink
+          to="/#about"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
+          ><li>Acerca de famosa</li></NuxtLink
         >
-        <NuxtLink to="/quienes-somos" class="triangle-bullet"
-          ><li>¿Quiénes somos?</li></NuxtLink
+        <NuxtLink
+          to="/#products"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
+          ><li>Productos</li></NuxtLink
         >
-        <li class="triangle-bullet">Export</li>
-        <ul class="ml-6 space-y-4">
-          <NuxtLink class="triangle-bullet" to="/export"
-            ><li>Marca Propia</li></NuxtLink
-          >
-          <NuxtLink class="triangle-bullet" to="/private-label"
-            ><li>Marca Privada</li></NuxtLink
-          >
-        </ul>
-        <NuxtLink to="/contact-us" class="triangle-bullet"
+        <NuxtLink
+          to="/#prices"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
+          ><li>Premios</li></NuxtLink
+        >
+        <NuxtLink
+          to="/#where-to-buy"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
+          ><li>Dónde comprar</li></NuxtLink
+        >
+        <NuxtLink
+          to="/#contact-us"
+          class="triangle-bullet"
+          @click.native="displayNav = false"
           ><li>Contáctanos</li></NuxtLink
         >
       </ul>

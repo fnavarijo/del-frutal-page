@@ -11,7 +11,8 @@
     }"
   >
     <div v-show="!arePricesShown" class="grid grid-cols-2 w-full">
-      <div class="flex flex-col justify-start items-start">
+      <div class="block md:hidden"></div>
+      <div class="flex flex-col justify-start items-end md:items-start">
         <img
           src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1619483907/FAMOSA/Premios/premio-01_b9tntt.png"
           alt=""
