@@ -16,6 +16,10 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'FormCheckbox',
+  model: {
+    prop: 'modelValue',
+    event: 'change',
+  },
   props: {
     name: {
       type: String,
@@ -25,6 +29,11 @@ export default Vue.extend({
       type: String,
       default: '',
     },
+    value: {
+      type: String,
+      default: '',
+    },
+    modelValue: { type: String, default: '' },
   },
 });
 </script>
