@@ -1,7 +1,7 @@
 <template>
   <section
     class="px-8 py-4 min-h-screen w-full relative flex flex-col"
-    :class="`bg-${bgColor} justify-${justify} items-${items}`"
+    :class="`bg-${bgColor} justify-${justify} items-${items} ${justifyResponsive}`"
   >
     <div
       class="flex flex-col justify-center items-center"
@@ -35,6 +35,10 @@ export default Vue.extend({
       default: 'md:max-w-screen-md lg:max-w-screen-lg',
     },
     innerContainerClass: {
+      type: String,
+      default: '',
+    },
+    justifyResponsive: {
       type: String,
       default: '',
     },

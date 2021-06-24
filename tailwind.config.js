@@ -34,6 +34,8 @@ module.exports = {
       backgroundPosition: {
         'custom-top-left-banner': '5% 0%, top left',
         'custom-center-banner': 'center top, top left',
+        'medal-md-alignment': '100% 15%, right bottom, top left',
+        'medal-sm-alignment': '100% 10%, right bottom, top left',
       },
       width: {
         'extra-full': '150%',
@@ -65,6 +67,8 @@ module.exports = {
         '16-9ratio': '56.25%',
         '2-ratio': '200%',
         full: '100%',
+        '15%': '15%',
+        '1/4': '25%',
       },
       colors: {
         california: '#fb9b03',

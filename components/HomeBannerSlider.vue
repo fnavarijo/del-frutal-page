@@ -6,10 +6,9 @@
       :infinite-scroll="true"
     >
       <Slide
-        class="relative px-8 py-4 flex justify-center items-center"
+        class="relative px-8 py-4 flex justify-center items-center bg-medal-sm-alignment md:bg-medal-md-alignment"
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
-          backgroundPosition: '100% 15%, right bottom, top left',
           backgroundSize: '15%, auto, cover',
           backgroundRepeat: 'no-repeat',
         }"
@@ -17,14 +16,16 @@
         <div
           class="grid grid-cols-1 md:grid-cols-2 w-full h-full max-w-screen-xl p-4"
         >
-          <div class="flex flex-col justify-center items-end md:items-start">
+          <div
+            class="flex flex-col justify-start md:justify-center items-end md:items-start pt-1/4 md:pt-0"
+          >
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620858343/FAMOSA/Frase_nueva-01_f7j2jg.svg"
               alt=""
-              class="w-3/5 md:w-full mb-8"
+              class="w-3/5 md:w-full mb-2 md:mb-8"
             />
             <NuxtLink
-              class="uppercase bg-black text- text-2xl text-normal-yellow-500 font-bold p-2"
+              class="uppercase bg-black text-2xl text-normal-yellow-500 font-bold p-2"
               to="/#about"
             >
               Conoce más
@@ -44,7 +45,7 @@
         >
           <div class="hidden md:block"></div>
           <div
-            class="flex flex-col justify-end md:justify-center items-center md:items-start pb-12 md:pb-0"
+            class="flex flex-col justify-center items-center md:items-start pb-12 md:pb-0 pt-24 md:pt-0"
           >
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591890/FAMOSA/Inicio/Banner%201/Dsitinguida_lvbjxr.svg"

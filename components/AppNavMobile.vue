@@ -5,7 +5,7 @@
     <NuxtLink to="/">
       <img
         src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
-        class="w-16"
+        class="w-20"
         alt="EDT Logo"
       />
     </NuxtLink>

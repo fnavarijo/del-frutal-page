@@ -33,6 +33,8 @@
     <AppSection
       class="min-h-screen"
       max-content="md:max-w-screen-xl"
+      justify="start"
+      justify-responsive="md:justify-center"
       :style="{
         backgroundImage:
           'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618465031/FAMOSA/Acerca%20de/pack_gxwnmh.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258341/FAMOSA/Acerca%20de/fondo_fapbpg.jpg\')',
