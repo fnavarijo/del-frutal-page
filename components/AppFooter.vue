@@ -20,7 +20,7 @@
       </InfoFooter>
     </div>
     <div class="py-4 px-8 bg-dark-red-700 text-center">
-      <span> © 2019 Export Development & Trade </span>
+      <span> © {{ new Date().getFullYear() }} Export Development & Trade </span>
     </div>
   </footer>
 </template>

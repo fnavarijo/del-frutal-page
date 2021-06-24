@@ -18,7 +18,7 @@
           alt=""
         />
         <button
-          class="bg-black uppercase inline-block font-bold text-2xl py-1 px-2 text-normal-yellow-500"
+          class="bg-black uppercase inline-block font-bold text-xl md:text-2xl py-1 px-2 text-normal-yellow-500 mt-4"
           @click="showPrices"
         >
           Ver todos

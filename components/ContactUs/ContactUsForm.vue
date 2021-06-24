@@ -45,12 +45,14 @@
         placeholder="Mensaje"
         rules="required"
       />
-      <div class="flex items-center space-x-2">
+      <div class="flex flex-col md:flex-row items-center space-x-2">
         <span class="inline-block flex-2"
           >¿Te gustaría recibir ofertas e información sobre nuestros servicios y
           productos?</span
         >
-        <div class="flex-1 flex justify-center items-center">
+        <div
+          class="flex-1 flex justify-start md:justify-center items-center w-full md:w-auto"
+        >
           <FormRadioButton
             v-model="contact.receiveNotifications"
             class="mr-4 font-bold uppercase"

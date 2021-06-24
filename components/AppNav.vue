@@ -42,7 +42,7 @@
         </li>
         <div class="flex">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/famosabeerusa"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@
           </a>
 
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/famosabeerusa/"
             target="_blank"
             rel="noopener noreferrer"
           >

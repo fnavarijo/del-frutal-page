@@ -51,7 +51,7 @@
             class="w-2/3"
           />
         </div>
-        <div class="space-y-8">
+        <div class="space-y-2 md:space-y-8">
           <PresentationCharacteristic
             icon-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258564/FAMOSA/Producto/categoria_xjlah2.svg"
             title="Categoria"

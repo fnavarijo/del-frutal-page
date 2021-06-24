@@ -69,9 +69,9 @@
     <HomeSectionPresentations />
     <a id="prices" class="block relative -top-64 invisible" />
     <HomeSectionsPrice />
-    <a id="where-to-buy" class="block relative top-0 md:-top-56 invisible" />
+    <a id="where-to-buy" class="block relative -top-8 md:-top-56 invisible" />
     <OurLocations />
-    <a id="contact-us" class="block relative -top-16 invisible" />
+    <a id="contact-us" class="block relative top-0 md:-top-16 invisible" />
     <AppSection
       :style="{
         backgroundImage:
