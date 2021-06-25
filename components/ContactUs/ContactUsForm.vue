@@ -90,7 +90,7 @@ import FormInput from '@/components/Form/FormInput.vue';
 import FormSelect from '@/components/Form/FormSelect.vue';
 import FormButton from '@/components/Form/FormButton.vue';
 import FormRadioButton from '@/components/Form/FormRadioButton.vue';
-import { sendEmail } from '@/api/sendEmail';
+import { sendEmailXML, buildFormData } from '@/api/sendEmailXML';
 
 export default Vue.extend({
   name: 'ContactUsForm',
@@ -127,15 +127,19 @@ export default Vue.extend({
       try {
         // @ts-ignore
         await this.$recaptcha.execute('login');
-        await sendEmail(this.validateFields(this.contact));
+        await sendEmailXML(
+          '/sendEmail.php',
+          buildFormData(this.validateFields(this.contact))
+        );
 
         this.formSubmitted = true;
         this.$emit('submit');
 
-        setInterval(this.clearSubmitedMessage, 10000);
+        setTimeout(this.clearSubmitedMessage, 10000);
       } catch (err) {
+        console.error(err);
         this.hasError = true;
-        setInterval(this.clearErrorMessage, 10000);
+        setTimeout(this.clearErrorMessage, 10000);
       } finally {
         this.clearForm();
         // @ts-ignore
