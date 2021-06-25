@@ -1,10 +1,6 @@
 <template>
-  <section class="w-screen h-screen">
-    <Hooper
-      style="height: 100vh"
-      :wheel-control="false"
-      :infinite-scroll="true"
-    >
+  <section class="w-screen h-screen-2/3 md:h-screen">
+    <Hooper :wheel-control="false" :infinite-scroll="true">
       <Slide
         class="relative px-8 py-4 flex justify-center items-center bg-medal-sm-alignment md:bg-medal-md-alignment"
         :style="{
@@ -25,7 +21,7 @@
               class="w-3/5 md:w-full mb-2 md:mb-8"
             />
             <NuxtLink
-              class="uppercase bg-black text-2xl text-normal-yellow-500 font-bold p-2"
+              class="uppercase bg-black text-normal-yellow-500 font-bold p-2 text-base md:text-2xl"
               to="/#about"
             >
               Conoce más
@@ -50,7 +46,7 @@
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591890/FAMOSA/Inicio/Banner%201/Dsitinguida_lvbjxr.svg"
               alt=""
-              class="w-3/5 md:w-full mb-8"
+              class="w-3/5 md:w-full mb-8 pt-24 md:pt-0"
             />
           </div>
         </div>
@@ -71,11 +67,11 @@
       <Navigation slot="hooper-addons">
         <template #hooper-prev>
           <DownArrow
-            class="transform rotate-90 h-10 w-10 fill-current text-white ml-4"
+            class="hidden md:block transform rotate-90 h-10 w-10 fill-current text-white ml-4"
         /></template>
-        <template #hooper-next
+        <template #hooper-next class=""
           ><DownArrow
-            class="transform -rotate-90 h-10 w-10 fill-current text-white mr-4"
+            class="hidden md:block transform -rotate-90 h-10 w-10 fill-current text-white mr-4"
         /></template>
       </Navigation>
       <HooperPagination slot="hooper-addons" />
@@ -109,6 +105,10 @@ export default Vue.extend({
 </script>
 
 <style>
+.hooper {
+  @apply h-screen-2/3;
+}
+
 .hooper-indicator {
   @apply h-2 w-2 rounded-full;
 }
@@ -120,5 +120,12 @@ export default Vue.extend({
 
 .hooper-pagination {
   @apply bottom-8;
+}
+
+/* stylelint-disable */
+@screen md {
+  .hooper {
+    @apply h-screen;
+  }
 }
 </style>
