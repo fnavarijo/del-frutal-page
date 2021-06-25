@@ -47,7 +47,7 @@ body {
   content: '';
   border-top-color: transparent;
   border-bottom-color: transparent;
-  border-left-color: theme('colors.california');
+  border-left-color: theme('colors.white');
 
   @apply w-0 h-0 absolute left-0 border-t-8 border-b-8 border-l-12;
 }

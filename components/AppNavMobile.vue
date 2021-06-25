@@ -19,7 +19,7 @@
     </div>
 
     <nav
-      class="absolute top-0 left-0 h-screen w-screen p-4 bg-normal-blue-500 text-white transition ease-in-out duration-150"
+      class="absolute top-0 left-0 h-screen w-screen p-4 bg-black text-white transition ease-in-out duration-150"
       :class="[displayNav ? 'transform-none' : 'transform -translate-x-full']"
     >
       <div class="h-10 w-full flex justify-end" @click="displayNav = false">
