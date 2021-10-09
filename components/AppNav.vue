@@ -5,9 +5,9 @@
   >
     <NuxtLink to="/">
       <img
-        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626187491/DEL%20FRUTAL/logo_pnf2wv.png"
         class="w-24"
-        alt="Famosa Logo"
+        alt="Del Frutal Logo"
       />
     </NuxtLink>
     <div>
@@ -21,13 +21,10 @@
       </div>
       <ul class="flex">
         <li class="uppercase font-bold mx-2">
-          <NuxtLink to="/#about">Acerca de famosa</NuxtLink>
+          <NuxtLink to="/#about">Acerca de Del Frutal</NuxtLink>
         </li>
         <li class="uppercase font-bold mx-2">
           <NuxtLink to="/#products">Productos</NuxtLink>
-        </li>
-        <li class="uppercase font-bold mx-2">
-          <NuxtLink to="/#prices">Premios</NuxtLink>
         </li>
         <li class="uppercase font-bold mx-2">
           <NuxtLink to="/#where-to-buy">Dónde comprar</NuxtLink>
@@ -37,7 +34,7 @@
         </li>
         <li class="uppercase font-bold mx-2">
           <span class="cursor-pointer" @click="openSellDialog"
-            >¿Quieres vender famosa?</span
+            >¿Quieres vender del Frutal?</span
           >
         </li>
         <div class="flex">

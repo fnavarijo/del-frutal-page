@@ -1,7 +1,7 @@
 <template>
   <footer class="text-white">
     <div
-      class="py-4 px-8 grid gap-4 grid-cols-1 md:gap-1 md:grid-cols-3 bg-dark-red-600"
+      class="py-4 px-8 grid gap-4 grid-cols-1 md:gap-1 md:grid-cols-3 bg-orange-600"
     >
       <InfoFooter
         image-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620077455/FAMOSA/3_wqyqgj.png"
@@ -19,7 +19,7 @@
         Central Beer, Miami Fl.
       </InfoFooter>
     </div>
-    <div class="py-4 px-8 bg-dark-red-700 text-center">
+    <div class="py-4 px-8 bg-orange-300 text-center">
       <span> © {{ new Date().getFullYear() }} Export Development & Trade </span>
     </div>
   </footer>

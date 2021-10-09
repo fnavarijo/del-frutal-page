@@ -37,8 +37,8 @@
       justify-responsive="md:justify-center"
       :style="{
         backgroundImage:
-          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618465031/FAMOSA/Acerca%20de/pack_gxwnmh.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258341/FAMOSA/Acerca%20de/fondo_fapbpg.jpg\')',
-        backgroundPosition: '90% 100%, top left',
+          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Frutas_ho2xw5.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190389/DEL%20FRUTAL/Banner_4_qzzvko.png\')',
+        backgroundPosition: 'bottom right, top left',
         backgroundSize: '40%, cover',
         backgroundRepeat: 'no-repeat',
       }"
@@ -48,34 +48,29 @@
           class="flex flex-col justify-center items-center md:items-start space-y-4"
         >
           <img
-            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626187491/DEL%20FRUTAL/logo_pnf2wv.png"
             alt=""
             class="w-56"
           />
-          <h2 class="text-4xl font-bold">Acerca de Famosa</h2>
+          <h2 class="text-4xl font-bold">Acerca de Del Frutal</h2>
           <p class="text-justify">
-            FAMOSA, fórmula de excelencia con historia de más de 125 años.
-            Creada en 1,896 bajo el maestro cervecero de origen alemán, German
-            Spitz, que ha llegado a Estados Unidos y otros países del mundo a
-            conquistar los corazones y el paladar de los latinos. Una cerveza
-            lager clara con contenido alcohólico de 5.0%. Con cuerpo definido,
-            aroma acelerado y una fórmula reconocida por sus notas amargas y
-            herbáceas provenientes del lúpulo; con sabor prolongado.
+            Del Frutal es un néctar 100% natural, sin preservantes y sin colorantes artificiales, viene en sus presentaciones de lata 330ml, Tetra 200ml y Tetra 1 litro. Actualmente, en los sabores de manzana, melocotón, piña, pera, mango, banano-fresa, guayaba y mango maracuyá.
+            <br />
+            <br />
+            Del Frutal se ha caracterizado por ser una marca líder, con los más altos estándares de calidad en la producción de sus productos. Es una marca innovadora que busca estar al nivel de sus consumidores, y prueba de ello su reciente lanzamiento de la nueva imagen desde Agosto 2009, con un giro jovial y atractivo.
           </p>
         </div>
       </div>
     </AppSection>
     <a id="products" class="block relative md:-top-12 2xl:top-0 invisible" />
     <HomeSectionPresentations />
-    <a id="prices" class="block relative -top-64 invisible" />
-    <HomeSectionsPrice />
     <a id="where-to-buy" class="block relative -top-8 md:-top-56 invisible" />
     <OurLocations />
     <a id="contact-us" class="block relative top-0 md:-top-16 invisible" />
     <AppSection
       :style="{
         backgroundImage:
-          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258350/FAMOSA/Contacto/fondo_odrdy3.jpg\')',
+          'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190403/DEL%20FRUTAL/Banner_contacto_lz1muv.png\')',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'top left',

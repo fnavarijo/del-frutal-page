@@ -4,16 +4,20 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Famosa',
+    title: 'Del Frutal',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Famosa website' },
-      { hid: 'og:title', property: 'og:title', content: 'Famosa' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Del Frutal website',
+      },
+      { hid: 'og:title', property: 'og:title', content: 'Del Frutal' },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Famosa website',
+        content: 'Del Frutal website',
       },
       {
         hid: 'og:image',
@@ -23,12 +27,12 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Famosa',
+        content: 'Del Frutal',
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Famosa website',
+        content: 'Del Frutal website',
       },
       {
         hid: 'twitter:image',

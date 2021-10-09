@@ -2,8 +2,8 @@
   <AppSection
     class="min-h-screen-2/3"
     :style="{
-      backgroundImage: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258470/FAMOSA/Donde%20comprar/fondo_lgqvdc.jpg')`,
-      backgroundPosition: 'top left',
+      backgroundImage: `url('https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190406/DEL%20FRUTAL/Mapa_Banner_mh5sd5.png')`,
+      backgroundPosition: 'bottom left',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
     }"

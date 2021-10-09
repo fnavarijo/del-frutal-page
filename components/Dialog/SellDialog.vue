@@ -3,7 +3,7 @@
     class="font-sans h-screen w-screen p-4 flex flex-col justify-center items-center text-white relative"
     :style="{
       backgroundImage:
-        'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258468/FAMOSA/Contacto/fondo_ckx7cm.jpg\')',
+        'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190403/DEL%20FRUTAL/Banner_contacto_lz1muv.png\')',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
     }"
@@ -13,7 +13,7 @@
       @click="closeDialog"
       ><img src="~/assets/img/cancel.svg" class="w-8 h-8" alt=""
     /></span>
-    <h1 class="text-5xl self-start">¿Quieres vender Famosa?</h1>
+    <h1 class="text-5xl self-start">¿Quieres vender Del Frutal?</h1>
     <ContactUsForm :handle-submit-message="false" @submit="showThanksMessage" />
     <div v-show="showThanks" class="h-screen w-screen absolute top-0 thanks-bg">
       <div
