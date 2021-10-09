@@ -4,65 +4,43 @@
       <Slide
         class="relative px-8 py-4 flex justify-center items-center bg-medal-sm-alignment md:bg-medal-md-alignment"
         :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258477/FAMOSA/Inicio/Banner%203/1-01_a7tngo.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258476/FAMOSA/Inicio/Banner%203/Cerveza_raly4p.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
-          backgroundSize: '15%, auto, cover',
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Banner_1_r4dhdz.png\')`,
+          backgroundSize: 'contain, cover',
           backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'left center, left top',
         }"
       >
         <div
           class="grid grid-cols-1 md:grid-cols-2 w-full h-full max-w-screen-xl p-4"
         >
+          <div></div>
           <div
             class="flex flex-col justify-start md:justify-center items-end md:items-start pt-1/4 md:pt-0"
           >
             <img
-              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620858343/FAMOSA/Frase_nueva-01_f7j2jg.svg"
+              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190403/DEL%20FRUTAL/Productos_ttjod3.png"
               alt=""
               class="w-3/5 md:w-full mb-2 md:mb-8"
             />
-            <NuxtLink
-              class="uppercase bg-black text-normal-yellow-500 font-bold p-2 text-base md:text-2xl"
-              to="/#about"
-            >
-              Conoce más
-            </NuxtLink>
           </div>
         </div>
       </Slide>
       <Slide
         class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover bg-custom-center-banner md:bg-custom-top-left-banner"
         :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1619481257/FAMOSA/Premios/Botellas_qoru7n.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Inicio/Banner%201/fondo_vj9qxt.jpg\')`,
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190384/DEL%20FRUTAL/Banner_2_frase_doywaq.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190397/DEL%20FRUTAL/Banner_2_h7n0ft.png\')`,
           backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center, left top',
         }"
-      >
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 w-full h-full md:max-w-screen-md lg:max-w-screen-lg p-4"
-        >
-          <div class="hidden md:block"></div>
-          <div
-            class="flex flex-col justify-center items-center md:items-start pb-12 md:pb-0 pt-24 md:pt-0"
-          >
-            <img
-              src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618591890/FAMOSA/Inicio/Banner%201/Dsitinguida_lvbjxr.svg"
-              alt=""
-              class="w-3/5 md:w-full mb-8 pt-24 md:pt-0"
-            />
-          </div>
-        </div>
-      </Slide>
+      />
       <Slide
         :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258471/FAMOSA/Inicio/Banner%202/fondo_sghbul.jpg\')`,
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626187493/DEL%20FRUTAL/BANNER_-_2_bvfxol.jpg\')`,
           backgroundPosition: 'top left',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
         }"
-        ><img
-          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1620919051/FAMOSA/Gente_runtde.png"
-          class="h-full w-full object-cover"
-          alt=""
-      /></Slide>
+      />
 
       <Navigation slot="hooper-addons">
         <template #hooper-prev>
