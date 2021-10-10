@@ -17,38 +17,26 @@
           <span class="font-bold triangle-bullet text-xl"
             >Puntos de venta en Estados Unidos:</span
           >
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('california')">
-            California
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('florida')">
+            Florida
           </li>
           <li class="ml-6 cursor-pointer" @mouseover="selectArea('new-jersey')">
             New Jersey
           </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('georgia')">
-            Georgia
-          </li>
           <li class="ml-6 cursor-pointer" @mouseover="selectArea('new-york')">
             New York
-          </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('texas')">
-            Texas
-          </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('florida')">
-            Florida
-          </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('illinois')">
-            Illinois
           </li>
           <li class="ml-6 cursor-pointer" @mouseover="selectArea('maryland')">
             Maryland
           </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('virginia')">
-            Virginia
-          </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('alabama')">
-            Alabama
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('california')">
+            California
           </li>
           <li class="ml-6 cursor-pointer" @mouseover="selectArea('tennessee')">
             Tennessee
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('georgia')">
+            Georgia
           </li>
           <li
             class="ml-6 cursor-pointer"
@@ -56,11 +44,23 @@
           >
             Massachusetts
           </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('washington')">
-            Washington
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('delaware')">
+            Delaware
           </li>
-          <li class="ml-6 cursor-pointer" @mouseover="selectArea('oaklahoma')">
-            Oklahoma
+          <li
+            class="ml-6 cursor-pointer"
+            @mouseover="selectArea('north-carolina')"
+          >
+            North Carolina
+          </li>
+          <li
+            class="ml-6 cursor-pointer"
+            @mouseover="selectArea('rhode-island')"
+          >
+            Rhode Island
+          </li>
+          <li class="ml-6 cursor-pointer" @mouseover="selectArea('texas')">
+            Texas
           </li>
         </ul>
       </div>

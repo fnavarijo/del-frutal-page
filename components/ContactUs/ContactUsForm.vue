@@ -70,10 +70,7 @@
           <FormButton type="submit" />
         </div>
       </div>
-      <ContactUsMessage
-        v-show="formSubmitted && handleSubmitMessage"
-        class="mt-4"
-      />
+      <ContactUsMessage v-show="true" class="mt-4" />
       <ContactUsMessage v-show="hasError" class="mt-4"
         >¡Algo ocurrio! Intentalo de nuevo.</ContactUsMessage
       >

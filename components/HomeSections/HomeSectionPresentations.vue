@@ -2,7 +2,7 @@
   <AppSection
     :style="{
       backgroundImage:
-        'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258429/FAMOSA/Producto/fonod_ypz1jp.jpg\')',
+        'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190392/DEL%20FRUTAL/Banner_5_n8mfe2.png\')',
       backgroundSize: 'cover',
       backgroundPosition: 'top left',
       backgroundRepeat: 'no-repeat',
@@ -10,69 +10,26 @@
     inner-container-class="w-full text-normal-brown-500"
     max-content=""
   >
-    <div class="grid grid-cols-1 md:grid-cols-3">
-      <div class="flex flex-col justify-center text-justify">
-        <h2 class="text-4xl font-bold mb-4">Presentaciones</h2>
-        <p class="mb-8">
-          <strong>Famosa Lager Beer:</strong> Cerveza tipo lager de cuerpo
-          espumoso persistente en el vaso. Su sabor es acentuado y definido por
-          un amargo especial provenietne del lúpulo, con un contendio alcohólico
-          del 5%.
-          <br />
-          <br />
-          Tiene un sabor y calidad incomparable, un tono dorado oscuro y su
-          espuma clara y estable.
-        </p>
-        <PresentationLabelContainer
-          @presentation-selected="setSelectedPresentation"
-        />
-      </div>
-      <div
-        class="w-3/5 pt-full md:pt-2-ratio relative h-0 overflow-hidden mx-auto"
-      >
+    <div class="grid grid-cols-1 md:grid-cols-1">
+      <div class="m-auto">
         <img
-          :key="selectedPresentation"
-          :src="presentationsImages[selectedPresentation]"
-          class="w-full h-full absolute top-0 left-0 px-12 mx-auto object-contain"
+          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190390/DEL%20FRUTAL/El_nectar_para_tu_dia_vju4kc.png"
           alt=""
         />
       </div>
-      <div class="flex flex-col justify-center">
-        <p class="mb-8 text-justify">
-          <strong>Armonización:</strong> Quesos, comida oriental, comida
-          latinoamericana, especialmente con salsas picantes, carnes rojas a la
-          parilla acompañada de aderezos y salsas.
-        </p>
-        <div class="flex flex-col items-end mb-4">
-          <span class="font-bold text-lg mr-1">Color</span>
-          <img
-            src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1619069241/FAMOSA/Producto/color_ilvkuu_he8ujw.png"
-            alt=""
-            class="w-2/3"
-          />
-        </div>
-        <div class="space-y-2 md:space-y-8">
-          <PresentationCharacteristic
-            icon-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258564/FAMOSA/Producto/categoria_xjlah2.svg"
-            title="Categoria"
-            subtitle="Larger Beer"
-          />
-          <PresentationCharacteristic
-            icon-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258570/FAMOSA/Producto/Contenido_de_alcohol_i843qr.svg"
-            title="Contenido de alcohol"
-            subtitle="5%"
-          />
-          <PresentationCharacteristic
-            icon-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258525/FAMOSA/Producto/temperatura_zlardn.svg"
-            title="Temperatura ideal"
-            subtitle="0-3° C"
-          />
-          <PresentationCharacteristic
-            icon-url="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258521/FAMOSA/Producto/IBUs_zrkaki.svg"
-            title="IBUs"
-            subtitle="10"
-          />
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
+        <PresentationProduct
+          image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190376/DEL%20FRUTAL/caja_dpsjrv.png"
+          class="w-1/2 m-auto"
+        />
+        <PresentationProduct
+          image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190378/DEL%20FRUTAL/lata_i8ybxz.png"
+          class="w-1/2 m-auto"
+        />
+        <PresentationProduct
+          image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190379/DEL%20FRUTAL/Litro_v8qjig.png"
+          class="w-1/2 m-auto"
+        />
       </div>
     </div>
   </AppSection>
