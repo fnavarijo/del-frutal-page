@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <img :src="image" alt="" />
     <button
-      class="uppercase bg-green-700 text-white font-bold text-xl md:text-4xl rounded-lg"
+      class="uppercase bg-green-700 text-white font-bold text-xl md:text-4xl rounded-lg mt-4"
     >
       Mostrar más
     </button>
