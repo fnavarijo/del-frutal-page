@@ -30,6 +30,7 @@
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190384/DEL%20FRUTAL/Banner_2_frase_doywaq.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190397/DEL%20FRUTAL/Banner_2_h7n0ft.png\')`,
           backgroundRepeat: 'no-repeat',
+          backgroundSize: '60%, cover',
           backgroundPosition: 'center center, left top',
         }"
       />
