@@ -2,9 +2,6 @@
   <div class="font-sans relative overflow-hidden">
     <AppNav :class="navBgColor" />
     <AppNavMobile />
-    <AppDialog :show-dialog="showDialog">
-      <AgeDialog />
-    </AppDialog>
     <AppDialog :show-dialog="showSellDialog">
       <SellDialog />
     </AppDialog>
