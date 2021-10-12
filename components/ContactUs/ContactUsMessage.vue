@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white relative inline-block rounded-md py-1 px-2">
     <img
-      src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258469/FAMOSA/Home/Gallo_clk24h.png"
+      src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1633966903/DEL%20FRUTAL/Garrita_onikp5.png"
       class="w-10 h-10 absolute -left-2 -top-2"
       alt=""
     />
