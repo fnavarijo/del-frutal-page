@@ -2,7 +2,7 @@
   <section class="w-screen h-screen-2/3 md:h-screen">
     <Hooper :wheel-control="false" :infinite-scroll="true">
       <Slide
-        class="relative px-8 py-4 flex justify-center items-center bg-medal-sm-alignment md:bg-medal-md-alignment"
+        class="relative px-8 py-4 flex justify-center items-center"
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Banner_1_r4dhdz.png\')`,
           backgroundSize: 'contain, cover',
@@ -15,7 +15,7 @@
         >
           <div></div>
           <div
-            class="flex flex-col justify-start md:justify-center items-end md:items-start pt-1/4 md:pt-0"
+            class="flex flex-col justify-start md:justify-end items-end md:items-start pt-1/4 md:pt-0"
           >
             <img
               src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190403/DEL%20FRUTAL/Productos_ttjod3.png"

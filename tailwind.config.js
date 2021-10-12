@@ -34,8 +34,6 @@ module.exports = {
       backgroundPosition: {
         'custom-top-left-banner': '5% 0%, top left',
         'custom-center-banner': 'center top, top left',
-        'medal-md-alignment': '100% 15%, right bottom, top left',
-        'medal-sm-alignment': '100% 12%, right bottom, top left',
       },
       width: {
         'extra-full': '150%',

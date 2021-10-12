@@ -39,7 +39,7 @@
         backgroundImage:
           'url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Frutas_ho2xw5.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190389/DEL%20FRUTAL/Banner_4_qzzvko.png\')',
         backgroundPosition: 'bottom right, top left',
-        backgroundSize: '40%, cover',
+        backgroundSize: '55%, cover',
         backgroundRepeat: 'no-repeat',
       }"
     >
@@ -54,10 +54,18 @@
           />
           <h2 class="text-4xl font-bold">Acerca de Del Frutal</h2>
           <p class="text-justify">
-            Del Frutal es un néctar 100% natural, sin preservantes y sin colorantes artificiales, viene en sus presentaciones de lata 330ml, Tetra 200ml y Tetra 1 litro. Actualmente, en los sabores de manzana, melocotón, piña, pera, mango, banano-fresa, guayaba y mango maracuyá.
+            Del Frutal es un néctar 100% natural, sin preservantes y sin
+            colorantes artificiales, viene en sus presentaciones de lata 330ml,
+            Tetra 200ml y Tetra 1 litro. Actualmente, en los sabores de manzana,
+            melocotón, piña, pera, mango, banano-fresa, guayaba y mango
+            maracuyá.
             <br />
             <br />
-            Del Frutal se ha caracterizado por ser una marca líder, con los más altos estándares de calidad en la producción de sus productos. Es una marca innovadora que busca estar al nivel de sus consumidores, y prueba de ello su reciente lanzamiento de la nueva imagen desde Agosto 2009, con un giro jovial y atractivo.
+            Del Frutal se ha caracterizado por ser una marca líder, con los más
+            altos estándares de calidad en la producción de sus productos. Es
+            una marca innovadora que busca estar al nivel de sus consumidores, y
+            prueba de ello su reciente lanzamiento de la nueva imagen desde
+            Agosto 2009, con un giro jovial y atractivo.
           </p>
         </div>
       </div>
