@@ -1,7 +1,7 @@
 <template>
   <nav
     class="py-12 px-16 w-screen fixed hidden md:flex items-center justify-between text-white z-10"
-    :class="[isOnTopSection ? gradient : blackBanner]"
+    :class="blackBanner"
   >
     <NuxtLink to="/">
       <img

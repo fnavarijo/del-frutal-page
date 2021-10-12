@@ -7,7 +7,7 @@
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Banner_1_r4dhdz.png\')`,
           backgroundSize: 'contain, cover',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'left center, left top',
+          backgroundPosition: 'left 30%, left top',
         }"
       >
         <div
@@ -37,7 +37,7 @@
       <Slide
         :style="{
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626187493/DEL%20FRUTAL/BANNER_-_2_bvfxol.jpg\')`,
-          backgroundPosition: 'top left',
+          backgroundPosition: 'top center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
         }"

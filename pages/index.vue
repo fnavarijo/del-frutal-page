@@ -1,5 +1,5 @@
 <template>
-  <div id="index-container" class="text-white relative">
+  <div id="index-container" class="text-white relative mt-0 md:mt-32">
     <div id="index" class="absolute top-8">
       <!-- Hacky element to intercept with top -->
     </div>

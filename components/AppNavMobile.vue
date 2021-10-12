@@ -4,9 +4,9 @@
   >
     <NuxtLink to="/">
       <img
-        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1618258472/FAMOSA/Inicio/LOGO_gc7qlk.png"
+        src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626187491/DEL%20FRUTAL/logo_pnf2wv.png"
         class="w-20"
-        alt="EDT Logo"
+        alt="Del Frutal Logo"
       />
     </NuxtLink>
     <div
@@ -43,19 +43,13 @@
           to="/#about"
           class="triangle-bullet"
           @click.native="displayNav = false"
-          ><li>Acerca de famosa</li></NuxtLink
+          ><li>Acerca de Del Frutal</li></NuxtLink
         >
         <NuxtLink
           to="/#products"
           class="triangle-bullet"
           @click.native="displayNav = false"
           ><li>Productos</li></NuxtLink
-        >
-        <NuxtLink
-          to="/#prices"
-          class="triangle-bullet"
-          @click.native="displayNav = false"
-          ><li>Premios</li></NuxtLink
         >
         <NuxtLink
           to="/#where-to-buy"
