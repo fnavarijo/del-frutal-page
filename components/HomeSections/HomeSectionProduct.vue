@@ -10,18 +10,18 @@
     class="relative"
     inner-container-class="w-full"
   >
-    <header class="flex items-center justify-center mb-8 md:mb-0">
+    <header class="flex items-center justify-center mb-8 md:mb-0 mt-4 md:mt-2">
       <h2 class="text-4xl md:text-6xl mr-4 ml-8 md:ml-0">Tetra pack</h2>
       <img
         src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1633966903/DEL%20FRUTAL/Garrita_onikp5.png"
         alt=""
-        class="w-16"
+        class="w-10 md:w-16"
       />
     </header>
     <div
       class="grid grid-cols-1 md:grid-cols-product items-center justify-items-center"
     >
-      <div class="w-64 mt-full">
+      <div class="w-32 md:w-64 mt-full">
         <img
           src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190379/DEL%20FRUTAL/Litro_v8qjig.png"
           alt=""
@@ -58,7 +58,7 @@
       <div></div>
     </div>
     <div
-      class="grid grid-cols-2 md:grid-cols-9 gap-2 justify-items-center items-center md:items-end mt-10 w-full"
+      class="grid grid-cols-2 md:grid-cols-9 gap-2 grid-rows-5 md:grid-rows-1 justify-items-center items-center md:items-end mt-10 w-full"
     >
       <PresentationFruits
         v-for="(fruitImage, index) in fruits"
