@@ -4,7 +4,7 @@
       <Slide
         class="relative px-8 py-4 flex justify-center items-center"
         :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190402/DEL%20FRUTAL/Banner_1_r4dhdz.png\')`,
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1634140851/DEL%20FRUTAL/Banner_1_r4dhdz_hqikpu.png\')`,
           backgroundSize: 'contain, cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'left 30%, left top',
@@ -28,7 +28,7 @@
       <Slide
         class="relative px-8 py-4 w-full flex justify-center items-center bg-60%-cover xl:bg-50%-cover bg-custom-center-banner md:bg-custom-top-left-banner"
         :style="{
-          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190384/DEL%20FRUTAL/Banner_2_frase_doywaq.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190397/DEL%20FRUTAL/Banner_2_h7n0ft.png\')`,
+          backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190384/DEL%20FRUTAL/Banner_2_frase_doywaq.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1634259130/DEL%20FRUTAL/Banner_2_h7n0ft_hosxrw.png\')`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: '60%, cover',
           backgroundPosition: 'center center, left top',

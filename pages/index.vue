@@ -71,7 +71,7 @@
       </div>
     </AppSection>
     <a id="products" class="block relative md:-top-12 2xl:top-0 invisible" />
-    <HomeSectionPresentations />
+    <HomeProducts />
     <a id="where-to-buy" class="block relative -top-8 md:-top-56 invisible" />
     <OurLocations />
     <a id="contact-us" class="block relative top-0 md:-top-16 invisible" />

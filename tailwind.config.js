@@ -158,6 +158,7 @@ module.exports = {
       gridTemplateColumns: {
         16: 'repeat(16, minmax(0, 1fr))',
         'box-bigger': 'minmax(0, 1fr) minmax(0, 2fr)',
+        product: '18rem minmax(0, 1fr) 18rem',
       },
       translate: {
         '1/4': '25%',
