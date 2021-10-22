@@ -21,12 +21,8 @@
     <div
       class="grid grid-cols-1 md:grid-cols-product items-center justify-items-center"
     >
-      <div class="w-32 md:w-64 mt-full">
-        <img
-          src="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190379/DEL%20FRUTAL/Litro_v8qjig.png"
-          alt=""
-          class="w-full"
-        />
+      <div class="w-32 md:w-56 mt-full">
+        <img :src="productImage" alt="" class="w-full" />
       </div>
       <div class="space-y-4">
         <h3 class="font-bold text-xl">Néctar de manzana</h3>
@@ -81,6 +77,12 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'HomeSectionProduct',
+  props: {
+    productName: {
+      type: String,
+      required: true,
+    },
+  },
   computed: {
     fruits() {
       return [
@@ -94,6 +96,18 @@ export default Vue.extend({
         'https://res.cloudinary.com/dxsslqd7f/image/upload/v1634260126/DEL%20FRUTAL/mango_pedazos_zaug4p.png',
         'https://res.cloudinary.com/dxsslqd7f/image/upload/v1634260162/DEL%20FRUTAL/Banano_y_fresa-01-01_bgtd11.png',
       ];
+    },
+    productImage(): String {
+      const productImages: { [key: string]: string } = {
+        caja:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190376/DEL%20FRUTAL/caja_dpsjrv.png',
+        lata:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190378/DEL%20FRUTAL/lata_i8ybxz.png',
+        litro:
+          'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190379/DEL%20FRUTAL/Litro_v8qjig.png',
+      };
+
+      return productImages[this.productName];
     },
   },
 });

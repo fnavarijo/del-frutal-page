@@ -7,7 +7,7 @@
           backgroundImage: `url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190404/DEL%20FRUTAL/Vive_al_Natural_tmbjjx.png\'), url(\'https://res.cloudinary.com/dxsslqd7f/image/upload/v1634140851/DEL%20FRUTAL/Banner_1_r4dhdz_hqikpu.png\')`,
           backgroundSize: 'contain, cover',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'left 30%, left top',
+          backgroundPosition: 'left 30%, left bottom',
         }"
       >
         <div

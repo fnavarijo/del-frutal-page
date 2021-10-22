@@ -21,16 +21,19 @@
         <PresentationProduct
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190376/DEL%20FRUTAL/caja_dpsjrv.png"
           class="w-1/2 m-auto"
+          product-name="caja"
           @selected-product="selectedProduct"
         />
         <PresentationProduct
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190378/DEL%20FRUTAL/lata_i8ybxz.png"
           class="w-1/2 m-auto"
+          product-name="lata"
           @selected-product="selectedProduct"
         />
         <PresentationProduct
           image="https://res.cloudinary.com/dxsslqd7f/image/upload/v1626190379/DEL%20FRUTAL/Litro_v8qjig.png"
           class="w-1/2 m-auto"
+          product-name="litro"
           @selected-product="selectedProduct"
         />
       </div>

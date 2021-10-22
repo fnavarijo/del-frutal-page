@@ -2,9 +2,13 @@
   <div>
     <HomeSectionPresentations
       v-if="!selectedProduct"
-      @selected-product="selectedProduct = true"
+      @selected-product="setSelectedProduct"
     />
-    <HomeSectionProduct v-else @return="selectedProduct = false" />
+    <HomeSectionProduct
+      v-else
+      :product-name="selectedProductName"
+      @return="selectedProduct = false"
+    />
   </div>
 </template>
 
@@ -15,7 +19,14 @@ export default Vue.extend({
   data() {
     return {
       selectedProduct: false,
+      selectedProductName: '',
     };
+  },
+  methods: {
+    setSelectedProduct(productName = '') {
+      this.selectedProduct = true;
+      this.selectedProductName = productName;
+    },
   },
 });
 </script>
