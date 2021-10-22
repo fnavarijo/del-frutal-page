@@ -1,5 +1,5 @@
 <template>
-  <section class="w-screen h-screen-2/3 md:h-screen">
+  <section class="w-screen h-screen-2/3 md:h-screen-9/10">
     <Hooper :wheel-control="false" :infinite-scroll="true">
       <Slide
         class="relative px-8 py-4 flex justify-center items-center"
@@ -11,7 +11,7 @@
         }"
       >
         <div
-          class="grid grid-cols-1 md:grid-cols-2 w-full h-full max-w-screen-xl p-4"
+          class="grid grid-cols-1 md:grid-cols-2 w-full h-screen-9/10 max-w-screen-xl p-4"
         >
           <div></div>
           <div
@@ -104,7 +104,7 @@ export default Vue.extend({
 /* stylelint-disable */
 @screen md {
   .hooper {
-    @apply h-screen;
+    @apply h-screen-9/10;
   }
 }
 </style>
